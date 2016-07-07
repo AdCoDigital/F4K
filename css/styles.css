@@ -12,8 +12,7 @@
 
 /* Layout rules */
 @import "layouts/responsive.css";
-
-@import "old-unknown-styles.css";
+ @import "old-unknown-styles.css";
 
 
 /* Component (SMACSS module) rules */
@@ -24,8 +23,7 @@
 /* Our specific Fun4Kids styles */
 @import "layouts/newsletter.css";
 @import "layouts/business.css";
-
-@import "header.css";
+ @import "header.css";
 @import "footer.css";
 @import "home-ads.css";
 @import "home-main-view-panes.css";

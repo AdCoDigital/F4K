@@ -1,5 +1,5 @@
 /* Makes sure views display image links at the correct size. Used by 'two image' and 'one image' views. */
-.image-links img{
+.image-links img {
 	width: 300px;
 	height: auto;
 }

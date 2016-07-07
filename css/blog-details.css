@@ -5,150 +5,146 @@
  * When you turn on CSS aggregation at admin/config/development/performance, all
  * of these @include files will be combined into a single file.
  */
+
+
+.pane-blog-articles-rainy-detailed h2.pane-title, .pane-blog-articles-coloring-detailed h2.pane-title {
+	text-align: left;
+	font-family: antique_olive_bold;
+}
+/* Styles for the Recommended Ages field */
+.pane-blog-articles-rainy-detailed .views-label-field-ages, .pane-blog-articles-coloring-detailed .views-label-field-ages {
+	font-family: antique_olive_roman;
+	font-size: 1.125em;
+}
+.pane-blog-articles-rainy-detailed .views-field-field-ages, .pane-blog-articles-coloring-detailed .views-field-field-ages {
+	display: flex;
+	align-items: center;
+}
 /* for comments */
 .Comments {
-    width: 650px;
-    display: block;
-    float: left;
-    clear: right;
+	width: 650px;
+	display: block;
+	float: left;
+	clear: right;
 }
-
 /*Blog details page Non sponsored*/
 
 .blogAdTop {
 	display: block;
-    width: 100%;
-    clear: both;
+	width: 100%;
+	clear: both;
 	float: left;
 }
-
 .blogAdSide {
-    display: block;
-    float: right;
+	display: block;
+	float: right;
 	clear: right;
-    margin-right: -24px;
+	margin-right: -24px;
 	width: 300px;
 }
-
 .blogDetails h2 {
-    visibility: hidden;
+/*visibility: hidden;
     width: 0px;
-    height: 0px;
+    height: 0px;*/
 }
-
 .blogDetails {
-    width: 650px;
-    float: left;
-    clear: left;
-    display: block;
+	width: 650px;
+	float: left;
+	clear: left;
+	display: block;
 }
-
 .blogDetails .views-field {
-    display: block;
-    clear: both;
+	display: block;
+	clear: both;
 }
-
 .blogDetails .views-field-title {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-    margin-left: 20px;
-}
-
-.blogDetails .views-field-field-ages {
-    margin-bottom: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
 	margin-left: 20px;
-        display: flex;
-    align-items: center;
-
+	display: none;
 }
-
+.blogDetails .views-field-field-ages {
+	margin-bottom: 1.5em;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+}
 .blogDetails .views-field-body {
-    width: 610px;
-    margin-left: 20px;
-    margin-right: 20px;
+	width: 610px;
+	margin-left: 20px;
+	margin-right: 20px;
 	margin-bottom: 1.5em;
 }
-
 .blogDetails .views-field-ops {
-    display: block;
-    width: 220px;
-    float: left;
+	display: block;
+	width: 220px;
+	float: left;
 	clear: left;
 }
-
 .blogDetails .views-field-ops-1 {
 	display: block;
 	width: 275px;
 	float: right;
-	clear: right;	
+	clear: right;
 }
-
 .blogDetails .views-field-nothing a {
-    font-family: alwayshere;
-    font-size: 1em;
+	font-family: alwayshere;
+	font-size: 1em;
 	display: block;
 }
-
 .blogDetails .views-field-ops-1 a {
-  font-family: alwayshere;
-  display: block;
-  width: 220px;
+	font-family: alwayshere;
+	display: block;
+	width: 220px;
 }
-
 .blogDetails .views-field-nothing {
-    width: 275px;
-    float: right;
+	width: 275px;
+	float: right;
 }
 /*Blog details page sponsored*/
 .blogSponAge::before {
-    content: "Recommended Ages";
+	content: "Recommended Ages";
 	display: block;
 	float: left;
 }
-
 .blogSponTitle {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-    margin-top: 2em;
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	margin-top: 2em;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 .blogSponAge {
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-    height: 50px;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	height: 50px;
 }
-
 .blogSponAge .field-name-field-ages {
-    float: left;
+	float: left;
 }
-
 .blogSponBody {
-    width: 650px;
-    display: block;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
+	width: 650px;
+	display: block;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 .blogDetails .views-field-field-coloring-page img {
-    width: 650px;
+	width: 650px;
 }
-
 .blogFlag {
-    display: block;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3em;
-    margin-bottom: 1em;
-    clear: both;
+	display: block;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	margin-bottom: 1em;
+	clear: both;
 }

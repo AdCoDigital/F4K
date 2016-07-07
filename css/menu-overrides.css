@@ -1,213 +1,166 @@
 /* overrides for the "mean menu" menu, using for small screens */
 #navigation #edit-actions--2 input {
-    width: 65px;pane-home-side-ads
-    border-radius: 11px;
-    height: 28px;
-    background-color: #E8DB80;
-    border: solid 2px #682160;
+	width: 65px;
+pane-home-side-ads  border-radius: 11px;
+	height: 28px;
+	background-color: #E8DB80;
+	border: solid 2px #682160;
 }
-
 #navigation #edit-search-block-form--4 {
-    width: 175px;
-    height: 24px;
-    border-radius: 6px;
-    padding: 0px;
-    border: solid 2px #682160;
+	width: 175px;
+	height: 24px;
+	border-radius: 6px;
+	padding: 0px;
+	border: solid 2px #682160;
 }
-
 #navigation #edit-actions input {
-    width: 65px;
-    border-radius: 11px;
-    height: 28px;
-    background-color: #E8DB80;
-    border: solid 2px #682160;
+	width: 65px;
+	border-radius: 11px;
+	height: 28px;
+	background-color: #E8DB80;
+	border: solid 2px #682160;
 }
-
 #navigation #edit-search-block-form--2 {
-    width: 175px;
-    height: 24px;
-    border-radius: 6px;
-    padding: 0px;
-    border: solid 2px #682160;
+	width: 175px;
+	height: 24px;
+	border-radius: 6px;
+	padding: 0px;
+	border: solid 2px #682160;
 }
-
 #navigation #block-search-form {
-    display: flex;
-    justify-content: center;
-    padding: 7px;
+	display: flex;
+	justify-content: center;
+	padding: 6px;
 }
-
-@media all and (max-width: 1120px) {
-  #navigation #block-search-form {
-    display: none;
-  }
+ @media all and (max-width: 1120px) {
+#navigation #block-search-form {
+	display: none;
 }
-
+}
 .region.region-navigation {
-    display: flex;
-    justify-content: center;
-    background: #682160;
+	display: flex;
+	justify-content: center;
+	background: #682160;
 }
-
 #navigation #block-search-form label {
-  	display: none;
+	display: none;
 }
-
 #navigation #block-search-form h2 {
-  	display: none;
+	display: none;
 }
-
 .mean-nav > h2 { /* don't display the menu title */
-  	display: none;
+	display: none;
 }
-
 .mean-container .mean-bar {
-  	background: #682160; /* purple shade */;
-    line-height: 1.5em; /* so text and "more" boxes line up */
+	background: #682160; /* purple shade */
+	;
+	line-height: 1.5em; /* so text and "more" boxes line up */
 }
-
 .mean-container .mean-nav {
-  	background: #682160; /* purple shade */;
+	background: #682160; /* purple shade */
+	;
 }
-
 .mean-container .mean-nav ul li span {
-    display: block;
-    float: left;
-    width: 90%;
-    padding: 1em 5%;
-    margin: 0px;
-    text-align: left;
-    color: #FFF;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    text-decoration: none;
-    text-transform: uppercase;
+	display: block;
+	float: left;
+	width: 90%;
+	padding: 1em 5%;
+	margin: 0px;
+	text-align: left;
+	color: #FFF;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	text-transform: uppercase;
 }
-
 .mean-container .mean-nav ul li span {
-    font-family: "antique_olive_roman";
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-    text-transform: none;
+	font-family: "antique_olive_roman";
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+	text-transform: none;
 }
-
 .mean-container .mean-nav ul li span:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
-
 .mean-container .mean-nav ul li a {
-  font-family: "antique_olive_roman";
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
-  text-transform: none;
+	font-family: "antique_olive_roman";
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	text-transform: none;
 }
-
 .mean-container .mean-nav ul li a:hover {
 	background: rgba(255, 255, 255, .3);
 }
-
 .mean-container .mean-nav ul li a.mean-expand:hover {
 	background: rgba(0, 0, 0, .3);
 }
-
-
 .mean-container .mean-nav ul li li a { /* override opacity */
-  opacity: 1;
-  filter: alpha(opacity=100);
+	opacity: 1;
+	filter: alpha(opacity=100);
 }
-
-
 /* @media all and (min-width: 641px) { */
 
-	#block-superfish-1 {
-		background: #682160; /* purple shade */
-	}
-
-	#block-superfish-1 ul {
-		background: #682160; /* purple shade */
-	}
-
-	#superfish-1 { /* the <ul> */
-		display: flex !important;
-		flex-flow: row wrap;
-		justify-content: center; /* did this so when desktop-size menu runs out of space, menu extras will center in new row */
-		float: none;
-		margin: 0;
-	}
-    
-    #superfish-1 .nolink.sf-with-ul 
-    {
-        border: none;
-    }
-
-	#superfish-1 a.sf-depth-1 {
-		border: none;
-	}
-
-	/* no dropdown arrows for the first level of the menu */
-	.sf-depth-1 > .sf-sub-indicator {
-		display:none;
-	}
-
-	.sf-menu.sf-style-blue a.sf-with-ul,
-	.sf-menu.sf-style-blue span.nolink.sf-with-ul {
-  	padding-right: .75em;
-	}
-
-	.sf-menu.sf-style-blue a,
-	.sf-menu.sf-style-blue span.nolink {
-		border: 1px outset rgba(0, 0, 0, .5); /* darker */
-		font-family: "antique_olive_light";
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
-    text-decoration: none;
-	}
-
-  .sf-menu.sf-style-blue span.nolink {
-    border: none;
-  }
-
-	.sf-menu.sf-style-blue li,
-	.sf-menu.sf-style-blue.sf-navbar {
-  	background: #682160; /* purple shade */
-	}
-
-	.sf-menu.sf-style-blue li li {
-  	background: #682160; /* purple shade */
-	}
-
-	.sf-menu.sf-style-blue li li li {
- 		background: #682160; /* purple shade */
-	}
-
-	.sf-menu.sf-style-blue li:hover,
-	.sf-menu.sf-style-blue li.sfHover,
-	.sf-menu.sf-style-blue a:focus,
-	.sf-menu.sf-style-blue a:hover,
-	.sf-menu.sf-style-blue a:active,
-	.sf-menu.sf-style-blue span.nolink:hover,
-	.sf-menu.sf-style-blue.sf-navbar li li {
-	  /* background: #906487; /* light purple shade */
-	  background: rgba(255,255,255, .3); /* white .3 transparent to create lighter shade */
-  	color: #fff;
-        cursor: pointer;
-	}
-
-	.sf-menu.sf-style-blue.sf-navbar li ul {
-  	background-color: #906487;
-	}
-
-	div.sf-accordion-toggle.sf-style-blue a {
-  	background: #682160; /* purple shade */
-	}
-
-
-	/* override of superfish.css */
-	.sf-menu.sf-horizontal.sf-shadow ul,
-	.sf-menu.sf-vertical.sf-shadow ul,
-	.sf-menu.sf-navbar.sf-shadow ul ul {
-		padding: 0 !important; /* padding & border radii don't look good with the menu item borders */
-	  -webkit-border-top-right-radius: 0;
-	  -webkit-border-bottom-left-radius: 0;
-	  -moz-border-radius-topright: 0;
-	  -moz-border-radius-bottomleft: 0;
-	  border-top-right-radius: 0;
-	  border-bottom-left-radius: 0;
-	}
+#block-superfish-1 {
+	background: #682160; /* purple shade */
+}
+#block-superfish-1 ul {
+	background: #682160; /* purple shade */
+}
+#superfish-1 { /* the <ul> */
+	display: flex !important;
+	flex-flow: row wrap;
+	justify-content: center; /* did this so when desktop-size menu runs out of space, menu extras will center in new row */
+	float: none;
+	margin: 0;
+}
+#superfish-1 .nolink.sf-with-ul {
+	border: none;
+}
+#superfish-1 a.sf-depth-1 {
+	border: none;
+}
+/* no dropdown arrows for the first level of the menu */
+.sf-depth-1 > .sf-sub-indicator {
+	display: none;
+}
+.sf-menu.sf-style-blue a.sf-with-ul,  .sf-menu.sf-style-blue span.nolink.sf-with-ul {
+	padding-right: .75em;
+}
+.sf-menu.sf-style-blue a,  .sf-menu.sf-style-blue span.nolink {
+	border: 1px outset rgba(0, 0, 0, .5); /* darker */
+	font-family: "antique_olive_light";
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	text-decoration: none;
+}
+.sf-menu.sf-style-blue span.nolink {
+	border: none;
+}
+.sf-menu.sf-style-blue li,  .sf-menu.sf-style-blue.sf-navbar {
+	background: #682160; /* purple shade */
+}
+.sf-menu.sf-style-blue li li {
+	background: #682160; /* purple shade */
+}
+.sf-menu.sf-style-blue li li li {
+	background: #682160; /* purple shade */
+}
+.sf-menu.sf-style-blue li:hover,  .sf-menu.sf-style-blue li.sfHover,  .sf-menu.sf-style-blue a:focus,  .sf-menu.sf-style-blue a:hover,  .sf-menu.sf-style-blue a:active,  .sf-menu.sf-style-blue span.nolink:hover,  .sf-menu.sf-style-blue.sf-navbar li li {
+	/* background: #906487; /* light purple shade */
+	background: rgba(255,255,255, .3); /* white .3 transparent to create lighter shade */
+	color: #fff;
+	cursor: pointer;
+}
+.sf-menu.sf-style-blue.sf-navbar li ul {
+	background-color: #906487;
+}
+div.sf-accordion-toggle.sf-style-blue a {
+	background: #682160; /* purple shade */
+}
+/* override of superfish.css */
+.sf-menu.sf-horizontal.sf-shadow ul,  .sf-menu.sf-vertical.sf-shadow ul,  .sf-menu.sf-navbar.sf-shadow ul ul {
+	padding: 0 !important; /* padding & border radii don't look good with the menu item borders */
+	-webkit-border-top-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-topright: 0;
+	-moz-border-radius-bottomleft: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
 /* } */

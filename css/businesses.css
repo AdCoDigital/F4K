@@ -2,31 +2,6 @@
 	This CSS file contains styles for business pages (category listings / business listing pages)
 **/
 
-/* Business listing pages layout for smaller screens */
-@media all and (max-width: 940px) {
-	.pane-mini-business-listings-top {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-	}
-	.pane-business-listings-side-ads {
-		order: 999;
-	}
-	.business-listings---left-item {
-		width: 100% !important;
-	}
-
-	.view-business-listings-2.view-display-id-subcategory_paid {
-		width: auto !important;
-	}
-
-	.business-listings-mid-ads {
-		width: 100% !important;
-	}
-	.view-business-listings-2.view-display-id-subcategory_free {
-		width: 65% !important;
-	}
-}
 
 .wrapper.tagclouds {
 	border-top: solid 5px #23B0CA;
@@ -59,7 +34,6 @@
 .bTags {
 	border-top: solid 5px #23B0CA;
 	padding-top: 15px;
-	clear: both;
 }
 .bTags span {
 	font-size: 14px;
@@ -75,19 +49,12 @@
 	display: inline-block;
 	margin-bottom: -1px;
 }
-.pane-mini-business-listings-top > div:not(.pane-business-listings-side-ads) {
+.pane-mini-business-listings-top {
 	width: 600px;
 	float: left;
 }
-.business-listings--left-item {
-	width: 600px;
-	float: left;
-}
-.taxonomy-term-description p {
-	font-family: antique_olive_roman;
-	text-align: center;
-	margin-bottom: 1em;
-	font-size: 1.125em;
+.pane-mini-business-listings-top {
+	padding-bottom: 1em;
 }
  @media all and (max-width: 940px) {
 .pane-mini-business-listings-top { /* pane containing the Paid listings */
@@ -118,19 +85,23 @@
 /*                                          *
  *  CSS for the paid business listings view *
  *                                          */
-.view-business-listings-2.view-display-id-subcategory_paid .view-content {
+.pane-business-listings-subcategory-paid {
 	background-color: #f5f5f5;
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
 	margin: 1em 0 2em 0;
 	padding: 3em;
 }
  @media all and (max-width: 940px) {
-.view-business-listings-2.view-display-id-subcategory_paid .view-content {
+.pane-business-listings-subcategory-paid {
 	padding: 3em 2.5%;
 	/* content 940px - 10px padding each side = 920px */
 	margin: 1em calc(17.5% - 51px) 2em calc(17.5% - 51px); /* 920px -> 110px & 320px -> 5px */
-
+}
+}
+ @media all and (max-width: 940px) {
+.pane-business-listings-subcategory-paid .view-content {
 	display: table;
+	margin: auto;
 }
 }
 
@@ -138,7 +109,7 @@
 /* CSS for individual listing entries (from view) */
 @media all and (min-width: 641px) {
 /* using flex-box to align listing info & "Add To Toybox" link side-by-side & centered */
-.view-business-listings-2 .views-row {
+.view-business-listings > .view-content > .views-row {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -153,26 +124,26 @@
 	margin-left: 3em;
 }
 }
-.view-business-listings-2 h2.heading--business-subcateogry a {
+.view-business-listings h2.heading--business-subcateogry a {
 	font-family: antique_olive_bold;
 	color: #682160;
 	margin: 0;
 }
-.view-business-listings-2 .views-row {
+.view-business-listings > .view-content > .views-row {
 	margin: 3em 0; /* vertical gap between entries */
 }
-.view-business-listings-2 .views-row-first {
+.view-business-listings > .view-content > .views-row-first {
 	margin-top: 1.5em; /* instead of 3em */
 }
 /* shorten margin of very last entry (:last-child so not just last entry of specific subcategory) */
-.view-business-listings-2 .view-content .views-row-last:last-child {
+.view-business-listings > .view-content > .views-row-last:last-child {
 	margin-bottom: 1.5em; /* instead of 3em */
 }
  @media all and (max-width: 940px) {
 .mini-panel-mini_business_listing_left {
 	margin-right: 1em;
 }
-.pane-business-listings-2-subcategory-free,  .pane-business-listings-subcategory-free {
+.pane-business-listings-subcategory-free {
 	font-size: .875em; /* smaller font-size on smaller screens for free ads */
 	margin-right: .5em; /* ensure small gap between links & adjacent ads */
 }

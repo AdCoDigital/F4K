@@ -11,198 +11,151 @@
 /*
  *  Styles for the monthly calendar page only
 */
-.page-monthly-calendar #content,
-.page-parents-monthly-calendar #content {
+.page-monthly-calendar #content, .page-parents-monthly-calendar #content {
 	max-width: 1040px; /* make the maximum content area width for the monthly calendar page a bit larger */
 }
-
 .page-monthly-calendar .ad-container--vert + .ad-container--vert {
-  	margin-top: 1.25em;
+	margin-top: 1.25em;
 }
-
-
 .page-monthly-calendar .age-key {
 	margin: 2em 0 !important;
 }
-
 .page-monthly-calendar .age-key + .ad-container--vert {
 	margin-top: 0;
 }
-
-@media all and (min-width: 941px) and (max-width: 1200px) {
-	.page-monthly-calendar #content,
-	.page-parents-monthly-calendar #content, {
-        margin-left: calc(30.5% - 286px); /* so at 1200px->80px & 940px->approx 0px */
-        margin-right: calc(30.5% - 286px); /* so at 1200px->80px & 940px->approx 0px */
-	}
+ @media all and (min-width: 941px) and (max-width: 1200px) {
+ .page-monthly-calendar #content,  .page-parents-monthly-calendar #content, {
+ margin-left: calc(30.5% - 286px); /* so at 1200px->80px & 940px->approx 0px */
+ margin-right: calc(30.5% - 286px); /* so at 1200px->80px & 940px->approx 0px */
 }
-
+}
 .page-monthly-calendar--main-region .pane-f4k-calendar {
 	float: left;
 	width: 71.049%;
 	margin-right: 1.5%
 }
-
 .pane-f4k-calendar .view-content {
 	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
 }
-
-.page-monthly-calendar--main-region .monthly-calendar-page--side-ad,
-.page-monthly-calendar--main-region .age-key,
-.page-monthly-calendar--main-region .calendar-page--blue-banner-image {
+.page-monthly-calendar--main-region .monthly-calendar-page--side-ad, .page-monthly-calendar--main-region .age-key, .page-monthly-calendar--main-region .calendar-page--blue-banner-image {
 	float: right;
 	clear: right;
 	width: 27.451%;
 }
-
-@media all and (max-width: 940px) {
-	.page-monthly-calendar #content,
-	.page-parents-monthly-calendar #content {
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	.page-monthly-calendar--main-region {
-		display: flex;
-		flex-flow: row wrap;
-	}
-
-	.calendar-page--blue-banner-image {
-		display: none;
-	}
-
-	.monthly-calendar-page--top-ad-pane {
-		order: 0;
-	}
-
-	.page-monthly-calendar--main-region .age-key {
-		order: 1;
-		float: none;
-		width: 100%;
-		margin: 1em 0 .5em 0 !important;
-		font-size: .875em;
-	}
-
-	.page-monthly-calendar--main-region .pane-f4k-calendar {
-		order: 2;
-		float: none;
-		width: 100%;
-		margin-bottom: 1em;
-	}
-
-	.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-1-pane {
-		order: 3;
-	}
-
-	.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-2-pane {
-		order: 4;
-	}
-
-	.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-3-pane {
-		order: 5;
-	}
-
-	.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-4-pane {
-		order: 6;
-	}
-
-	.monthly-calendar-page--side-ad img {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.page-monthly-calendar--main-region .ad-container--vert + .ad-container--vert{
-		margin-top: 0%;
-	}
-
-	.page-monthly-calendar--main-region .monthly-calendar-page--side-ad {
-		box-sizing: border-box;
-		float: none;
-		width: 25%;
-		padding: .125em;
-	}
+ @media all and (max-width: 940px) {
+.page-monthly-calendar #content,  .page-parents-monthly-calendar #content {
+	margin-left: 0;
+	margin-right: 0;
 }
-
-
+.page-monthly-calendar--main-region {
+	display: flex;
+	flex-flow: row wrap;
+}
+.calendar-page--blue-banner-image {
+	display: none;
+}
+.monthly-calendar-page--top-ad-pane {
+	order: 0;
+}
+.page-monthly-calendar--main-region .age-key {
+	order: 1;
+	float: none;
+	width: 100%;
+	margin: 1em 0 .5em 0 !important;
+	font-size: .875em;
+}
+.page-monthly-calendar--main-region .pane-f4k-calendar {
+	order: 2;
+	float: none;
+	width: 100%;
+	margin-bottom: 1em;
+}
+.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-1-pane {
+	order: 3;
+}
+.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-2-pane {
+	order: 4;
+}
+.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-3-pane {
+	order: 5;
+}
+.page-monthly-calendar--main-region .monthly-calendar-page--side-ad-4-pane {
+	order: 6;
+}
+.monthly-calendar-page--side-ad img {
+	margin-left: auto;
+	margin-right: auto;
+}
+.page-monthly-calendar--main-region .ad-container--vert + .ad-container--vert {
+	margin-top: 0%;
+}
+.page-monthly-calendar--main-region .monthly-calendar-page--side-ad {
+	box-sizing: border-box;
+	float: none;
+	width: 25%;
+	padding: .125em;
+}
+}
 /*
  *  Laying out the calendar page
 */
-a#main-content 
-{
+a#main-content {
 	width: 100%;
 }
-
-
 .page-calendar--main-region {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 }
-
 .page-calendar #content > div {
 	min-width: 0%; /* elements don't seem to want to shrink on Firefox unless a width or min-width is added */
 }
-
-
 .page-calendar--main-region .calendar-page--top-ad-pane {
 	order: 0;
 }
-
 .page-calendar--main-region .pane-f4k-calendar {
 	order: 1;
 	width: 100%;
 	margin-top: 2.5%;
 	line-height: 1.5em; /* set back to default from normalize.css */
 }
-
 .page-calendar--main-region .age-key {
 	order: 2;
 	width: 100%;
 	margin-top: 1.5em;
 }
-
 .page-calendar--main-region .pane-calendar-week-middle-ads {
 	order: 3;
 	width: 100%;
 	margin: 1.5em 0;
 }
-
-
 .page-calendar--main-region .featured-fun--calendar-display {
 	order: 4;
 	width: 100%;
 	margin: 2em 0 3em 0;
 }
-
-@media all and (max-width: 640px) {
-	.page-calendar--main-region .featured-fun--calendar-display,
-	.page-calendar--main-region .pane-event-listings--events-all {
-		/* using these settings so both these panes will be take up space up to ads, or entire space if below ads */
-		width: auto;
-		display: flex;
-		flex-flow: column nowrap;
-	}
+ @media all and (max-width: 640px) {
+.page-calendar--main-region .featured-fun--calendar-display,  .page-calendar--main-region .pane-event-listings--events-all {
+	/* using these settings so both these panes will be take up space up to ads, or entire space if below ads */
+	width: auto;
+	display: flex;
+	flex-flow: column nowrap;
 }
-
+}
 .page-calendar--main-region .pane-event-listings--events-all {
 	order: 5;
-	width:  67.572%;
+	width: 67.572%;
 	margin-right: 1.5%;
 }
-
 .page-calendar--main-region .calendar-page--side-ad-pane {
 	order: 6;
 	width: 30.928%;
 }
-
 .featured-fun--calendar-display .view-content {
 	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
 }
-
-
-
 /*
  *  Styles for date heading & prev / next links
 */
@@ -212,7 +165,6 @@ a#main-content
 	padding: 0;
 	margin: 0;
 }
-
 .view-f4k-calendar .pager {
 	display: flex;
 	flex-flow: row nowrap;
@@ -220,15 +172,12 @@ a#main-content
 	align-items: center;
 	line-height: 1em;
 }
-
-
 .f4k-week-date-nav-wrapper {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content:space-between;
+	justify-content: space-between;
 	align-items: center;
 }
-
 .f4k-week-date-nav-wrapper--links {
 	display: flex;
 	flex-flow: row wrap;
@@ -237,47 +186,36 @@ a#main-content
 
 /* adjust so title is centered and buttons are centered, below title, on smaller screen sizes */
 @media all and (max-width: 880px) {
-	.f4k-week-date-nav-wrapper {
-		justify-content: center;
-	}
-
-	.f4k-week-date-nav-wrapper--links {
-		justify-content: center;
-	}
+.f4k-week-date-nav-wrapper {
+	justify-content: center;
 }
-
+.f4k-week-date-nav-wrapper--links {
+	justify-content: center;
+}
+}
 /* the date heading (e.g. SEPTEMBER, 2015) container */
 .view-f4k-calendar .date-nav-wrapper .date-heading {
 	width: auto; /* instead of 100% */
 	margin: 0 2em; /* 32px / 16px = 2em margin */
 }
-
 /* for our month calendar hacked to view current week */
 .view.view-display-id-f4k_calendar__week .date-nav-wrapper .date-heading {
 	margin: 0;
 	order: 0; /* display first, not in the middle */
 }
-
 .view.view-display-id-f4k_calendar__week .view-full-calendar {
 	order: 1; /* display 'View Full Calendar' button second */
 }
-
 .view.view-display-id-f4k_calendar__week .add-event {
 	order: 2; /* display 'Add Event' button third */
 }
-
-.view-f4k-calendar .date-nav-wrapper .date-heading h3,
-.view-f4k-calendar .f4k-week-date-nav-wrapper .date-heading h3,
-.view-f4k-parent-calendar .f4k-week-date-nav-wrapper .date-heading h3,
-.pane-event-listings--events-all h2,
-.featured-fun--calendar-display h2 {
+.view-f4k-calendar .date-nav-wrapper .date-heading h3, .view-f4k-calendar .f4k-week-date-nav-wrapper .date-heading h3, .view-f4k-parent-calendar .f4k-week-date-nav-wrapper .date-heading h3, .pane-event-listings--events-all h2, .featured-fun--calendar-display h2 {
 	font-family: antique_olive_condensed;
 	font-size: 3em;
 	line-height: 1em; /* make line-height same as font-size */
 	text-transform: uppercase;
 	color: #26B0CB;
 }
-
 .view-f4k-calendar .date-nav-wrapper .date-heading h3 {
 	padding-top: .125em; /* font doesn't center exactly right in line, so to get heading, links, to align, added padding for adjustment */
 }
@@ -285,25 +223,15 @@ a#main-content
 
 /* change font size for smaller screen sizes */
 @media all and (max-width: 480px) {
-	.page-calendar--main-region .view-f4k-calendar .view-header,
-	.page-calendar--main-region .view-f4k-calendar .calendar-calendar thead,
-	.page-calendar--main-region .view-f4k-calendar .calendar-calendar tr.date-box,
-	.page-calendar--main-region .age-key,
-	.page-calendar--main-region.featured-fun--calendar-display,
-	.page-calendar--main-region .pane-event-listings--events-all {
-		font-size: .875em;
-	}
+.page-calendar--main-region .view-f4k-calendar .view-header,  .page-calendar--main-region .view-f4k-calendar .calendar-calendar thead,  .page-calendar--main-region .view-f4k-calendar .calendar-calendar tr.date-box,  .page-calendar--main-region .age-key,  .page-calendar--main-region.featured-fun--calendar-display,  .page-calendar--main-region .pane-event-listings--events-all {
+	font-size: .875em;
 }
-
-@media all and (max-width: 640px) {
-	.page-monthly-calendar--main-region .view-f4k-calendar .view-header,
-	.page-monthly-calendar--main-region .view-f4k-calendar .calendar-calendar thead,
-	.page-monthly-calendar--main-region .view-f4k-calendar .calendar-calendar tr.date-box {
-		font-size: .875em;
-	}
 }
-
-
+ @media all and (max-width: 640px) {
+.page-monthly-calendar--main-region .view-f4k-calendar .view-header,  .page-monthly-calendar--main-region .view-f4k-calendar .calendar-calendar thead,  .page-monthly-calendar--main-region .view-f4k-calendar .calendar-calendar tr.date-box {
+	font-size: .875em;
+}
+}
 /* override styles for the navigation (e.g. prev/next date) buttons */
 .view.view-f4k-calendar .date-nav-wrapper li {
 	list-style: none;
@@ -312,15 +240,12 @@ a#main-content
 	padding: 0;
 	position: static;
 }
-
 .view.view-f4k-calendar .date-nav-wrapper img {
 	display: block; /* so (prev/next date button) links' dimensions match their image; */
 }
-
 .view.view-f4k-calendar .date-nav-wrapper a {
 	margin: 0;
 }
-
 li.view-full-calendar a, li.add-event a {
 	display: block;
 	box-sizing: border-box;
@@ -336,13 +261,10 @@ li.view-full-calendar a, li.add-event a {
 	line-height: 3.3125em; /* 53px / 16 */
 	font-size: 1.0625em;
 }
-
 li.view-full-calendar a:hover, li.add-event a:hover {
 	text-decoration: none;
 	background-image: url('/fun4kids/images/calendar-link-hover.png');
 }
-
-
 /*
  *  Styles for actual calendar
 */
@@ -350,9 +272,7 @@ li.view-full-calendar a:hover, li.add-event a:hover {
 
 /* calender: table header labeling each day of the week 
    other panes: table header labeling the columns */
-.view-f4k-calendar .calendar-calendar th.days,
-.view-f4k-parent-calendar .calendar-calendar th.days,
-.pane-event-listings--events-all th {
+.view-f4k-calendar .calendar-calendar th.days, .view-f4k-parent-calendar .calendar-calendar th.days, .pane-event-listings--events-all th {
 	font-family: antique_olive_condensed;
 	font-size: 1.5em;
 	line-height: 2em; /* make line-height twice the font-size */
@@ -360,92 +280,67 @@ li.view-full-calendar a:hover, li.add-event a:hover {
 	background-color: #682160;
 	color: white;
 }
-
 /* the day (number) of the month */
 .view-f4k-calendar .calendar-calendar div.day {
 	font-family: antique_olive_condensed;
 	font-size: 1.5em;
 	padding: 0.125em 0.125em 0 0.125em;
-	width: auto; /* override width: 1.5em */;
+	width: auto; /* override width: 1.5em */
+	;
 }
-
 /* color the day (number) of the current month */
 .calendar-calendar .date-box {
 	color: #26B0CB;
 }
-
 /* when (if) the day (number) of the current month is displayed as a link */
 .view-f4k-calendar .calendar-calendar tr td .inner div.day a {
 	font-family: antique_olive_condensed;
 	color: #26B0CB;
 }
-
-
 .age-group-list img {
-  height: 1em;
+	height: 1em;
 }
-
-
 .age-group-list li + li {
 	margin-left: .25em; /* for .25em gap between all the labels */
 }
-
-
 /* calendar: set "zebra" styles for every other day on the calendar (in this case, even) 
    other panes: set "zebra" styles for every other row (even rows get the style) */
-.view-f4k-calendar .calendar-calendar tr td.even, .view-f4k-calendar .calendar-calendar tr td.today.even,
-.pane-event-listings--events-all .even {
+.view-f4k-calendar .calendar-calendar tr td.even, .view-f4k-calendar .calendar-calendar tr td.today.even, .pane-event-listings--events-all .even {
 	background-color: rgba(38, 176, 203, .15); /*  #26B0CB to rgb, adding .15 alpha */
 }
-
 /* set gaps between each event listing */
 .view-f4k-calendar .inner .item {
 	margin: 0 0 .75em 0; /* 12px/16px = .75 */
 }
-
-
 /* more overrides of the default css provided by the calendar module */
-.view-f4k-calendar .calendar-calendar .month-view .full td.single-day div.monthview,
-.view-f4k-calendar .calendar-calendar .week-view .full td.single-day div.weekview,
-.view-f4k-calendar .calendar-calendar div.calendar ,
-.view-f4k-parent-calendar .calendar-calendar .month-view .full td.single-day div.monthview,
-.view-f4k-parent-calendar .calendar-calendar .week-view .full td.single-day div.weekview,
-.view-f4k-parent-calendar .calendar-calendar div.calendar {
+.view-f4k-calendar .calendar-calendar .month-view .full td.single-day div.monthview, .view-f4k-calendar .calendar-calendar .week-view .full td.single-day div.weekview, .view-f4k-calendar .calendar-calendar div.calendar, .view-f4k-parent-calendar .calendar-calendar .month-view .full td.single-day div.monthview, .view-f4k-parent-calendar .calendar-calendar .week-view .full td.single-day div.weekview, .view-f4k-parent-calendar .calendar-calendar div.calendar {
 	background-color: transparent; /* remove background added by calendar module's default css */
 	font-family: antique_olive_light;
 	line-height: normal;
 }
-
 .calendar-calendar div.calendar {
-	font-size: 1em; /* override font:size: x-small in calendar module's default css */;
+	font-size: 1em; /* override font:size: x-small in calendar module's default css */
+	;
 }
-
 /* set font size for the calendar entries, etc */
-.view.view-f4k-calendar .month-view tr.single-day,
-.view.view-f4k-calendar .week-view tbody,
-.pane-event-listings--events-all tbody {
+.view.view-f4k-calendar .month-view tr.single-day, .view.view-f4k-calendar .week-view tbody, .pane-event-listings--events-all tbody {
 	font-family: antique_olive_light;
 	font-size: .75em; /* 12px / 16px = .6875 */
 	line-height: normal;
 }
-
 .pane-event-listings--events-all tbody {
 	font-size: 1em;
 }
-
 .view-f4k-calendar .calendar-calendar .month-view .stripe {
 	visibility: hidden;
 }
-
-
 /**												   	 **
  **   Styles specific for the "Featured Fun" panel   **
  **                                                  **/
 .view-display-id-featured_fun_calendar {
-  font-size: .9375em;
-  font-family: antique_olive_roman;
+	font-size: .9375em;
+	font-family: antique_olive_roman;
 }
-
 .featured-fun--calendar-display .view-content {
 	width: 100%;
 	border-top: 7px solid #682160;
@@ -454,13 +349,10 @@ li.view-full-calendar a:hover, li.add-event a:hover {
 	text-align: center;
 	line-height: normal;
 }
-
 .featured-fun--calendar-display h2 {
- 	text-align: left;
- 	margin: 0;
+	text-align: left;
+	margin: 0;
 }
-
-
 .featured-fun--calendar-display .views-row {
 	border-left: 1px solid #26B0CB;
 	border-right: 1px solid #26B0CB;
@@ -468,100 +360,79 @@ li.view-full-calendar a:hover, li.add-event a:hover {
 	box-sizing: border-box;
 	width: 25%;
 }
-
-@media all and (max-width: 640px) {
-	.featured-fun--calendar-display h2 {
- 		text-align: center;
-	}
-
-	.featured-fun--calendar-display .views-row {
-		width: 50%;
-	}
+ @media all and (max-width: 640px) {
+.featured-fun--calendar-display h2 {
+	text-align: center;
 }
-
+.featured-fun--calendar-display .views-row {
+	width: 50%;
+}
+}
 /**											       										 **
  **   Styles specific for the "All Events" panel   **
  **                                                **/
 .pane-event-listings--events-all table {
 	border-collapse: collapse;
 }
-
 .pane-event-listings--events-all h2 {
- 	text-align: left;
+	text-align: left;
 }
-
 .pane-event-listings--events-all th + th {
 	border-left: 1px solid white;
 }
-
-.pane-event-listings--events-all th + th 
-{
+.pane-event-listings--events-all th + th {
 	border-left: 1px solid white;
 }
-
 /* want a line break after the start date for this pane only, so add a 'line break' after its div */
 .pane-event-listings--events-all .date-display-start::after {
 	content: '\a';
 	white-space: pre;
 }
-
 /* style the columns */
 .pane-event-listings--events-all td.views-field-field-date {
 	padding: .75em 1.5em;
 	font-size: .8125em;
 }
-
 .pane-event-listings--events-all td.views-field-title {
 	padding: .75em 1.5em .75em .75em;
 	font-size: .9375em; /* make font size in this column slightly larger than the other columns' */
 }
-
 .pane-event-listings--events-all td.views-field-field-ages {
 	padding: .75em 1em;
 	font-size: .75em;
 }
-
-@media all and (max-width: 480px) {
-	.pane-event-listings--events-all td.views-field-field-date,
-	.pane-event-listings--events-all td.views-field-field-ages {
-		padding: .75em; /* change horizontal padding to .75em */
-	}
+ @media all and (max-width: 480px) {
+.pane-event-listings--events-all td.views-field-field-date,  .pane-event-listings--events-all td.views-field-field-ages {
+	padding: .75em; /* change horizontal padding to .75em */
 }
-
+}
 .pane-event-listings--events-all td.views-field-field-date li {
 	list-style: none
 }
-
 /* needs to be a displayed as a block so margins, set after this, can collapse */
 .pane-event-listings--events-all td.views-field-field-date li > span {
 	display: block;
 }
-
 /* want small margins around date-ranges, so easier to distinguish from other date-ranges/dates */
 .pane-event-listings--events-all td.views-field-field-date li .date-range-wrapper {
 	margin: .5em 0;
 }
-
 /* no top margin if this date-range is the first date listed */
 .pane-event-listings--events-all td.views-field-field-date li.first .date-range-wrapper {
 	margin-top: 0;
 }
-
 /* no bottom margin if this date-range is the last date listed */
 .pane-event-listings--events-all td.views-field-field-date li.last .date-range-wrapper {
 	margin-bottom: 0;
 }
-
 /* pager for the All Events pane */
 .pane-event-listings--events-all ul.pager {
 	display: flex;
 	list-style-type: none
 }
-
 .pane-event-listings--events-all ul li {
 	margin: 0 .25em;
 }
-
 /**                                       **
  **   Styles specific for the "Age Key"   **
  **                                       **/
@@ -571,13 +442,11 @@ li.view-full-calendar a:hover, li.add-event a:hover {
 	flex-flow: row wrap;
 	justify-content: center;
 }
-
 .age-key h4 {
 	font-family: alwaysheretoo;
 	text-transform: uppercase;
 	margin-bottom: .25em; /* 1/4 the font-size of the h4 */
 }
-
 .age-key span {
 	height: 3em;
 	width: 3em;
@@ -586,20 +455,14 @@ li.view-full-calendar a:hover, li.add-event a:hover {
 	text-align: center;
 	line-height: 3em; /* make sure line height is same as height, so text will be vertically centered within this element */
 }
-
-
 .age-key .age-key--all {
 	width: 6em;
 }
-
 .view-f4k-calendar .view-header {
 }
-
 .view-f4k-calendar .view-content {
 	overflow-x: auto;
 }
-
-
 /**                                       			**
  **   Styles specific for the "Blue Banner Image"   **
  **                                       			**/

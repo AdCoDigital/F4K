@@ -1,341 +1,304 @@
 /**                                         **
  **   Styles for the Submit an Event Page   **
  **                                         **/
-
-
+/* Styles for Garage Sale Form */
+.submit-gSale-form #edit-field-children-s-items-for-sale-und li {
+	list-style: none;
+}
+.submit-gSale-form #field-dates-add-more-wrapper, .submit-event-form #field-date-values {
+	width: 60%;
+	display: flex;
+	margin-left: 25%;
+}
+.submit-gSale-form #edit-field-states-und, .submit-event-form #edit-field-state-und {
+	margin-left: 15.5%;
+}
 /* Styles for Error Message */
 
 .messages--error.messages.error {
-  width: 50%;
-  margin: 0 7.5% 1em 7.5%; /* make sure width and the left & right margins add up to 65% */
-  box-sizing: border-box;
-  border-style: solid;
-  border-width: 2px 2px 2px 2px;
-  border-radius: 10px;
-  border-color: #F00;
-  color: #F00;
-  padding: 1% 1% 1% 6%;
-  display: block;
+	width: 50%;
+	margin: 0 7.5% 1em 7.5%; /* make sure width and the left & right margins add up to 65% */
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 10px;
+	border-color: #F00;
+	color: #F00;
+	padding: 1% 1% 1% 6%;
+	display: block;
 }
-
 /* Styles for Submit and Event Form .submit-event-form  */
 .submit-event-form {
-  font-family: antique_olive_roman;
+	font-family: antique_olive_roman;
 }
-
 /* Style for form title for .submit-event-form ('Submit an Event') */
 .submit-event-form h2 {
-  color: #682160;
-  text-align: center;
-  font-family: antique_olive_condensed;
-  text-transform: uppercase;
-  font-size: 3em;
-  line-height: 1em;
-  margin: .25em 0;
+	color: #682160;
+	text-align: center;
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
+	font-size: 3em;
+	line-height: 1em;
+	margin: .25em 0;
 }
-
 .submit-event-form form {
-  margin-top: .75em;
+	margin-top: .75em;
 }
-
-.submit-event-form form > div > div.form-wrapper,
-.submit-event-form form > div > div.form-item {
-  margin-top: .75em;
+.submit-event-form form > div > div.form-wrapper, .submit-event-form form > div > div.form-item {
+	margin-top: .75em;
 }
-
-.submit-event-form .form-type-textfield label,
-.submit-event-form .form-type-textarea label,
-.submit-event-form .form-type-fieldset label,
-.submit-event-form .form-type-link-field label,
-.submit-event-form .form-item-field-ages-und > label {
-  width: 25%;
+.submit-event-form .form-type-textfield label, .submit-event-form .form-type-textarea label, .submit-event-form .form-type-fieldset label, .submit-event-form .form-type-link-field label, .submit-event-form .form-item-field-ages-und > label {
+	width: 25%;
 }
 
 /* ensures labels are on top of fields they label */
 @media all and (max-width: 800px) {
-  .submit-event-form .form-type-textfield label,
-  .submit-event-form .form-type-textarea label,
-  .submit-event-form .form-type-fieldset label,
-  .submit-event-form .form-type-link-field label,
-  .submit-event-form .form-item-field-ages-und > label {
-  width: 100%;
-  }
+.submit-event-form .form-type-textfield label,  .submit-event-form .form-type-textarea label,  .submit-event-form .form-type-fieldset label,  .submit-event-form .form-type-link-field label,  .submit-event-form .form-item-field-ages-und > label {
+	width: 100%;
+}
 }
 
 /* center the error messages on smaller screens */
 @media all and (max-width: 800px) {
-  .messages--error.messages.error {
-    width: 60%;
-    min-width: 280px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.messages--error.messages.error {
+	width: 60%;
+	min-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
 }
-
+}
 .submit-event-form label {
-  display: inline-block;
+	display: inline-block;
 }
-
 .submit-event-form .form-type-date-select label {
-  width: auto;
-  min-width: auto;
+	width: auto;
+	min-width: auto;
 }
-
 /* description text placed below some of the fields */
 .submit-event-form .description {
-  display: block;
-  font-size: .75em;
-  color: #682160;
+	display: block;
+	font-size: .75em;
+	color: #682160;
 }
-
 /* Styles for form fields in .submit-event-form  */
-.submit-event-form .form-type-textfield,
-.submit-event-form .form-type-textarea,
-.submit-event-form .form-type-fieldset,
-.submit-event-form .form-type-link-field,
-.submit-event-form .form-type-checkboxes,
-.submit-event-form .form-item-field-state-und {
-  display: flex;
-  flex-flow: row wrap;
+.submit-event-form .form-type-textfield, .submit-event-form .form-type-textarea, .submit-event-form .form-type-fieldset, .submit-event-form .form-type-link-field, .submit-event-form .form-type-checkboxes, .submit-event-form .form-item-field-state-und {
+	display: flex;
+	flex-flow: row wrap;
 }
-
 .submit-event-form .form-item-field-state-und label {
-  margin-right: .25em;
+	margin-right: .25em;
 }
-
-.submit-event-form .form-item-field-ages-und,
-.submit-event-form .form-item-field-state-und {
-  align-items: center;
+.submit-event-form .form-item-field-ages-und, .submit-event-form .form-item-field-state-und {
+	align-items: center;
 }
-
-.submit-event-form .form-type-textfield input,
-.submit-event-form .form-textarea-wrapper,
-.submit-event-form .link-field-subrow {
-  width: 74%;
-  box-sizing: border-box;
+.submit-event-form .form-type-textfield input, .submit-event-form .form-textarea-wrapper, .submit-event-form .link-field-subrow {
+	width: 74%;
+	box-sizing: border-box;
+}
+.submit-event-form .captcha {
+	display: flex;
+	margin-left: 25%;
+	width: 60%;
+}
+.submit-event-form .captcha img {
+	display: flex;
+	margin: 20px auto 20px auto;
+}
+.submit-event-form .captcha input {
+	height: 27px;
+}
+.submit-event-form .captcha label {
+	float: left;
+	clear: both;
+	width: 100%;
 }
 
 /* style changes for smaller screens (<=800 px) */
 @media all and (max-width: 800px) {
-  .submit-event-form .form-type-textfield input,
-  .submit-event-form .form-textarea-wrapper,
-  .submit-event-form .link-field-subrow {
-    width: 100%;
-  }
-
-  .form-type-date-select .form-type-select {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-  }
-
-  .form-type-date-select select {
-    width: 5.5em;
-  }
-
-  .container-inline-date .form-item .form-item {
-    float: none;
-  }
+.submit-gSale-form #field-dates-add-more-wrapper, .submit-event-form #field-date-values {
+	width: 100%;
+	display: flex;
+	margin-left: 0%;
 }
-
+.submit-gSale-form #edit-field-states-und, .submit-event-form #edit-field-state-und {
+	margin-left: 0%;
+}
+.submit-gSale-form #field-dates-add-more-wrapper, .submit-event-form #field-date-values {
+	width: 100%;
+	display: flex;
+	margin-left: 0%;
+}
+.submit-event-form .captcha {
+	display: flex;
+	margin-left: 0%;
+	width: 100%;
+}
+.submit-event-form .form-type-textfield input,  .submit-event-form .form-textarea-wrapper,  .submit-event-form .link-field-subrow {
+	width: 100%;
+}
+.form-type-date-select .form-type-select {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.form-type-date-select select {
+	width: 5.5em;
+}
+.container-inline-date .form-item .form-item {
+	float: none;
+}
+}
 /* these fields seem to be inside another wrapper, so make sure they fill up the entire wrapper width */
-.submit-event-form .form-type-textfield input#edit-field-website-link-und-0-url,
-.submit-event-form .form-type-textarea textarea {
-  width: 100%;
+.submit-event-form .form-type-textfield input#edit-field-website-link-und-0-url, .submit-event-form .form-type-textarea textarea {
+	width: 100%;
 }
-
 .submit-event-form .form-item-field-website-link-und-0-url {
-  display: block;
+	display: block;
 }
-
 .submit-event-form .form-item-field-website-link-und-0-url label {
-  display: none;
+	display: none;
 }
-
 .submit-event-form #field-date-add-more-wrapper .field-multiple-drag {
-  display: none;
+	display: none;
 }
-
 /* line up the button with the Date fieldset */
-.submit-event-form #field-date-add-more-wrapper input {
-  margin-left: 4px;
+.submit-event-form .field-add-more-submit {
+	margin-left: 25%;
 }
-
 .submit-event-form option:hover {
-  background-color: #682160;
-  color: white;
+	background-color: #682160;
+	color: white;
 }
-
 /* I put the wrappers as a flex for aligning the labels & fields */
-.submit-event-form #edit-field-region-und,
-.submit-event-form #edit-field-ages-und,
-.submit-event-form form-item-field-description-event-und-0-value {
-  display: flex;
-  flex-flow: row wrap;
+.submit-event-form #edit-field-region-und, .submit-event-form #edit-field-ages-und, .submit-event-form form-item-field-description-event-und-0-value {
+	display: flex;
+	flex-flow: row wrap;
 }
-
 /* styles for the select region checkboxes/lables wrappers */
 .submit-event-form #edit-field-region-und div {
-  padding: 3px;
-  border-radius: 10px;
-  margin-top: 3px;
-  margin-right: 2px;
+	padding: 3px;
+	border-radius: 10px;
+	margin-top: 3px;
+	margin-right: 2px;
 }
-
 .submit-event-form #edit-field-region-und label {
-  margin: 1px;
-  font-size: .875em;
-  display: block;
+	margin: 1px;
+	font-size: .875em;
+	display: block;
 }
-
-
 .submit-event-form .form-item-field-region-und-All {
-  background-color: #E8DB80;
+	background-color: #E8DB80;
 }
-
 .submit-event-form .form-item-field-region-und-Brainerd-Lakes-Area {
-  background-color: #A4B445;
+	background-color: #A4B445;
 }
-
 .submit-event-form .form-item-field-region-und-Fargo-\/-Moorehead {
-  background-color: #DEAC39;
+	background-color: #DEAC39;
 }
-
 .submit-event-form .form-item-field-region-und-Minneapolis {
-  background-color: #91ADAA;
+	background-color: #91ADAA;
 }
-
 .submit-event-form .form-item-field-region-und-NE-Metro {
-  background-color: #B84165;
+	background-color: #B84165;
 }
-
 .submit-event-form .form-item-field-region-und-Northeast-MN {
-  background-color: #91ADAA;
+	background-color: #91ADAA;
 }
-
 .submit-event-form .form-item-field-region-und-NW-Metro {
-  background-color: #A4B445;
+	background-color: #A4B445;
 }
-
 .submit-event-form .form-item-field-region-und-NW-Suburban {
-  background-color: #DEAC39;
+	background-color: #DEAC39;
 }
-
 .submit-event-form .form-item-field-region-und-SE-Metro {
-  background-color: #91ADAA;
+	background-color: #91ADAA;
 }
-
 .submit-event-form .form-item-field-region-und-Southern-MN {
-  background-color: #B84165;
+	background-color: #B84165;
 }
-
 .submit-event-form .form-item-field-region-und-St\.-Cloud-Area {
-  background-color: #91ADAA;
+	background-color: #91ADAA;
 }
-
 .submit-event-form .form-item-field-region-und-St\.-Paul {
-  background-color: #A4B445;
+	background-color: #A4B445;
 }
-
 .submit-event-form .form-item-field-region-und-SW-Metro {
-  background-color: #DEAC39;
+	background-color: #DEAC39;
 }
-
 /* This must have something to do with Add More Dates? */
 .submit-event-form .field-label {
-  display: none;
+	display: none;
 }
-
 .submit-event-form .form-wrapper.date-processed .form-required {
-  display: none;
+	display: none;
 }
-
 /* margin between the labels and select fields for the dates */
-.submit-event-form .form-type-date-select label,
-.submit-event-form .date-month, .submit-event-form .date-day, .submit-event-form .date-year {
-  margin-left: 1em;
-  margin-right: 1em;
+.submit-event-form .form-type-date-select label, .submit-event-form .date-month, .submit-event-form .date-day, .submit-event-form .date-year {
+	margin-left: 1em;
+	margin-right: 1em;
 }
-
 .submit-event-form .tabledrag-toggle-weight {
-  display: none;
+	display: none;
 }
-
 .submit-event-form .tabledrag-handle {
-  display: none;
+	display: none;
 }
-
 .submit-event-form .grippie {
-  display: none;
+	display: none;
 }
-
 .submit-event-form #edit-field-description-event-und-0-value {
-  font-size: .75em;
+	font-size: .75em;
 }
-
-
 /* styles for the ages checkboxes/lables wrappers */
 .submit-event-form #edit-field-ages-und > div > label {
-  margin: 1px;
+	margin: 1px;
 }
-
 .submit-event-form #edit-field-ages-und > div {
-  padding: 3px;
-  border-radius: 10px;
-  float: left;
-  margin-right: 2px;
-  margin-top:3px;
+	padding: 3px;
+	border-radius: 10px;
+	float: left;
+	margin-right: 2px;
+	margin-top: 3px;
 }
-
 .submit-event-form .form-type-checkbox {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
 }
-
 .submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-435 {
-  background-color: #91ADAA;
+	background-color: #91ADAA;
 }
-
 .submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-436 {
-  background-color: #DEAC39;
+	background-color: #DEAC39;
 }
-
 .submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-437 {
-  background-color: #B84165;
+	background-color: #B84165;
 }
-
 .submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-438 {
-  background-color: #A4B445;
+	background-color: #A4B445;
 }
-
 .submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-439 {
-  background-color: #816389;
+	background-color: #816389;
 }
-
 /* styles for the Submit Event button */
 .submit-event-form #edit-submit--3 {
-  background-color: white;
-  background-image: url("../~images/calendar-link.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  width: 220px;
-  height: 52px;
-  margin: 0 auto;
-  border: 0px none;
-  border-radius: 0px;
-  font-size: 1.0625em;
-  text-align: right;
-  padding-right: 13px;
-  content: "Submit Information";
-  font-family: antique_olive_condensed;
-  text-transform: uppercase;
-  display: block;
+	background-color: white;
+	background-image: url("../~images/calendar-link.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	margin: 0 auto;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 1.0625em;
+	text-align: right;
+	padding-right: 13px;
+	content: "Submit Information";
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
+	display: block;
 }
-
 .submit-event-form #edit-submit--3:hover {
-  background-image: url("../~images/calendar-link-hover.png");
+	background-image: url("../~images/calendar-link-hover.png");
 }
-
-
-

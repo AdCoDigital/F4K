@@ -4,343 +4,259 @@
  **                        **/
 
 /* header text on Garage Sale Listings / Garage Sale Details pages */
-.pane-garage-sale-listings h2.pane-title,
-.pane-garage-sale-details-garage-view h2.pane-title {
-  font-family: antique_olive_condensed;
-  font-size: 3em;
-  line-height: 1em;
-  text-transform: uppercase;
-  color: #682160;
-  text-align: center;
+.pane-garage-sale-listings h2.pane-title, .pane-garage-sale-details-garage-view h2.pane-title {
+	font-family: antique_olive_condensed;
+	font-size: 3em;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #682160;
+	text-align: center;
 }
-
-ul.garage--childrens-items,
-ul.garage--other-items {
-  display: flex;
-  flex-flow: row wrap;
+ul.garage--childrens-items, ul.garage--other-items {
+	display: flex;
+	flex-flow: row wrap;
 }
-
-ul.garage--childrens-items li,
-ul.garage--other-items li {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  box-sizing: border-box;
-  padding: .25em 0;
+ul.garage--childrens-items li, ul.garage--other-items li {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	box-sizing: border-box;
+	padding: .25em 0;
 }
-
-ul.garage--childrens-items img,
-ul.garage--other-items img {
-  height: 1.3333em;
-  width: auto;
-  padding-right: .25em;
+ul.garage--childrens-items img, ul.garage--other-items img {
+	height: 1.3333em;
+	width: auto;
+	padding-right: .25em;
 }
-
-
-
- /**                                    **
+/**                                    **
   **  Styles for Garage Sales Listings  **
   **                                    **/
 .view-garage-sale-listings .row {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 1.25em;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 1.25em;
 }
-
 .view-garage-sale-listings .views-row-even {
-  background-color: rgba(38, 176, 203, .15);
+	background-color: rgba(38, 176, 203, .15);
 }
-
 .view-garage-sale-listings .garage-listings--information {
-  width: 50%;
+	width: 50%;
 }
-
 .view-garage-sale-listings .garage-listings--items-for-sale {
-  width: 50%;
-  font-family: antique_olive_light;
+	width: 50%;
+	font-family: antique_olive_light;
 }
-
-.view-garage-sale-listings ul.garage--childrens-items,
-.view-garage-sale-listings ul.garage--other-items {
-  flex-flow: column nowrap; /* show all the items for sale in one column instead of in rows */
+.view-garage-sale-listings ul.garage--childrens-items, .view-garage-sale-listings ul.garage--other-items {
+	flex-flow: column nowrap; /* show all the items for sale in one column instead of in rows */
 }
-
 .garage-sale-listing-field--date {
-  font-family: antique_olive_roman;
-  font-size: 1.25em;
+	font-family: antique_olive_roman;
+	font-size: 1.25em;
 }
-
-.garage-sale-listing-field--address,
-.garage-sale-listing-field--city {
-  font-family: antique_olive_light;
-  font-size: 1.25em;
+.garage-sale-listing-field--address, .garage-sale-listing-field--city {
+	font-family: antique_olive_light;
+	font-size: 1.25em;
 }
-
 .garage-listings--address-wrapper {
-  margin: .5em 0;
+	margin: .5em 0;
 }
-
-.view-garage-sale-listings .read-more-link-wrapper,
-.view-garage-sale-listings .flag-add-toybox-wrapper {
-  margin: .25em 0 .25em .25em;
+.view-garage-sale-listings .read-more-link-wrapper, .view-garage-sale-listings .flag-add-toybox-wrapper {
+	margin: .25em 0 .25em .25em;
 }
-
 .view-garage-sale-listings .read-more-link-wrapper {
-  margin-top: 1em;
+	margin-top: 1em;
 }
-
- /**                                  **
+/**                                  **
   **  Styles for Garage Sales Details **
   **                                  **/
 .view-garage-sale-details {
-  margin-top: 2.5%;
+	margin-top: 2.5%;
 }
-
 .view-garage-sale-details dl {
-  display: flex;
-  flex-flow: row wrap;
+	display: flex;
+	flex-flow: row wrap;
 }
-
-.view-garage-sale-details dt:nth-child(1),
-.view-garage-sale-details dt:nth-child(1) + dd  {
-  margin-top: 0;
+.view-garage-sale-details dt:nth-child(1), .view-garage-sale-details dt:nth-child(1) + dd {
+	margin-top: 0;
 }
-
 .view-garage-sale-details dt {
-  /* float: left; */
-  font-family: antique_olive_bold;
-  font-size: 1.25em;
+	/* float: left; */
+	font-family: antique_olive_bold;
+	font-size: 1.25em;
 }
-
-.garage-details--label-date,
-.garage-details--label-address,
-.garage-details--label-city,
-.garage-details--label-field-description {
-  width: 7.2em;
+.garage-details--label-date, .garage-details--label-address, .garage-details--label-city, .garage-details--label-field-description {
+	width: 7.2em;
 }
-
-.garage-details--date,
-.garage-details--address,
-.garage-details--city,
-.garage-details--field-description {
-  width: calc(100% - 8em);
+.garage-details--date, .garage-details--address, .garage-details--city, .garage-details--field-description {
+	width: calc(100% - 8em);
 }
-
-.view-garage-sale-details ul.garage--childrens-items li,
-.view-garage-sale-details ul.garage--other-items li {
-  width: 50%;
+.view-garage-sale-details ul.garage--childrens-items li, .view-garage-sale-details ul.garage--other-items li {
+	width: 50%;
 }
-
-.view-garage-sale-details dt,
-.view-garage-sale-details dd {
-  min-height: 1em; /* so if data missing (e.g. age), layout doesn't get messed up */
-  line-height: 1.25em;
-}
-
 .view-garage-sale-details dt, .view-garage-sale-details dd {
-  margin-top: 1em;
+	min-height: 1em; /* so if data missing (e.g. age), layout doesn't get messed up */
+	line-height: 1.25em;
 }
-
-.view-garage-sale-details dt.garage-details--label-childrens-items,
-.view-garage-sale-details dt.garage-details--label-other-items,
-.view-garage-sale-details dd.garage-details--field-description {
-  margin-top: 2em;
+.view-garage-sale-details dt, .view-garage-sale-details dd {
+	margin-top: 1em;
 }
-
+.view-garage-sale-details dt.garage-details--label-childrens-items, .view-garage-sale-details dt.garage-details--label-other-items, .view-garage-sale-details dd.garage-details--field-description {
+	margin-top: 2em;
+}
 .view-garage-sale-details dt.garage-details--label-field-description {
-  margin-top: 1.7em;
-  align-self: flex-start;
+	margin-top: 1.7em;
+	align-self: flex-start;
 }
-
 .view-garage-sale-details dd {
-  margin-left: 0;
-  font-family: antique_olive_light;
-  font-size: 1.125em;
+	margin-left: 0;
+	font-family: antique_olive_light;
+	font-size: 1.125em;
 }
-
-dd.garage-details--childrens-items,
-dd.garage-details--other-items {
-  width: 100%;
-  margin-top: 0.25em;
+dd.garage-details--childrens-items, dd.garage-details--other-items {
+	width: 100%;
+	margin-top: 0.25em;
 }
-
-@media all and (max-width: 640px) {
-  .view-garage-sale-details .view-content dd {
-    width: 100%;
-    margin-top: 0.25em;
-  }
+ @media all and (max-width: 640px) {
+.view-garage-sale-details .view-content dd {
+	width: 100%;
+	margin-top: 0.25em;
 }
-
-
+}
 /**								        **
  **     Styles for the 
          Coupons          **
  **                       **/
 .couponsBlock h2 {
-    padding: 10px;
+	padding: 10px;
 }
-
 .couponsBlock {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
-
-.flag-add-toybox a 
-{
-    font-family: alwaysheretoo;
+.flag-add-toybox a {
+	font-family: alwaysheretoo;
 }
-
-
-
-
 /**								 **
  **     Styles for the 
          Daily Deals             **
  **                              **/
 .daily-deals--title-pane h3 {
-    font-family: antique_olive_condensed;
-    font-size: 3em;
-    line-height: 1em;
-    text-transform: uppercase;
-    color: #26B0CB;
-    text-align: center;
+	font-family: antique_olive_condensed;
+	font-size: 3em;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #26B0CB;
+	padding: 3%;
+	text-align: center;
 }
-
 .daily-deals--title-pane {
-    border-bottom: 4px solid #23B0CA;
+	border-bottom: 4px solid #23B0CA;
 }
-
-.pane-daily-dining-deals > .pane-daily-deals-display,
-.pane-daily-fun-deals > .pane-daily-deals-display {
-    margin: 3em 0 0 0;
+.pane-daily-dining-deals > .pane-daily-deals-display, .pane-daily-fun-deals > .pane-daily-deals-display {
+	margin: 3em 0 0 0;
 }
-
 .pane-daily-dining-deals, .ad-container--daily-deals-left {
-    width: 48.75%;
-    float: left;
+	width: 48.75%;
+	float: left;
 }
-
 .ad-container--daily-deals-left {
-    margin-top: 5%;
+	margin-top: 5%;
 }
-
 .pane-daily-fun-deals, .ad-container--daily-deals-right {
-    width: 48.75%;
-    float: right;
+	width: 48.75%;
+	float: right;
 }
-
 .ad-container--daily-deals-right {
-    margin-bottom: 5%;
+	margin-bottom: 5%;
 }
-
-.ad-container--daily-deals-left,
-.ad-container--daily-deals-right {
-    display: flex;
-    justify-content: center;
+.ad-container--daily-deals-left, .ad-container--daily-deals-right {
+	display: flex;
+	justify-content: center;
 }
-
 .pane-daily-deals-display .pane-title {
-    font-family: alwaysheretoo;
-    font-size: 2em;
-    width: 100%;
-    color: #682160;
-    text-align: center;
+	font-family: alwaysheretoo;
+	font-size: 2em;
+	width: 100%;
+	color: #fff;
+	background-color: #682160;
+	padding: 2%;
+	text-align: center;
 }
-
-
 .pane-daily-deals-display .view {
-    margin-top: .5em; /* gap between the name of day and no results message (gap between name of day and results will use .views-row margin, if larger) */
+	margin-top: .5em; /* gap between the name of day and no results message (gap between name of day and results will use .views-row margin, if larger) */
 }
-
 .pane-daily-deals-display .views-row {
-    margin: 1.5em 0;
+	margin: 1.5em 0;
 }
-
 .pane-daily-deals-display .views-field-field-daily-deals-image {
-    width: 110px;
-    height: 110px;
-    text-align: center;
-    float: left;
-    padding: 0;
-    margin-right: 3.5555%;
+	width: 110px;
+	height: 110px;
+	text-align: center;
+	float: left;
+	padding: 0;
+	margin-right: 3.5555%;
 }
-
 .views-field-field-daily-deals-image .views-field-field-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    max-width: 110px;
-    max-height: 110px;
+	width: 100%;
+	height: auto;
+	display: block;
+	max-width: 110px;
+	max-height: 110px;
 }
-
-
-.pane-daily-deals-display .views-field.views-field-field-daily-deals-venue,
-.pane-daily-deals-display .views-field.views-field-field-daily-deals-info,
-.pane-daily-deals-display .views-field.views-field-ops {
-    margin-left: calc(3.5555% + 110px);
+.pane-daily-deals-display .views-field.views-field-field-daily-deals-venue, .pane-daily-deals-display .views-field.views-field-field-daily-deals-info, .pane-daily-deals-display .views-field.views-field-ops {
+	margin-left: calc(3.5555% + 110px);
 }
-
-
 .pane-daily-deals-display .views-field.views-field-field-daily-deals-venue {
-    font-family: antique_olive_bold;
-    font-size: 1.5em;
-    margin-bottom: .25em;
+	font-family: antique_olive_bold;
+	font-size: 1.5em;
+	margin-bottom: .25em;
 }
-
-.pane-daily-deals-display .views-field.views-field-field-daily-deals-info,
-.pane-daily-deals-display .view-empty {
-    font-family: antique_olive_roman;
-    font-size: 1em;
+.pane-daily-deals-display .views-field.views-field-field-daily-deals-info, .pane-daily-deals-display .view-empty {
+	font-family: antique_olive_roman;
+	font-size: 1em;
 }
-
 .pane-daily-deals-display .view-empty {
-    text-align: center;
+	text-align: center;
 }
 
 
 
 /* adjust into stacked columns when screen size is smaller */
 @media all and (max-width: 640px) {
-    .daily-deals-region {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }
-
-    .daily-deals-region .ad-container--top-ad {
-        order: 0;
-    }
-
-    .pane-daily-dining-deals {
-        float: none;
-        width: 100%;
-        order: 1;
-    }
-
-    .ad-container--daily-deals-left {
-        float: none;
-        width: 48.75%;
-        order: 2;
-        margin: 5% 0;
-    }
-
-    .ad-container--daily-deals-right {
-        float: none;
-        width: 48.75%;
-        order: 3;
-        margin: 5% 0;
-    }
-
-    .pane-daily-fun-deals {
-        float: none;
-        width: 100%;
-        order: 4;
-    }
-
-    .ad-container--daily-deals-left,
-    .ad-container--daily-deals-right {
-        display: block
-    }
+.daily-deals-region {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.daily-deals-region .ad-container--top-ad {
+	order: 0;
+}
+.pane-daily-dining-deals {
+	float: none;
+	width: 100%;
+	order: 1;
+}
+.ad-container--daily-deals-left {
+	float: none;
+	width: 48.75%;
+	order: 2;
+	margin: 5% 0;
+}
+.ad-container--daily-deals-right {
+	float: none;
+	width: 48.75%;
+	order: 3;
+	margin: 5% 0;
+}
+.pane-daily-fun-deals {
+	float: none;
+	width: 100%;
+	order: 4;
+}
+.ad-container--daily-deals-left,  .ad-container--daily-deals-right {
+	display: block
+}
 }

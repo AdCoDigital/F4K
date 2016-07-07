@@ -1,10 +1,7 @@
-#page,
-.region-bottom {
-  min-width: 360px; /* Dalton - Fix for header breaking from lack of space.
+#page, .region-bottom {
+	min-width: 360px; /* Dalton - Fix for header breaking from lack of space.
 	No easy fix without wireframe change. Originally 320px. 360px will accomodate 99% of phones made in the last five years. */
 }
-
-
 /* Updated page content styling since page container must be 100% */
 
 /* Added by Dalton */
@@ -14,171 +11,135 @@
 	- Header, footer, and page content have a maximum width of 1200px
  */
 
-#header,
-#content,
-.footer-content-container{
+#header, #content, .footer-content-container {
 	max-width: 1200px;
 	margin: 0 auto;
-  height: 100%;
+	height: 100%;
 }
-
-#footer-container{
+#footer-container {
 	width: 100%;
 }
-
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
-#header,
-#content,
-#navigation,
-.region-sidebar-first,
-.region-sidebar-second,
-#footer {
-  padding-left: 10px;
-  padding-right: 10px;
-  box-sizing: border-box;
-  word-wrap: break-word;
-  *behavior: url("/path/to/boxsizing.htc");
-  _display: inline;
-  _overflow: hidden;
-  _overflow-y: visible;
+#header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, #footer {
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	word-wrap: break-word;
+ *behavior: url("/path/to/boxsizing.htc");
+	_display: inline;
+	_overflow: hidden;
+	_overflow-y: visible;
 }
-
-@media all and (min-width: 641px) and (max-width: 1200px) {
-  #header {
-    padding-left: calc(19.6428% - 115.7142px); /* so at 640px -> 10px; 1200px -> 120px */
-    padding-right: calc(19.6428% - 115.7142px);
-  }
+ @media all and (min-width: 641px) and (max-width: 1200px) {
+#header {
+	padding-left: calc(19.6428% - 115.7142px); /* so at 640px -> 10px; 1200px -> 120px */
+	padding-right: calc(19.6428% - 115.7142px);
 }
-
-@media all and (min-width: 1200px) {
-  #header {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
 }
-
+ @media all and (min-width: 1200px) {
+#header {
+	padding-left: 120px;
+	padding-right: 120px;
+}
+}
 /* Added by Corey: */
 /* remove padding from navigation bar & footer: */
 #navigation, #footer {
-  padding-left: 0px;
-  padding-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 /* */ 
 
 /* Containers for grid items and flow items. */
-#header,
-#main,
-#footer {
-  *position: relative;
-  *zoom: 1;
+#header, #main, #footer {
+ *position: relative;
+ *zoom: 1;
 }
 /*#header:before,
 #header:after,*/
-#main:before,
-#main:after,
-#footer:before,
-#footer:after {
-  content: "";
-  display: table;
+#main:before, #main:after, #footer:before, #footer:after {
+	content: "";
+	display: table;
 }
 /*#header:after,*/ /* # as of now, header doesn't seem to need a clearfix */
-#main:after,
-#footer:after {
-  clear: both;
+#main:after, #footer:after {
+	clear: both;
 }
-
 /* Added by Corey */
 /* Set up blue hr on the very top of the page*/
- div#page {
-  border-top: 4px solid #23B0CA; /* blue shade */
+div#page {
+	border-top: 4px solid #23B0CA; /* blue shade */
 }
-
-
-
 /*                               *
  * STYLES FOR THE CONTENT REGION *
  *                               */
 
 
 #content {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  max-width: 970px;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	max-width: 970px;
 }
-
 /* Float the 3 "main" panes that encompass all of home page content */
-.page--top-pane,
-.page--left-pane {
-  float: left;
+.page--top-pane, .page--left-pane {
+	float: left;
 }
-
-
-.page--right-pane,
-.page--bottom-pane {
-  float: right;
-  clear: right;
+.page--right-pane, .page--bottom-pane {
+	float: right;
+	clear: right;
 }
-
-@media all and (min-width: 941px) and (max-width: 1200px) {
-  #content {
-    margin-left: calc(42% - 394px); /* so at 1200px->110px & 940px->approx 0px */
-    margin-right: calc(42% - 394px); /* so at 1200px->110px & 940px->approx 0px */
-  }
+ @media all and (min-width: 941px) and (max-width: 1200px) {
+#content {
+	margin-left: calc(42% - 394px); /* so at 1200px->110px & 940px->approx 0px */
+	margin-right: calc(42% - 394px); /* so at 1200px->110px & 940px->approx 0px */
+}
 }
 
 /* LAYOUT STYLES FOR MEDIUM BROWSER WINDOW SIZES (641px - 940px) */
 @media all and (min-width: 641px) and (max-width: 940px) {
-   #content {
-    /* margin-left: calc(33.3% - 213px); /* approx so at 940px-> 100px & 640px->0px */
+#content {
+	/* margin-left: calc(33.3% - 213px); /* approx so at 940px-> 100px & 640px->0px */
     /* margin-right: calc(33.3% - 213px); /* so at 940px-> 100px 640px->0px */
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .page--top-pane {
-    width: auto;
-    float: none;
-  }
-
-  .page--left-pane {
-    width: calc(100% - 320px); /* width spans 100% of the content area, minus 300px fixed for right pane & 15px for margin between */
-    margin-right: 20px;
-  }
+	margin-left: 0;
+	margin-right: 0;
+}
+.page--top-pane {
+	width: auto;
+	float: none;
+}
+.page--left-pane {
+	width: calc(100% - 320px); /* width spans 100% of the content area, minus 300px fixed for right pane & 15px for margin between */
+	margin-right: 20px;
+}
 }
 
 /* LAYOUT STYLES FOR SMALL BROWSER WINDOW SIZES (<=640px) */
 @media all and (max-width: 640px) {
-
-  /* shrink font size on pages, other than the home page */
-  body:not(.f4k-home) #content {
-    font-size: .875em;
-  }
-
-  #content {
-    padding-left:  1.5625%;  /* 10 / 640 */
-    padding-right: 1.5625%;  /* 10 / 640 */
-    padding-top: 3.125%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .page--top-pane, .page--left-pane, .page--right-pane, .page--bottom-pane {
-    /* all the (pane) regions are going to stack at small screen widths, so remove float */
-    float: none;
-  }
-
-  .page--top-pane {
-    width: auto; /* so auto-sizing when width of container smaller than < 600px (top ad size) */
-  }
+/* shrink font size on pages, other than the home page */
+body:not(.f4k-home) #content {
+	font-size: .875em;
 }
-
+#content {
+	padding-left: 1.5625%;  /* 10 / 640 */
+	padding-right: 1.5625%;  /* 10 / 640 */
+	padding-top: 3.125%;
+	margin-left: 0;
+	margin-right: 0;
+}
+.page--top-pane, .page--left-pane, .page--right-pane, .page--bottom-pane {
+	/* all the (pane) regions are going to stack at small screen widths, so remove float */
+	float: none;
+}
+.page--top-pane {
+	width: auto; /* so auto-sizing when width of container smaller than < 600px (top ad size) */
+}
+}
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 .mean-nav > h2 {
-  display: none;
+	display: none;
 }
-
-.mean-bar, 
-.mean-nav {
-  background: #682160; /* purple shade */;
+.mean-bar, .mean-nav {
+	background: #682160; /* purple shade */
+	;
 }
