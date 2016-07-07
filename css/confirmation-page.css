@@ -1,0 +1,221 @@
+#Advertise {
+    background-color: #91ADAA;
+}
+
+#Advertise a {
+    color: black;
+}
+
+#Advertise .advertA {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#Advertise .advertB {
+    display: block;
+    float: right;
+    text-align: center;
+    margin-top: 3em;
+}
+
+#Advertise .advertC {
+    display: block;
+    float: none;
+    clear: both;
+    padding-top: 50px;
+}
+
+#Advertise .advertCA {
+    margin-left: 130px;
+    display: block;
+    float: left;
+}
+
+#Advertise .advertCB {
+    display: block;
+    float: left;
+    margin-top: 170px;
+    margin-left: -33px;
+}
+
+#Advertise .advertD {
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: -75px;
+    padding-bottom: 50px;
+}
+
+
+.privacy-policy-page-region .pane-title {
+    text-align: left;
+}
+
+.privacy-policy-page-region p, .privacy-policy-page-region li {
+    font-size: .875em;
+    font-family: antique_olive_light;
+}
+
+.privacy-policy-page-region p {
+    margin-bottom: 1em;
+}
+
+.privacy-policy-page-region h2, .privacy-policy-page-region h3,
+.contact-us-page-region h2 {
+    color: #682160;
+}
+
+.privacy-policy-page-region img {
+    float: right;
+    max-width: 567px;
+    width: 60%;
+    height: auto;
+    margin: .5em;
+}
+
+@media all and (max-width: 640px) {
+    .privacy-policy-page-region img {
+        display: none
+    }
+
+    .privacy-policy-page-region {
+        font-size: .875em;
+    }
+}
+
+.privacy-policy-page-region h2,
+.contact-us-page-region h2 {
+    font-size: 3em;
+    font-family: antique_olive_condensed;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+
+.privacy-policy-page-region h3 {
+    font-size: 1.5em;
+    font-family: antique_olive_bold;
+    text-transform: uppercase;
+    margin: 1em 0 .5em 0;
+}
+
+.privacy-policy-page-region h4 {
+    font-family: antique_olive_bold;
+    margin: .5em 0;
+    margin: 1em 0 .5em 0;
+}
+
+.privacy-policy-page-region {
+    margin-bottom: 2em;
+}
+
+
+.confirm-page em {
+    visibility: visible;
+    font-size: 2em;
+    font-family: "antique_olive_compact";
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.confirm-page .pane-title {
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    width: 0px;
+}
+
+.confirm-page--status {
+    text-align: center;
+    visibility: hidden;
+    display: block;
+}
+
+.confirm-page p {
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.confirmation-page-region,
+.contact-us-page-region {
+    margin-bottom: 6em;
+}
+
+.contact-us-page-region h2 {
+    margin: 0;
+}
+
+.contact-us-mail-img {
+    display: block;
+    float: right;
+    margin-top: 3.5em;
+    margin-right: 3em;
+}
+
+.contact-us-address {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3em;
+}
+
+.contact-us-clouds-img {
+    margin-left: 3em;
+}
+
+.contact-us-list {
+    list-style-type: none;
+}
+
+.contact-us-list, .contact-us-address--address {
+    font-family: antique_olive_roman;
+    font-size: 1.125em;
+}
+
+.contact-us-list li {
+    background-repeat: no-repeat;
+    background-image: url('/fun4kids/images/footer_button.png');
+    line-height: 40px;
+    padding-left: 40px;
+}
+
+
+.contact-us-header {
+    font-family: alwayshere;
+    clear: both;
+    padding: 1.5em 0 .5em 0;
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.contact-us-header--larger-text {
+    font-size: 1.25em; /* 25% larger text than what is specified for .contact-us-header */
+}
+
+
+.contact-us-img {
+    display: block;
+    margin-top: -60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-us-page-region {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 640px) {
+    .contact-us-img {
+        display: none
+    }
+
+    .contact-us-page-region {
+        font-size: .875em;
+    }
+}

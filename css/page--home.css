@@ -1,0 +1,55 @@
+@media all and (min-width: 958px) {
+  .rainy-day-pane::before { /* is there a better way to do this without having to use a pseduo-element? */
+    content: "";
+    background-image: url('/fun4kids/images/home_family_rain.png');
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 177px;
+    position: absolute;
+    left: -24px;
+  }
+}
+
+.rainy-day-pane--home {
+  border-top: 4px solid #23B0CA;
+  border-bottom: 4px solid #23B0CA;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding-left:110px;
+}
+
+
+
+@media all and (max-width: 957px) {
+  .rainy-day-pane.rainy-day-pane--home {
+    width:100%;
+    padding: 0 8px 0 8px;
+  }
+}
+
+@media all and (max-width: 957px) {
+  .rainy-day-pane.rainy-day-pane--home h2.pane-title {
+    font-size: 2em;
+  }
+}
+
+@media all and (max-width: 957px) {
+  .rainy-day-pane.rainy-day-pane--home .view-header p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+
+
+@media all and (max-width: 957px) {
+  .rainy-day-pane.rainy-day-pane--home .view-content {
+    margin-top: 16px; /* gap between the list & the header for this view */
+  }
+}
+
+
+@media all and (max-width: 957px) {
+  .rainy-day-pane.rainy-day-pane--home .views-field-field-image {
+    margin-right: .25em;
+  }
+}

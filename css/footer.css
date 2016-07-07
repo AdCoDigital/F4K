@@ -1,0 +1,129 @@
+/*                       *
+ * STYLES FOR THE FOOTER *
+ *                       */
+
+/*
+
+NOTE: '#block-panels-mini-footer-panel' is dependent on the mini panel name! (Name being "Footer Panel")
+Any changes to the panel name in drupal will require the this selector ID to be changed accordingly.
+
+If the footer menus aren't centered, then this is likely the issue.
+
+(Blame mini panels, it's all their fault.)
+
+CSS mini-panel configs for Footer Panel:
+	- Menu: Footer Menu Frequent Links
+		- #footer-frequent-links
+	- Menu: Footer Menu Directory
+		- #footer-directory-links
+- Dalton
+*/
+
+ /* Generic footer styling */
+ 
+ footer{
+	background-color: #682160;
+	margin: 0 auto;
+ }
+ 
+ footer *{
+   color: white;
+   box-sizing: border-box;
+ }
+
+ #footer-frequent-links{
+	margin-top: 40px; /* Dirty fix to vertically center a menu */
+	padding-right: 20px;
+ }
+
+ #footer-frequent-links li{
+	background-repeat: no-repeat;
+	background-image: url('/fun4kids/images/footer_button.png');
+	line-height: 40px;
+ }
+ 
+ #footer-frequent-links a{
+	padding-left: 40px;
+ }
+ 
+ footer .menu{
+	 list-style-type: none;
+ }
+ 
+ #footer-directory-links .expanded{
+	 float: left;
+ }
+
+ #footer-directory-links .leaf{
+	 font-size: 0.8em;
+ }
+ 
+ #footer-directory-links .nolink{
+	font-weight: bold; /* Menu Titles */
+ }
+ 
+ #footer-copyright {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 0.7em;
+	text-align: center;
+    background-color: #382721;
+    background: -webkit-linear-gradient(#382721, #64463C);
+    background: -o-linear-gradient(#382721, #64463C);
+    background: -moz-linear-gradient(#382721, #64463C);
+    background: linear-gradient(#382721, #64463C);
+ }
+ 
+ /* Small Mobile Styling */
+ @media all and (max-width: 400px){
+	 footer{
+		 font-size: 0.8em;
+	 }
+ }
+ 
+ /* Mobile Styling (< 658px) */
+
+ #footer-frequent-links{
+	display: none;
+ }
+
+ #footer-directory-links .expanded{
+	 width: 33%;
+	 text-align: center;
+	 margin: 10px auto;
+ }
+ 
+ /* Medium Styling */
+ 
+ @media all and (min-width: 641px){
+	 #block-panels-mini-footer-panel{
+		display: table;
+		margin: 0 auto;
+	 }
+	 
+	 #footer-frequent-links,
+	 #footer-directory-links{
+		float: left;
+		display: block;
+		white-space: nowrap
+	 }
+	 
+	 #footer-directory-links .expanded{
+		 text-align: left;
+		 margin-right: 20px;
+		 width: auto;
+	 }
+ }
+ 
+ /* Desktop Styling */
+ 
+@media all and (min-width: 991px) {
+	#footer-directory-links{
+		min-height: 218px;
+	}
+	#footer-directory-links{
+		background-image: url('/fun4kids/images/footer_bg.png');
+		background-repeat: no-repeat;
+		padding-left: 320px;
+	}
+}

@@ -1,0 +1,87 @@
+/**								 **
+ **     Styles for the 
+         Garage Sales            **
+ **                              **/
+
+
+#gSalesDetail .gSaleMap {
+    width: 300px;
+}
+
+#gSalesDetail .simple-gmap-address {
+    font-size: 12px;
+    display: block;
+    float: left;
+    margin-bottom: 15px;
+    line-height: 1.2em;
+}
+
+#gSalesDetail .simple-gmap-link a {
+    float: right;
+    font-size: 15px;
+}
+
+#gSalesDetail #gItems .childItemTitle, #gSalesDetail #gItems .otherItemTitle {
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+#gSalesDetail #gItems {
+    margin-top: 20px;
+}
+
+#gSalesDetail .gToybox {
+    display: flex;
+    float: left;
+}
+
+#gSalesDetail .gDescription .field-items {
+    float: right;
+    width: 470px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#gSalesDetail .gDescription .field-label {
+    font-size: 19px;
+}
+
+#gSalesDetail .gDescription {
+    display: flex;
+    float: left;
+	margin-top: 20px;
+}
+
+#gSalesDetail .gDescription .pane-title {
+    display: none;
+}
+
+#gSalesDetail .gItems {
+  	display: block;
+  	width: 600px;
+}
+
+#gSalesDetail .gItems .field-item {
+  	display: block;
+}
+
+#gSalesDetail #gItems li {
+    list-style: none;
+    width: 270px;
+}
+
+#gSalesDetail .gItems .pane-title {
+    font-size: 19px;
+    width: 650px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#gSalesDetail .gItems .field-items {
+    list-style: none;
+}
+
+#gSalesDetail .gCity .field-label {
+	font-size: 19px;

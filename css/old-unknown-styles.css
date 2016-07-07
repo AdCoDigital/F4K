@@ -1,0 +1,1076 @@
+/*!!!!!!Blog Pages Start!!!!!!!*/
+/*explodes the title!*/
+#page-title {
+  display: none;
+}
+/*Changes the text under the title*/
+h3#T {
+  font-family: "alwaysheretoo", Georgia, Serif;
+  font-size: 60.0000%;
+  text-align: center;
+  padding-bottom: 5.0000%;
+}
+h3#Age {
+  font-family: "alwaysheretoo", Georgia, Serif;
+  font-size: 150.0000%;
+  text-align: center;
+}
+h3#Arc {
+  font-family: "alwaysheretoo", Georgia, Serif;
+  padding-top: 10px;
+  font-size: 150.0000%;
+  text-align: center;
+}
+h3#T br{
+  padding-top: 4px;
+}
+
+#Age p {
+  margin-bottom: 5.0000%;
+  font-family: "alwaysheretoo", Georgia, Serif;
+  font-size: 60.0000%;
+  }
+  #Age p a {
+    color: #23B0CA;
+  }
+
+/*Sets the width of the page*/
+div.panel-flexible.panels-flexible-blog_projects.clearfix {
+  width: 93.0000%;
+}
+.panels-flexible-column-blog_projects-3 {
+  width: 300px;
+  /*margin-left: 3.0000%;*/
+  float: left;
+  margin-bottom: 5.0000%;
+}
+/*Setting up the blue hr above the ad pictures*/
+div.panels-flexible-row.panels-flexible-row-blog_projects-6.clearfix:before{
+  content:' ';
+  display:block;
+  border:2px solid #23B0CA;
+  margin-bottom: 2.0000%;
+  width: 99.5000%;
+}
+/*Setting up the blue hr below the ad pictures*/
+div.panels-flexible-row.panels-flexible-row-blog_projects-6.clearfix:after{
+  content:' ';
+  display:block;
+  border:2px solid #23B0CA;
+  visibility: visible;
+  margin-top: 1.0000%;
+  width: 99.5000%;
+}
+div.panel-pane.pane-views.pane-simpleads-block-example.LeftAd {
+  clear: left;
+  float: left;
+}
+/*Moves the middle right ad to the right of the left ad*/
+div.panel-pane.pane-views.pane-simpleads-block-example.RightAd{
+  width: 280px;
+  clear: right;
+  float: right;
+}
+
+/* Moves the picture to the left of the comments in the blog page */
+div.views-field.views-field-field-image {
+  width: 25.0000%;
+  text-align: center;
+  padding-right: 4.0000%;
+  padding-bottom: .5000%;
+  clear: left;
+  float: left;
+}
+
+/* Centers the title of the blog */
+/*div.views-field.views-field-title{
+  float: left;
+  width: 45.0000%;
+  line-height: 100.0000%;
+  font-size: 75.0000%;
+  text-align: left;
+  font-weight: bold;
+} */
+/*Getting rid of the bullets on the age circles*/
+#Age li {
+  list-style-type: none;
+}
+/*Setting up circles for the ages*/
+/*The age group 0-1*/
+#Age li._0-1{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#91ADAA;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #91ADAA;
+}
+/*The age group 2-4*/
+#Age li._2-4{
+  list-style-type: none;
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#DEAC39;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #DEAC39;
+}
+/*The age group 5-7*/
+#Age li._5-7{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#B84165;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #B84165;
+}
+/*The age group 8-12*/
+#Age li._8-12{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#A4B445;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #A4B445;
+}
+/*The age group 13-17*/
+#Age li._13-17{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#816389;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #816389;
+}
+/*Getting rid of the bullets on the age circles*/
+.BottomListing ul {
+  list-style-type: none;
+}
+.BottomListing li {
+  float:left;
+}
+/*Setting up circles for the ages*/
+/*The age group 0-1*/
+.BottomListing li._0-1{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#91ADAA;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #91ADAA;
+}
+/*The age group 2-4*/
+.BottomListing li._2-4{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#DEAC39;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #DEAC39;
+}
+/*The age group 5-7*/
+.BottomListing li._5-7{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#B84165;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #B84165;
+}
+/*The age group 8-12*/
+.BottomListing li._8-12{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#A4B445;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #A4B445;
+}
+/*The age group 13-17*/
+.BottomListing li._13-17{
+  width:10px;
+  height:10px;
+  border-radius:16px;
+  font-size:0px;
+  color:#816389;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #816389;
+}
+/*Styling for the age group*/
+div.views-field.views-field-field-age-group {
+  float: left;
+  font-size: 40.0000%;
+  line-height: 100.0000%;
+  margin-top: 1px;
+  margin-left: 3px;
+}
+/*Takes away the bullets from the list and fixes line height*/
+#AgeGroup ul {
+  list-style-type: none;
+  line-height: 1.25em;
+  width: 300px;
+}
+/*floats the age list items left*/
+#Age li {
+  float: left;
+}
+/* Centers the description of the blog */
+/* div.views-field.views-field-field-description {
+  float: left;
+  width: 45.0000%;
+  line-height: 100.0000%;
+  text-align: left;
+  margin-right: 20.0000%;
+  margin-top: 1.0000%;
+  font-size: 80.0000%;
+} */
+/*floats add to toybox left*/
+#Age div.views-field.views-field-ops {
+  float: left;
+  font-size: 12px;
+  padding-bottom: 2.0000%;
+  padding-left: 20px;
+}
+#Age span.field-content {
+  float: left;
+  font-size: 12px;
+  padding-bottom: 2.0000%;
+}
+/*Gives the images for the blog a border*/
+#Age img {
+  border:1px solid #F0F0F0;
+  border-width: 3px;
+}
+/*Removes the underline on all the links in the top listings*/
+#Age p a {
+  text-decoration: none;
+  font-family: "alwaysheretoo", Georgia, Serif;
+  color: #23B0CA;
+  margin-left: 0px
+}
+/*Gives all the top listing hypertext this font family and removes the underline
+          Also colors it and moves it over to the right.*/
+#Age a.flag.flag-action.flag-link-toggle.flag-processed {
+  text-decoration: none;
+  font-family: "alwaysheretoo", Georgia, Serif;
+  color: #23B0CA;
+  margin-left: 25px;
+  padding-top: 2px;
+}
+#Age a{
+  text-decoration: none;
+  color: #23B0CA;
+}
+/*Styles the Details hyperlink*/
+#Age div#TDetails {
+  margin-top: 2px;
+  text-decoration: none;
+  font-family: "alwaysheretoo", Georgia, Serif;
+  color: #23B0CA;
+}
+/*floats add to toybox left*/
+.BottomListing div.views-field.views-field-ops {
+  float: left;
+  font-size: 12px;
+  padding-bottom: 2.0000%;
+  padding-left: 20px;
+}
+.BottomListing span.field-content {
+  float: left;
+  font-size: 12px;
+  padding-bottom: 2.0000%;
+}
+/*Gives the bottom listing images a border*/
+.BottomListing img {
+  border:1px solid #F0F0F0;
+  border-width: 3px;
+}
+/*Removes the underline on all the links in the bottom listings*/
+.BottomListing a {
+  font-family: "alwaysheretoo", Georgia, Serif;
+  color: #23B0CA;
+  text-decoration: none;
+  float: left;
+}
+.BottomListing a.BDetails {
+  font-family: "alwaysheretoo", Georgia, Serif;
+  color: #23B0CA;
+  text-decoration: none;
+  float: left;
+  padding-top: 2px;
+}
+.BottomListing a.flag.flag-action.flag-link-toggle.flag-processed{
+  margin-left: 25px;
+  font-family: "alwaysheretoo", Georgia, Serif;
+  color: #23B0CA;
+  padding-top: 2px;
+}
+/* Sets the width of the column for the middle Ads */
+div.panels-flexible-column.panels-flexible-column-blog_projects-2.panels-flexible-column-first {
+  width: 62.0000%;
+}
+ 
+ /* Sets the width of the dive for the middle Ads */
+div.panels-flexible-row.panels-flexible-row-blog_projects-6.clearfix {
+  width: 100.0000%;
+}
+
+/* Sets the size of the column for the top listings */
+div.panels-flexible-row.panels-flexible-row-blog_projects-5.panels-flexible-row-first.clearfix {
+  width: 85.0000%;
+  padding-left: 5.0000%;
+  padding-bottom: 5.000%;
+}
+/* Setting up the pager on the blog page*/
+.BottomListing ul.pager {
+  list-style-type: none;
+  display:inline-block;
+  text-align: center;
+  width: 100.0000%;
+  float: left;
+  margin-left: 20.0000%;
+  padding-top: 5.0000%;
+}
+/*Sets up the First button*/
+.BottomListing li.pager-first.first {
+  float: left;
+  padding-right: 10px;
+}
+/*Sets up the previous button*/
+.BottomListing li.pager-previous {
+  float: left;
+  padding-right: 10px;
+}
+/*Sets up the current page number*/
+.BottomListing li.pager-current.first {
+  float: left;
+  padding-right: 10px;
+}
+/*Sets up the next none numbers*/
+.BottomListing li.pager-next {
+  float: left;
+  padding-right: 10px;
+}
+/*Sets up the next button*/
+.BottomListing li.pager-item {
+  float: left;
+  padding-right: 10px;
+}
+/*Sets up the last button */
+.BottomListing li.pager-last.last {
+  float: left;
+}
+.BottomListing li.pager-current {
+  float: left;
+  padding-right: 10px;
+}
+/*Sets the bottom listings up for it to be inline with the top listings.*/
+div.panels-flexible-row.panels-flexible-row-blog_projects-9.panels-flexible-row-last.clearfix {
+  padding-left: 5.0000%;
+  width: 85.0000%;
+  padding-top: 5.0000%;
+  padding-bottom: 5.0000%;
+}
+/**/
+div.panels-pane.pane-views.pane-simpleads-block-example {
+  margin-right: 5.0000%;
+}
+.panels-flexible-blog_projects .panels-flexible-region {
+  width: 100.0000%;
+}
+/**/
+div.panel-pane.pane-views.pane-archive {
+  width: 300px;
+  background-color: #DADECD;
+}
+/*Centers the month year hypertext for archives*/  /* BE MORE SPECIFIC, PLEASE!!!!! */
+/* div.view-content {
+  text-align: center;
+} */
+/* Centering the h2 on the blog pages */
+#Article h2.pane-title {
+  padding-top: 5.0000%;
+  font-family: "alwaysheretoo" , Georgia, Serif;
+  text-align: center;
+  line-height: 100.0000%;
+  font-size: 150.0000%;
+}
+/*Sets up the Articles for the blog landing*/
+div.panel-pane.pane-views.pane-craftstopten{
+  background-color: #23B0CA;
+  width: 300px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  height: 325px;
+}
+/*Sets font size and color for the article tags*/
+#Article a {
+  color: white;
+  text-decoration: none;
+}
+/* Centers the title of the blog */
+#Article div.views-field.views-field-title{
+  float: left;
+  width: 100.0000%;
+  line-height: 300.0000%;
+  font-size: 75.0000%;
+  text-align: center;
+  font-weight: bold;
+}
+/*Centers the Archive page for blogs*/
+div#content.column.contextual-links-region {
+  text-align: center;
+}
+/*Centers the block for the landings on the Archive page for the blogs*/
+div.view-content {
+  text-align: left;
+}
+/*Centers the archives month year*/
+.Archive div.view-content {
+  text-align: center;
+}
+.Archive a{
+  text-decoration: none;
+}
+
+/*Centers the age group in the blog pages*/
+#AgeGroup {
+  width: 300px;
+  text-align: center;
+}
+/*Sets the width of the rest of the age group on the blog pages*/
+#AgeGroup li a{
+}
+#AgeGroup li:nth-child(2) {
+  display: none;
+}
+#AgeGroup li:nth-child(4) {
+  display: none;
+}
+#AgeGroup li:nth-child(6) {
+  display: none;
+}
+#AgeGroup li:nth-child(8) {
+  display: none;
+}
+#AgeGroup li:nth-child(10) {
+  display: none;
+}
+#AgeGroup li a#field_age_group\3A  {
+  display: inline-block;
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#AgeGroup li._0-1 a{
+  display: inline-block;
+  width: 100.0000%;
+  margin-bottom: 5px;
+}
+#AgeGroup li._2-4 a{
+  display: inline-block;
+  width: 100.0000%;
+  margin-bottom: 5px;
+}
+#AgeGroup li._5-7 a{
+  display: inline-block;
+  width: 100.0000%;
+  margin-bottom: 5px;
+}
+#AgeGroup li._8-12 a{
+  display: inline-block;
+  width: 100.0000%;
+  margin-bottom: 5px;
+}
+#AgeGroup li._13-17 a{
+  display: inline-block;
+  width: 100.0000%;
+  margin-bottom: 5px;
+}
+/*Adding background color to the age list item WholeFamily*/
+#AgeGroup li a#field_age_group\3A {
+  width: 300px;
+  text-decoration: none;
+  background-color: #E8DB80;
+}
+/*Adding background color to the age list item 0-1*/
+#AgeGroup li a#field_age_group\3A 0-1 {
+  width: 300px;
+  text-decoration: none;
+  background-color: #91ADAA;
+}
+/*Adding background color to the age list item 2-4*/
+#AgeGroup li a#field_age_group\3A 2-4 {
+  width: 300px;
+  text-decoration: none;
+  background-color: #DEAC39;
+}
+/*Adding background color to the age list item 5-7*/
+#AgeGroup li a#field_age_group\3A 5-7 {
+  width: 300px;
+  text-decoration: none;
+  background-color: #B84165;
+}
+/*Adding background color to the age list item 8-12*/
+#AgeGroup li a#field_age_group\3A 8-12 {
+  width: 300px;
+  text-decoration: none;
+  background-color: #A4B445;
+}
+/*Adding background color to the age list item 13-17*/
+#AgeGroup li a#field_age_group\3A 13\2b {
+  width: 300px;
+  text-decoration: none;
+  background-color: #816389;
+}
+
+/*Adding background color and size to the age list item WholeFamily when active*/
+#AgeGroup li a#field_age_group\3A .active{
+  width: 300px;
+  text-decoration: none;
+  background-color: #E8DB80;
+}
+/*Adding background color to the age list item 0-1*/
+#AgeGroup li a#field_age_group\3A 0-1.active{
+  width: 300px;
+  text-decoration: none;
+  background-color: #91ADAA;
+}
+/*Adding background color to the age list item 2-4*/
+#AgeGroup li a#field_age_group\3A 2-4.active {
+  width: 300px;
+  text-decoration: none;
+  background-color: #DEAC39;
+}
+/*Adding background color to the age list item 5-7*/
+#AgeGroup li a#field_age_group\3A 5-7.active {
+  width: 300px;
+  text-decoration: none;
+  background-color: #B84165;
+}
+/*Adding background color to the age list item 8-12*/
+#AgeGroup li a#field_age_group\3A 8-12.active {
+  width: 300px;
+  text-decoration: none;
+  background-color: #A4B445;
+}
+/*Adding background color to the age list item 13-17*/
+#AgeGroup li a#field_age_group\3A 13\2b.active {
+  width: 300px;
+  text-decoration: none;
+  background-color: #816389;
+}
+/**/
+div.panel-flexible-inside.panels-flexible-blog_projects-inside {
+  width: 100.0000%;
+}
+/*Makes the left and right middle ads go on top of each other and float left*/
+@media screen and (max-width:1126px) {
+    div.panel-pane.pane-views.pane-simpleads-block-example.LeftAd{ float: left; margin-left: 15.0000%;}
+    div.panel-pane.pane-views.pane-simpleads-block-example.RightAd{ float: left; margin-left: 15.0000%;}
+    div.panel-pane.pane-views.pane-simpleads-block-example.LeftAd:before {
+      content:' ';
+      display:block;
+      border:2px solid #23B0CA;
+      margin-bottom: 2.0000%;
+      width: 99.0000%;
+    }
+    div.panel-pane.pane-views.pane-simpleads-block-example.RightAd:after {
+      content:' ';
+      display:block;
+      border:2px solid #23B0CA;
+      visibility: visible;
+      margin-top: 1.0000%;
+      margin-bottom: 1.0000%;
+      width: 99.0000%;
+    }
+  }
+/*Makes the HR above and below the middle ads invisible*/
+@media screen and (max-width:1126px) {
+    div.panels-flexible-row.panels-flexible-row-blog_projects-6.clearfix:before{
+      display: none;
+    }
+    div.panels-flexible-row.panels-flexible-row-blog_projects-6.clearfix:after{
+      display: none;
+    }
+}
+/*Moves the top ad's margin and sets the top and bottom listings for this size of page*/
+@media screen and (max-width:1086px) {
+div.panel-flexible.panels-flexible-blog_projects.clearfix {
+  margin-left: 0.0000%;
+}
+div.views-field.views-field-field-image {
+  width: 29.0000%;
+  text-align: center;
+  padding-right: 2.0000%;
+  clear: left;
+  float: left;
+}
+.BottomListing div.views-field.views-field-field-image {
+  width: 25.0000%;
+  padding-right: 4.0000%;
+}
+/*Sets the width of the page*/
+div.panel-flexible.panels-flexible-blog_projects.clearfix {
+  width: 100.0000%;
+  margin-left: 1.0000%;
+}
+}
+@media screen and (max-width:1197px) {
+
+
+}
+.Archive div.views-field.views-field-field-description {
+  width: 70.0000%;
+}
+.Toy a.flag.flag-action.flag-link-toggle.flag-processed {
+  font-family: "alwaysheretoo";
+  margin-left: 45px;
+  font-size: 175.0000%;
+  height: 40px;
+  text-decoration: none;
+  color: #23B0CA;
+}
+/*Setting up the toybox picture for all top listings*/
+#Age div.views-field.views-field-ops:before{
+  content: "";
+  background-image: url('/fun4kids/sites/default/files/toy_box_add.png');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+/*Sets up the toybox picture for all top listings*/
+.BottomListing div.views-field.views-field-ops:before{
+  content: "";
+  background-image: url('/fun4kids/sites/default/files/toy_box_add.png');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+div.panels-flexible-row.panels-flexible-row-blog_projects-13.panels-flexible-row-last.clearfix {
+  text-align: center;
+  color: #23B0CA;
+  font-size: 140.0000%;
+}
+
+
+
+
+
+
+/*!!!Setting up the Bolg Detail Pages!!!*/
+/*Moves the hole body of the page over to center it*/
+div#content.column {
+  /* margin-left: 10.0000%; */
+}
+/*Sets the size of the div for the body*/
+div.panels-flexible-row.panels-flexible-row-blog_page-3.clearfix {
+  width: 90.0000%;
+}
+/*Sets the size of the body for the title, description, and body of the text*/
+#content div.panels-flexible-column.panels-flexible-column-blog_page-4.panels-flexible-column-first {
+  width: 68.0000%;
+}
+div.panels-flexible-column.panels-flexible-column-blog_page-5.panels-flexible-column-last{
+  width: 300px;
+}
+#CraftsByAge {
+  width: 300px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+/*Moves the body to the center in the sponsered blog detials page*/
+div.panels-flexible-row.panels-flexible-row-sponsered_blog-2.clearfix.SBody {
+  width: 70.0000%;
+  margin-left: 10.0000%;
+}
+/*Puts the title in place on detailed blog and fun artical detail*/
+.title {
+  margin-left: 9.0000%;
+  width: 90.0000%;
+}
+/*Sets the title for the sponserd detailed blog*/
+div#Title.panel-pane.pane-node-title.title {
+  margin-left: 0%;
+}
+/*centers the blog detailed page and fun artical detail page*/
+.BGroup {
+  margin-left: 9.0000%;
+}
+/*Centers the sponsered blog page*/
+div#BGroup.panel-pane.pane-entity-field.pane-node-field-age-group.BGroup {
+  margin-left: 0%;
+}
+/*Moves the body of the text over on the blog details page and fun articles details page*/
+.Body {
+  margin-left: 9.0000%;
+  margin-top: 16px;
+  float: left;
+  width: 90.0000%;
+}
+/*centers the body of the sponsered details blog page*/
+div#Body.panel-pane.pane-entity-field.pane-node-body.Body {
+  width: 100.0000%;
+  margin-left: 0%;
+}
+/*Moves the toybox into position*/
+.Toy {
+  width: 85.0000%;
+}
+/*sets the width of the comment section in the blog detials page and the fun articles detailed page*/
+.Comments {
+  width: 60.0000%;
+}
+/*Sets the width of the comment section in the sponsered blog page*/
+#Comments {
+  width: 100.0000%;
+}
+/*Centering the title on the blog details pages*/
+div.panel-pane.pane-node-title.title {
+  font-size: 150.0000%;
+  font-weight: bold;
+  color: #23B0CA;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  float: left;
+}
+/*Moved the date field over with the rest of the group*/
+.Date {
+  margin-left: 9.0000%;
+}
+.Author {
+  margin-left: 9.0000%;
+  margin-bottom: 5.0000%;
+}
+/*Sets up the title on the blog detail page*/
+.BGroup h2.pane-title{
+  font-weight: lighter;
+  float: left;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+.BGroup div.field-item.even {
+  float:left;
+  width: 27px;
+  height: 27px;
+  margin-right: 10px;
+}
+.BGroup div.field-item.odd {
+  float:left;
+  width: 27px;
+  height: 27px;
+  margin-right: 10px;
+}
+/*Sets up the ages in a line*/
+.BGroup div.field-items {
+  float: left;
+  display: inline-block;
+  width: 50.0000%;
+  list-style-type: none;
+}
+/*These all set up the ages squares and colors.*/
+.BGroup li._0-1{
+  text-align: center;
+  width:27px;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #91ADAA;
+  font-size: 10px;
+  float:left;
+  vertical-align: middle;
+  padding-top: 32.0000%;
+  padding-bottom: 32.0000%;
+}
+.BGroup li._2-4{
+  text-align: center;
+  width:27px;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #DEAC39;
+  font-size: 10px;
+  float:left;
+  vertical-align: middle;
+  padding-top: 32.0000%;
+  padding-bottom: 32.0000%;
+}
+.BGroup li._5-7{
+  text-align: center;
+  width:27px;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #B84165;
+  font-size: 10px;
+  float:left;
+  vertical-align: middle;
+  padding-top: 32.0000%;
+  padding-bottom: 32.0000%;
+}
+.BGroup li._8-12{
+  text-align: center;
+  width:27px;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #A4B445;
+  font-size: 10px;
+  float:left;
+  vertical-align: middle;
+  padding-top: 32.0000%;
+  padding-bottom: 32.0000%;
+}
+.BGroup li._13-17{
+  text-align: center;
+  width:28px;
+  line-height: 100.0000%;
+  text-align:center;
+  background: #816389;
+  font-size: 9px;
+  float:left;
+  vertical-align: middle;
+  padding-top: 33.0000%;
+  padding-bottom: 33.0000%;
+}
+/*Sets the blue hr line in the sponsered page*/
+#Toy div.views-field.views-field-ops {
+  width: 106.0000%;
+}
+/*Setting up the toybox picture in the blog details page and fun articles blog details page*/
+.Toy span.field-content:before{
+  content: "";
+  background-image: url('/fun4kids/sites/default/files/toy_box_add_lg.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: 5px;
+}
+#Toy span.field-content:before{
+  content: "";
+  background-image: url('/fun4kids/sites/default/files/toy_box_add_lg.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  margin-top: 5px;
+}
+/*Gets the blue hr line after the toybox in the blog details page and fun articles blog details page*/
+.Toy div.views-field.views-field-ops {
+  float: left;
+  font-size: 12px;
+  padding-bottom: 2.0000%;
+  width: 70.0000%;
+}
+/*Moves the toyboxt to the right*/
+.Toy span.field-content {
+  margin-left: 35.0000%;
+  display: block;
+}
+/*Sets the width of the span for the toyboc picture in the sponsered blog detailed page*/
+#Toy span.field-content {
+  margin-left: 0%;
+  margin-left: 39.5000%;
+  width: 100.0000%;
+}
+/*Sets the width for the span that holds the toybox text in the sponsered blog detailed page*/
+#Toy span.flag-wrapper.flag-blogs.flag-blogs-121 {
+  width: 25.0000%;
+  margin-left: 40px;
+}
+/**/
+#Toy a.flag.flag-action.flag-link-toggle.flag-processed {
+  margin-left: 5px;
+}
+/*Setting up the toybox picture in the blog details page and fun articles blog details page*/
+.Toy div.views-field.views-field-ops:after{
+  content:' ';
+  display:block;
+  border:2px solid #23B0CA;
+  margin-bottom: 2.0000%;
+  width: 100.0000%;
+  margin-left: 0px;
+  padding-left: 0px; 
+  margin-top: 40px;
+}
+.Toy div.panel-pane.pane-views.pane-crafts4kidslistings.Toy {
+  width: 70.0000%;
+  float: left;
+}
+/*Sets the comment title up for the sponsered detail blog page*/
+#Comments h2.pane-title {
+  width: 90.0000%;
+}
+#Comments div#edit-comment-body--2.field-type-text-long.field-name-comment-body.field-widget-text-textarea.form-wrapper {
+  width: 90.5000%;
+}
+/
+/*Sets up the title for the comments in the blog Details page and the fun articles detail page*/
+.Comments h2.pane-title {
+  width: 60.0000%;
+  text-align: center;
+  font-size: 175.0000%;
+}
+/*Hides the title for the comment section*/
+.Comments .title {
+ display: none;
+}
+/*Sets the width of the comment section on the blog details page and the fun articles detailed blog page*/
+.Comments div#edit-comment-body--2.field-type-text-long.field-name-comment-body.field-widget-text-textarea.form-wrapper {
+  width: 100.0000%
+}
+/*Sets the width of the span that holds they toybox text in the blog detailed page and fun articles page*/
+.Toy span.flag-wrapper.flag-blogs.flag-blogs-121 {
+  height: 40px;
+  display: block;
+  padding-top: 20px;
+}
+/*Styles the toybox text remove*/
+.Toy a.flag.unflag-action.flag-link-toggle.flagged.flag-processed {
+  font-family: "alwaysheretoo";
+  margin-left: 45px;
+  font-size: 175.0000%;
+  height: 40px;
+  text-decoration: none;
+  color: #23B0CA;
+}
+/*Setting up the tagcloud block*/
+div.contextual-links-region.panel-pane.pane-block.pane-tagclouds-1 {
+  padding-top: 10px;
+}
+.Comments a.permalink {
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+  color: #23B0CA;
+}
+.Comments mark.new {
+  display: none;
+}
+ul.pager {
+  list-style-type: none;
+}
+li.pager-current.first {
+  float: left;
+}
+li.pager-item{
+  float: left;
+}
+li.pager-last.last {
+  float: left;
+}
+
+/*Cloud styling*/
+.pane-tagclouds-1 {
+  margin-bottom: 40px;
+}
+.pane-tagclouds-1 a {
+  font-family: "alwaysheretoo", Georgia, Serif;
+  text-decoration: none;
+  color: #23B0CA;
+}
+.pane-tagclouds-1 a:hover {
+  text-decoration: underline;
+}
+
+/*Monthly calandar stuff*/
+/*Top ad*/
+.panels-flexible-row.panels-flexible-row-64-main-row.panels-flexible-row-first.clearfix .simplead-container {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.panels-flexible-row.panels-flexible-row-64-main-row.panels-flexible-row-first.clearfix img {
+  width: 100%;
+  height: auto;
+}
+/*Side ad*/
+.panels-flexible-region.panels-flexible-region-64-calendar.panels-flexible-region-first {
+  padding-left: 7px;
+}
+
+.section-monthly-calendar .pane-global-filter-global-filter-2 {
+  width: 280px;
+}
+
+.section-monthly-calendar .contextual-links-region.panel-pane.pane-block.pane-global.filter-global-filter-2 h2 {
+  font-size: 10px;
+}
+
+/*.section-monthly-calendar .active,
+.section-monthly-calendar ._0-1,
+.section-monthly-calendar ._2-4,
+.section-monthly-calendar ._5-7,
+.section-monthly-calendar ._8-12,
+.section-monthly-calendar ._13-17*/
+.section-monthly-calendar .global-filter-2-field-age-group li {
+  margin-right: 1px;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 35px;
+  font-size: 10px;
+}
+
+.section-monthly-calendar .global-filter-2-field-age-group li a {
+  text-decoration: none;
+}
+
+.section-monthly-calendar .active,
+.section-monthly-calendar ._0-1,
+.section-monthly-calendar ._2-4,
+.section-monthly-calendar ._5-7,
+.section-monthly-calendar ._8-12,
+.section-monthly-calendar ._13-17 {
+  width: 35px;
+  height: 35px;
+} 
+
+.section-monthly-calendar li.active {
+  background-color: #E8DB80;
+  width: 94px;
+  border-radius: 50px / 18px;
+}
+
+.section-monthly-calendar a.active  {
+  font-weight: bold !important;
+}
+
+.section-monthly-calendar ._0-1 {
+  background-color: #91ADAA;
+}
+
+.section-monthly-calendar ._2-4 {
+  background-color: #DEAC39;
+}
+
+.section-monthly-calendar ._5-7 {
+  background-color: #B84165;
+}
+
+.section-monthly-calendar ._8-12 {
+  background-color: #A4B445;
+}
+
+.section-monthly-calendar ._13-17 {
+  background-color: #816389;
+  margin-right: 0px;
+}

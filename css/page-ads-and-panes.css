@@ -1,0 +1,161 @@
+.ad-container a, .ad-container img, .img-container img {
+  display: block; /* so links' dimensions match their image; so extra space based on 'line-height' doesn't occur for img */
+  max-width: 100%; /* ensure the (ad) image scales down to the size its container if its width shrinks */
+  height: auto;    /* so height stays in proportion to width */
+  line-height: 0;
+}
+
+.ad-container--vert + .ad-container--vert {
+  margin-top: 3.3333%; /* so 32px at max size (32px / 960px) */
+}
+
+.pane-left--width-65percent-no-max {
+  float: left;
+  width: 65%;
+}
+
+.pane-left--width-65percent-600px-max {
+  float: left;
+  max-width: 600px;
+  width: 65%;
+}
+
+.pane-right--width-35percent-300px-max {
+  float: right;
+  max-width: 300px;
+  width: 35%;
+}
+
+.pane-right--width-35percent-300px-max-with-padding {
+  float: right;
+  max-width: 300px;
+  width: 33.3333%;
+  padding-left: 1.6667%;
+}
+
+
+
+.ad-container--top-ad {
+  margin-bottom: 2.5%; /* so 24px at max size (24px / 960px) */
+}
+
+/* if the ads are inside of a mini-panel, instead of by themselves */
+.pane-panels-mini .ad-container--vert + .ad-container--vert {
+  margin-top: 10.6667%; /* so 32px when at full size (32px / 300px) */
+}
+
+.business-page-side-ads .ad-container--vert + .ad-container--vert {
+  margin-top: 5.3333%; /* in business pages, want margin to be smaller */
+}
+
+
+/*                                               *
+ * STYLES FOR THE PANELS/BLOCKS OF THE TOP-PANE *
+ *                                               */
+
+/*                                     *
+ * Pane for the top ad on the homepage *
+ *                                     */
+.ad-container--top-ad {
+  display: flex;
+  justify-content: center;
+}
+
+.home-content-region-pane .simplead-container {
+  padding-top: 0 !important; /* overrides selector 'div.simplead-container.image-ad.first' in newsletter.css */
+}
+
+
+/*                           *
+ * Pane for the seasonal ads *
+ *                           */
+/* .tri-ads-pane .panel-flexible-inside */
+.ad-container--three-grid .view-content {
+  /* using flex for the containing div of the individual ad regions,
+  because it (justify-content: space-around)
+  automatically takes care of the margins, so don't have to manually calculate them if ever need to
+  readjust width in future */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+@media all and (min-width: 941px) {
+  /* .tri-ads-pane */
+  .ad-container--three-grid {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* .tri-ads-pane .panels-flexible-region */
+  .ad-container--three-grid .view-content > div img {
+    width: 190px;
+  }
+}
+
+@media all and (max-width: 940px) {
+  .ad-container--three-grid .view-content > div {
+    width: calc(31.0344% + 3.7931px); /* so approx 190px at 600px container width; 100px at 310px (min) */
+    max-width: 190px;
+  }
+
+  .ad-container--three-grid .view-content > div img {
+    width: 100%;
+  }
+}
+
+
+
+/*                         *
+ * Pane for the middle ads *
+ *                         */
+.page-horz-ads-pane {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.page-horz-ads-pane .panels-flexible-region-inside {
+  padding: 0px; /* I don't want any internal padding */
+}
+
+.page-horz-ads-pane .ad-container {
+  width: 48.75%; /* so basically a 2.5% (16 / 640) gap between the images */
+}
+
+ /* in case 48.75% ends up being larger than actual ad-size */
+.pane-home-horz-ads .panel-pane,
+.pane-business-listings-middle-ads .panel-pane {
+  max-width: 280px;
+}
+
+.pane-home-side-ads .panel-pane {
+  max-width: 300px;
+}
+
+.pane-440-ads .panel-pane {
+  max-width: 440px;
+}
+
+
+/*                                *
+ * Pane for Ads on the right side *
+ *                                */ 
+@media all and (min-width: 841px) {
+  .pane-home-side-ads {
+    display: none;
+  }
+}
+
+@media all and (max-width: 840px) {
+  .home-side-ad {
+    display: none;
+  }
+}
+
+@media all and (min-width: 641px) {
+  .pane-home-side-ads {
+    max-width: 300px;
+  }
+}

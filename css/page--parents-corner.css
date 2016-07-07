@@ -1,0 +1,19 @@
+/* Style the "Parent's Corner" title */
+#parents-corner-title {
+	font-family: "antique_olive_compact";
+	font-size: 2.25em;
+	text-align: center;
+	margin: .5em 0;
+}
+
+@media all and (min-width: 958px) {
+  .rainy-day-pane::before { /* is there a better way to do this without having to use a pseduo-element? */
+    content: "";
+    background-image: url('/fun4kids/images/home_family_rain.png');
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 177px;
+    position: absolute;
+    left: -24px;
+  }
+}

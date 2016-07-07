@@ -1,0 +1,89 @@
+#findYourRegion > h2 
+{
+    color: #682160;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5em;
+}
+
+#findYourRegion .MNRegions div 
+{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+#findYourRegion ul 
+{
+    list-style: none;
+}
+
+#findYourRegion li 
+{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+#findYourRegion .brainerd, #findYourRegion .neMetro, #findYourRegion .nwSuburb, #findYourRegion .southernMN, #findYourRegion .saintPaul, #findYourRegion .swMetro
+{
+    display:block;
+    float: left;
+    clear: left;
+}
+
+#findYourRegion .fargo, #findYourRegion .northeast, #findYourRegion .nwMetro, #findYourRegion .seMetro, #findYourRegion .saintCloud
+{
+    display: block;
+    float: right;
+    clear: right;
+}
+
+#findYourRegion .fargo 
+{
+    margin-top: -23px;
+}
+
+#findYourRegion .neMetro 
+{
+    margin-top: 25px;
+}
+
+#findYourRegion .northeast 
+{
+    margin-top: -25px;
+}
+
+#findYourRegion .nwMetro
+{
+    
+}
+#findYourRegion .nwSuburb 
+{
+    margin-top: -95px;
+}
+
+#findYourRegion .seMetro 
+{
+    margin-top: -20px;
+}
+
+#findYourRegion .southernMN 
+{
+    margin-top: -95px;
+}
+
+#findYourRegion .saintCloud 
+{
+    margin-top: -20px;
+}
+
+#findYourRegion .saintPaul 
+{
+    margin-top: -340px;
+}
+
+#findYourRegion .swMetro 
+{
+    margin-top: -295px;
+}

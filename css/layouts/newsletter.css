@@ -1,0 +1,1273 @@
+/*
+div#header-newsletter {
+    background-color: #23B0CA;
+      height: 35px;
+}
+
+div#header-newsletter > p {
+    float: left;
+      padding-left: 200px;
+      padding-top: 5px;
+      color: white;
+ }
+
+div#header-newsletter > form > div > div >  label {
+    float: left;
+      padding-left: 30px;
+      padding-top: 5px;
+      color: white;
+}
+
+div#header-newsletter > form > div > div > input#edit-mail {
+    margin-left: 25px;
+      width: 175px;
+      margin-top: 6.4px;
+      float: left;
+      height: 15px;
+}
+
+div#header-newsletter > form > div > input#edit-submit {
+    float: left;
+      margin-left: 30px;
+      margin-top: 6px;
+      border: 2px solid #682160;
+      border-radius: 25px;
+      background-color: #E8DB80;
+      width: 100px;
+}
+
+div#header-newsletter > form > div > input#edit-submit--2 {
+    float: left;
+      margin-left: 30px;
+      margin-top: 6px;
+      border: 2px solid #682160;
+      border-radius: 25px;
+      background-color: #E8DB80;
+      width: 100px;
+}
+
+div#header-newsletter > form > div > input#edit-submit--3 {
+    float: left;
+      margin-left: 30px;
+      margin-top: 6px;
+      border: 2px solid #682160;
+      border-radius: 25px;
+      background-color: #E8DB80;
+      width: 100px;
+}
+*/
+div#block-block-8 > p {
+    display: none !important;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-13-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-13-center.panels-flexible-region-first > div > div.panel-pane.pane-custom.pane-1 > h1 > span {
+    vertical-align: top;
+      font-size: 2.4em;
+      color: #682160;
+}
+
+div#toyEvents {
+    width:95%;
+}
+
+div#toyEvents > h2 {
+    text-align: left;
+      font-family: "alwaysheretoo";
+      color: #f57e20;
+      border-bottom: 3px solid;
+}
+
+div#toyPlaces {
+    width:95%;
+}
+
+#toyPlaces > h2 {
+    text-align: left;
+      margin-top: 50px;
+      font-family: "alwaysheretoo";
+      color: #A4b43a;
+      border-bottom: 3px solid;
+}
+
+div#toyGarage {
+    width: 95%;
+}
+
+div#toyGarage > h2 {
+    text-align: left;
+      margin-top: 50px;
+      font-family: "alwaysheretoo";
+      color: #23B0CA;
+      border-bottom: 3px solid;
+}
+
+div#toyFunArticles {
+    width: 95%;
+}
+
+div#toyFunArticles > h2 {
+    text-align: left;
+      margin-top: 50px;
+      font-family: "alwaysheretoo";
+      color: #e86370;
+      border-bottom: 3px solid;
+}
+
+div#toyProjects {
+    width: 95%;
+}
+
+div#toyProjects > h2 {
+    text-align: left;
+      margin-top: 50px;
+      font-family: "alwaysheretoo";
+      color: #724a25;
+      border-bottom: 3px solid;
+}
+
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-field-date {
+    float: left;
+}
+
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-field-start-time-event {
+    float: left;
+    margin-left: 15px;
+}
+
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-title {
+    float: left;
+    margin-left: 20px;
+    width: 169px;
+}
+
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-view-node {
+    float: left;
+    margin-left: 10px;
+}
+
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-ops {
+    float: left;
+    margin-left: 20px;
+}
+
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-view-node > a,
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-ops > span > a {
+    text-decoration: none;
+    color: #23B0CA;
+}
+
+#toyEvents > div > div > table > tbody > tr > td.views-field.views-field-ops > span:before {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_trash.png');
+      background-repeat: no-repeat;
+      padding-left: 14px;
+}
+
+#toyPlaces > div > div > table > tbody > tr > td.views-field.views-field-title {
+    width: 345px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#toyPlaces > div > div > table > tbody > tr > td.views-field.views-field-view-node > a,
+#toyPlaces > div > div > table > tbody > tr > td.views-field.views-field-ops > span > a {
+    text-decoration: none;
+    color: #23B0CA;
+}
+
+#toyPlaces > div > div > table > tbody > tr > td.views-field.views-field-ops > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_trash.png');
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      margin-left: 25px;
+}
+
+#toyGarage > div > div > table > tbody > tr > td.views-field.views-field-field-address-garage {
+    padding-left: 20px;
+      width: 275px;
+      padding-right: 10px;
+}
+
+#toyGarage > div > div > table > tbody > tr > td.views-field.views-field-view-node > a,
+#toyGarage > div > div > table > tbody > tr > td.views-field.views-field-ops > span > a {
+    text-decoration: none;
+    color: #23B0CA;
+}
+
+#toyGarage > div > div > table > tbody > tr > td.views-field.views-field-ops > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_trash.png');
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      margin-left: 25px;
+}
+
+#toyFunArticles > div > div > table > tbody > tr > td.views-field.views-field-title.views-align-left {
+    width: 400px;
+    padding-right: 25px;
+}
+
+#toyFunArticles > div > div > table > tbody > tr > td.views-field.views-field-view-node.views-align-left > a,
+#toyFunArticles > div > div > table > tbody > tr > td.views-field.views-field-ops.views-align-left > span > a {
+    text-decoration: none;
+    color: #23B0CA;
+}
+
+#toyFunArticles > div > div > table > tbody > tr > td.views-field.views-field-ops.views-align-left > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_trash.png');
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      margin-left: 25px;
+}
+
+#toyProjects > div > div > table > caption {
+    float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "alwaysheretoo";
+  font-weight: bold;
+  color: #23b0ca;
+}
+
+#toyProjects > div > div > table > tbody > tr > td.views-field.views-field-title.views-align-left {
+    width: 320px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+#toyProjects > div > div > table > tbody > tr > td.views-field.views-field-view-node.views-align-left > a,
+#toyProjects > div > div > table > tbody > tr > td.views-field.views-field-ops.views-align-left > span > a {
+    text-decoration: none;
+    color: #23B0CA;
+}
+
+#toyProjects > div > div > table > tbody > tr > td.views-field.views-field-ops.views-align-left > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_trash.png');
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      margin-left: 25px;
+}
+
+#toyProjects > div > div > table:nth-child(4) > caption {
+    text-align: left;
+    width: 68px;
+}
+
+#toyProjects > div > div > table:nth-child(4) > tbody > tr > td.views-field.views-field-title.views-align-left {
+    padding-left: 10px !important;
+}
+
+#content > article > div > div > div.panels-flexible-region.panels-flexible-region-63-side.panels-flexible-region-last,
+#content > article > div > div > div.panels-flexible-region.panels-flexible-region-63-main_.panels-flexible-region-first {
+    margin-top: 40px;
+}
+
+#content > article > div > div > div.panels-flexible-region.panels-flexible-region-63-main_.panels-flexible-region-first > div > div > h2 {
+    font-size: 2.5em;
+    color: #682160;
+    text-align: left;
+}
+
+#garage-sale-node-form {
+    margin-top: 30px;
+}
+/*
+#edit-field-region-und > div.form-item.form-type-checkbox.form-item-field-region-und-All {
+    content: "(Please leave checked)";
+    display: none !important;
+}
+*/
+/*
+#edit-field-region-und > div.form-item.form-type-checkbox {
+    float: left;
+    padding-right: 10px;
+}
+*/
+/*
+#garage-sale-node-form > div > div.form-item.form-type-textfield.form-item-title {
+    margin-bottom: 20px;
+}
+
+#edit-field-address-garage {
+    clear: both;
+}
+*/
+/*
+#edit-field-city-st-cloud,
+#edit-field-city-brain,
+#edit-field-city-nw-metro,
+#edit-field-city-ne-metro,
+#edit-field-city-sw-metro,
+#edit-field-city-se-metro,
+#edit-field-city-mpls-st-paul,
+#edit-field-city-st-paul,
+#edit-field-city-nw-sub,
+#edit-field-city-south,
+#edit-field-city-northeast,
+#edit-field-city-fargo {
+    clear: both;
+    padding-top: 20px;
+}
+*/
+/*
+#edit-field-region--2 {
+    width: 90%;
+}
+*/
+/*
+#edit-field-address-garage {
+    padding-top: 20px;
+}
+#edit-field-address-garage,
+#edit-field-states,
+#edit-field-zip,
+#edit-field-dates,
+#edit-field-children-s-items-for-sale--2,
+#edit-field-descriptions,
+#edit-field-person-to-contact-about-th,
+#edit-field-email-address {
+    margin-bottom: 20px;
+}
+*/
+/*
+#edit-field-dates {
+    width: 70%;
+}
+
+#field-dates-add-more-wrapper > fieldset > div > div.date-no-float.end-date-wrapper.container-inline-date > div > label {
+    float: left;
+    margin-left: 180px;
+}
+
+#edit-field-dates-und-0-value2 {
+    clear: left;
+}
+#edit-field-dates-und-0-value > div > label > span,
+#edit-field-dates-und-0-value2 > div > label > span,
+#field-dates-add-more-wrapper > fieldset > div > div.date-no-float.end-date-wrapper.container-inline-date > div > label > span  {
+    display: none;
+}
+
+#edit-field-dates-und-0-value > div > label,
+#edit-field-dates-und-0-value2 > div > label {
+    padding-right: 20px;
+}
+
+#edit-field-dates-und-0-value,
+#edit-field-dates-und-0-value2 {
+    margin-left: 90px;
+}
+
+#edit-field-children-s-items-for-sale-und {
+    margin-left: 50px;
+}
+
+#edit-field-descriptions-und-0-value {
+    height: 150px;
+}
+
+#field-descriptions-add-more-wrapper > div > div {
+    width: 70%;
+}
+
+#edit-field-zip {
+    float: left;
+    padding-left: 50px;
+}
+
+#edit-field-states {
+    float: left;
+}
+
+#edit-field-person-to-contact-about-th-und-0-value {
+    width: 200px;
+}
+*/
+/*
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-sie_content.panels-flexible-region-last {
+    padding-left: 9.6px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-1.panels-flexible-row-first.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-ads2.panels-flexible-region-last > div {
+    padding-left: 30px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-custom.pane-1 > h1 {
+    text-align: center;
+    color: #682160;
+}
+
+#content > div.contextual-links-region > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-dates {
+    padding-bottom: 15px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-dates > div > div.field-label {
+    padding-right: 46px;
+}
+
+#content > div.contextual-links-region > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-address-garage {
+    padding-bottom: 15px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-address-garage > div > div.field-label {
+    padding-right: 15px;
+}
+
+#content > div.contextual-links-region > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div:nth-child(4) {
+    padding-bottom: 15px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-city-st-cloud > div > div.field-label {
+    padding-right: 53px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-children-s-items-for-sale > h2 {
+    text-align: left;
+}
+
+p.simple-gmap-link {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+p.simple-gmap-link > a {
+    color: #682160;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-sie_content.panels-flexible-region-last > div > div.panel-pane.pane-entity-field.pane-node-field-address-garage {
+    padding-top: 50px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-descriptions > h2 {
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 8px;
+    clear: left;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-token.pane-node-flag-garage-sale-link {
+    padding-top: 45px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-token.pane-node-flag-garage-sale-link > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_add.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-token.pane-node-flag-garage-sale-link {
+    padding-bottom: 45px;
+}
+
+#content > div > div.panel-flexible.panels-flexible-61.clearfix > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-token.pane-node-flag-garage-sale-link > span > a {
+    color: #23B0CA;
+    font-family: "alwaysheretoo";
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#toyItems > div > div > div {
+    float: left;
+    width:45%;
+    padding-right: 15px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div > div > div > div.views-row-even {
+    background-image: url('http://adcompanyhosting.com/fun4kids/images/calendar-background.png');
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div > div > div > div > div.views-field.views-field-field-dates {
+    width: 65%;
+    padding-bottom: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-sidecont.panels-flexible-region-last > div > div.contextual-links-region.panel-pane.pane-block.pane-global-filter-global-filter-3 > h2 {
+    clear: both;
+    float: right;
+    width: 300px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-sidecont.panels-flexible-region-last > div > div.panel-pane.pane-custom.pane-1 {
+    float: right;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-main-row.panels-flexible-row-first.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-topad2.panels-flexible-region-last > div {
+    float: right;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-sidecont.panels-flexible-region-last > div > div.panel-pane.pane-block.pane-global-filter-global-filter-3 > h2 {
+    clear: both;
+    font-size: 13px;
+      color: #682160;
+      width: 80%;
+      float: right;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-sidecont.panels-flexible-region-last > div > div.panel-pane.pane-views.pane-simpleads-block-example {
+    float: right;
+    margin-top: 30px;
+}
+*/
+/*
+#global-filter-3 > div > ul > li {
+    margin-right: 2em;
+      width: 50%;
+      float: right;
+}
+
+#global-filter-3 > div > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+#global-filter-3 > div > ul > li > a:hover {
+    color: #23b0ca;
+}
+*/
+/*
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-main-row.panels-flexible-row-first.clearfix {
+    margin-top: 30px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div > h2 {
+    border-bottom: 4px solid #23b0ca;
+      color: #682160;
+      text-align: left;
+      padding-left: 20px;
+      font-size: 2.8em;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-sidecont.panels-flexible-region-last > div > div.panel-pane.pane-custom.pane-2 > p > img {
+    float: right;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-custom.pane-1 {
+    width: 40%;
+    float: right;
+    margin-top: -12px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first {
+    font-size: 14px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div.views-field.views-field-view-node > span > a {
+    text-decoration: none;
+    color: #23B0CA;
+    font-family: "alwaysheretoo";
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div.views-field.views-field-field-address-garage,
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div:nth-child(3) {
+    padding-left: 10px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div.views-field.views-field-ops > span > span > a {
+    text-decoration: none;
+    color: #23b0CA;
+    font-weight: bold;
+    font-family: "alwaysheretoo";
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div.views-field.views-field-ops {
+    padding-left: 10px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div.views-field.views-field-ops > span > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_add_luke.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div.views-row-even > div.views-field.views-field-ops > span > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_add_luke.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-custom.pane-1 > h1 {
+    text-align: center;
+    color: #682160;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-dates {
+    padding-bottom: 15px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-dates > div > div.field-label {
+    padding-right: 46px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-1.panels-flexible-row-first.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-ads2.panels-flexible-region-last > div {
+    float: right;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-sie_content.panels-flexible-region-last > div > div.panel-pane.pane-entity-field.pane-node-field-address-garage > div > div > div > iframe {
+    float: right;
+    padding-top: 50px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-sie_content.panels-flexible-region-last > div > div.panel-pane.pane-views.pane-simpleads-block-example > div {
+    float: right;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-1.panels-flexible-row-first.clearfix {
+    padding-top: 30px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-address-garage > div > div.field-label {
+    padding-right: 15px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-address-garage {
+    padding-bottom: 15px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-city-st-cloud > div > div.field-label {
+    padding-right: 53px;
+}
+
+#toyItems > h2 {
+    text-align: left !important;
+    padding-top: 15px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-entity-field.pane-node-field-descriptions > h2 {
+    clear: both;
+    text-align: left;
+    padding-top: 25px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-token.pane-node-flag-garage-sale-link {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-token.pane-node-flag-garage-sale-link > span > a {
+    color: #23b0ca;
+    text-decoration: none;
+    font-family: "alwaysheretoo";
+    font-weight: bold;
+}
+
+#content > div > div > div.panels-flexible-row.panels-flexible-row-61-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-61-center.panels-flexible-region-first > div > div.panel-pane.pane-token.pane-node-flag-garage-sale-link > span {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/toy_box_add.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+ }
+
+
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div {
+    display: table;
+    margin-bottom: 25px;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div:nth-child(6) {
+    display: table-cell;
+}
+
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div.views-field.views-field-field-children-s-items-for-sale > div > div > ul {
+    list-style: none;
+}
+
+#content > article > div > div > div > p:nth-child(2) > img {
+    float: right;
+}
+
+#content > article > div > div > div > h1 {
+    font-size: 2.5em;
+      color: #682160;
+      padding-top: 30px;
+}
+
+#edit-actions > input#edit-submit--2 {
+    background: url('http://adcompanyhosting.com/fun4kids/images/calendar-link.png') no-repeat;
+      cursor: pointer;
+      width: 221px;
+      height: 53px;
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      font-weight: bold;
+      font-size: 20px;
+}
+
+#edit-actions > input#edit-submit--2:hover {
+    background: url('http://adcompanyhosting.com/fun4kids/images/calendar-link-hover.png') no-repeat;
+      cursor: pointer;
+      width: 221px;
+      height: 53px;
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      font-weight: bold;
+      font-size: 20px;
+}
+
+
+input#edit-preview {
+    display: none;
+}
+/*
+li._adultClothing {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/09_other_clothes.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._antiques {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/10_other_antiques.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._boyAndgirl {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/03_boy_girl.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._boyItems {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/02_boy.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._childClothing {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/04_kids_clothes.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._childFurniture {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/07_kids_furniture.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._electro {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/10_other_electronics.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._furniture {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/12_other_furniture.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._gear {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/06_kids_gear.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._girlItems {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/01_girl.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._household {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/11_other_household.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._matClothing {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/08_maternity.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+
+li._toysGames {
+    content: "";
+      background-image: url('http://adcompanyhosting.com/fun4kids/images/sales/05_kids_toys.png');
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      list-style: none;
+}
+*/
+/*
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-30-1.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-30-main_.panels-flexible-region-first > div > div.panel-pane.pane-views.pane-garage-sale-listing > div > div > div > div.views-field.views-field-field-children-s-items-for-sale {
+    width: 40%;
+}
+*/
+/*
+a#gSubmit,
+a#gSubmit:hover 
+
+ {
+    background-image: url('http://adcompanyhosting.com/fun4kids/images/garage-sale-link.png');
+    background-repeat: no-repeat;
+    padding-left: 300px;
+    padding-bottom: 40px;
+}
+*/
+/*
+label.option {
+    float: left;
+    margin-left: 15px;
+}
+*/
+/*
+div#edit-field-children-s-items-for-sale-und input {
+    float: left;
+    clear: left;
+}
+
+div#edit-field-descriptions {
+    clear: both;
+    padding-top: 25px;
+}
+*/
+/*div.simplead-container.image-ad.first,
+#content > article > div > div > div.panels-flexible-row.panels-flexible-row-13-main-row.panels-flexible-row-last.clearfix > div > div.panels-flexible-region.panels-flexible-region-13-ads.panels-flexible-region-last > div > div:nth-child(3) > div > div > div > div > div > a > img{
+    padding-top: 25px;
+}*/
+/*
+h2#Submit {
+      color: #682160;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 2.5em;
+}
+*/
+/*
+div#field-event-email-add-more-wrapper > div > label,
+#fun-4-kids-event-node-form > div > div.form-item.form-type-textfield.form-item-title > label {
+    width: 30%;
+}
+*/
+/*
+div#field-event-email-add-more-wrapper > div > input,
+input#edit-title {
+    width: 60%;
+    margin-left: 10%;
+}
+*/
+/*
+#fun-4-kids-event-node-form > div > div.form-item.form-type-textfield.form-item-title,
+#field-event-email-add-more-wrapper > div {
+    margin-top: 25px;
+}
+*/
+/*
+#edit-field-region--2 {
+    margin-top: 25px;
+}
+*/
+/*
+#edit-field-states {
+    margin-top: 25px;
+    clear:left;
+}
+*/
+/*
+#edit-field-states > div > label {
+    width:30%;
+}
+*/
+/*
+#edit-field-states > div > select {
+    margin-left: 25px;
+}
+*/
+/*
+#field-zip-add-more-wrapper > div {
+    margin-top: 25px;
+}
+*/
+/*
+div#edit-field-address-event {
+    clear: left;
+}
+*/
+/*
+div#edit-field-address-event > div > div > label {
+    width: 30%;
+}
+*/
+/*
+div#edit-field-address-event > div > div > input {
+    width: 60%;
+    margin-left: 10px;
+}
+*/
+/*
+div#field-date-add-more-wrapper > div > div.tabledrag-toggle-weight-wrapper {
+    display: none;
+}
+*/
+/*
+table#field-date-values {
+    margin-top: 25px;
+    width: 75%;
+}
+
+table#field-date-values > thead  {
+    display: none;
+}
+*/
+/*
+div.date-float {
+    width: 44.5%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    padding-right: 15px;
+}
+*/
+/*
+div.date-no-float.start-date-wrapper.container-inline-date,
+div.date-no-float.end-date-wrapper.container-inline-date {
+    width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+/*
+div.date-no-float.end-date-wrapper.container-inline-date > div > label {
+    width: 13%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+/*
+table#field-date-values--2,
+table#field-date-values--3,
+table#field-date-values--4,
+table#field-date-values--5,
+table#field-date-values--6,
+table#field-date-values--7,
+table#field-date-values--8,
+table#field-date-values--9,
+table#field-date-values--10 {
+    width: 75% !important;
+}
+*/
+/*
+div#field-date-add-more-wrapper > div > div.clearfix,
+div#field-date-add-more-wrapper--2 > div > div.clearfix,
+div#field-date-add-more-wrapper--3 > div > div.clearfix,
+div#field-date-add-more-wrapper--4 > div > div.clearfix,
+div#field-date-add-more-wrapper--5 > div > div.clearfix,
+div#field-date-add-more-wrapper--6 > div > div.clearfix,
+div#field-date-add-more-wrapper--7 > div > div.clearfix,
+div#field-date-add-more-wrapper--8 > div > div.clearfix,
+div#field-date-add-more-wrapper--9 > div > div.clearfix,
+div#field-date-add-more-wrapper--10 > div > div.clearfix {
+    width: 83%;
+}
+*/
+/*
+div#field-date-add-more-wrapper > div > div.clearfix > input,
+div#field-date-add-more-wrapper--2 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--3 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--4 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--5 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--6 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--7 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--8 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--9 > div > div.clearfix > input,
+div#field-date-add-more-wrapper--10 > div > div.clearfix {
+    width: 22%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+*/
+
+/*
+div.views-field.views-field-field-children-s-items-for-sale > div > div > ul > li {
+    padding-bottom: 5px;
+}
+*/
+div#CategoryIndex > article > div > div >  div > ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+    column-count: 2;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+#CategoryIndex > h2 {
+    font-size: 2.7em;
+    font-weight: bold;
+    color: #682160;
+}
+
+div#CategoryIndex > article > div > div >  div > ul > li > a {
+    text-decoration: none;
+    color: #23b0ca;
+    font-family: "alwaysheretoo";
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+div#CategoryIndex > article > div > div >  div > ul > li > a:hover {
+    font-weight: bold;
+    color: #682160;
+}
+
+div#CategoryIndex > article > div > div >  div > ul > li {
+    padding-bottom: 123px;
+}
+
+#CategoryIndex > article > div > div > div > ul > li:nth-child(8) > ul {
+    margin-top: 30px;
+    margin-left: 50px;
+    list-style: none;
+}
+
+#CategoryIndex > article > div > div > div > ul > li:nth-child(8) > ul > li > a {
+    font-size: 1.3em;
+    color: #23b0ca;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "alwaysheretoo"
+}
+
+#CategoryIndex > article > div > div > div > ul > li:nth-child(8) > ul > li > a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #682160;
+    font-family: "alwaysheretoo";
+}
+
+#CategoryIndex > article > div > div > div > ul > li:nth-child(8) > ul > li {
+    padding-bottom: 30px;
+}
+
+#ServicesIndex > h2 {
+    font-size: 3em;
+  color: #682160;
+  font-weight: bold;
+}
+
+#ServicesIndex > article > div > div > div > ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+    column-count: 2;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+div#ServicesIndex > article > div > div >  div > ul > li > a {
+    text-decoration: none;
+    color: #23b0ca;
+    font-family: "alwaysheretoo";
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+div#ServicesIndex > article > div > div >  div > ul > li > a:hover {
+    font-weight: bold;
+    color: #682160;
+}
+
+div#ServicesIndex > article > div > div >  div > ul > li {
+    padding-bottom: 100px;
+}
+
+
+div.messages--warning {
+    display: none !important;
+}
+
+p#contactImg1 {
+        width: 66%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+h1#contactHeader {
+        text-align: center;
+    color: #682160;
+    font-size: 2.7em;
+    margin-bottom: -1.8em;
+}
+
+p.contactHead2 {
+    float: left;
+    margin-right: 10px;
+    font-family: "alwaysheretoo";
+    font-size: 1.8em;
+    margin-left: 3%;
+}
+
+p#contactHead3 {
+    float: left;
+    font-family: "alwaysheretoo";
+    font-size: 1.8em;
+}
+
+p#contactHead25 {
+    float: left;
+    font-family: "alwaysheretoo";
+    font-size: 2.3em;
+    margin-right: 10px;
+}
+
+p#contactEvent {
+    clear: left;
+    float: left;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+}
+
+p#contactEvent:before {
+    content: "";
+    background-image: url('http://adcompanyhosting.com/fun4kids/images/footer_button.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 13px;
+    padding-top: 11px;
+}
+
+p#contactEvent > a,
+p#contactEvent > a:visited,
+p#contactBus > a,
+p#contactBus > a:visited,
+p#contactGarage > a,
+p#contactGarage > a:visited,
+p#contactTech > a,
+p#contactTech > a:visited {
+    color: #23b0ca;
+    text-decoration: none;
+}
+
+p#contactBus {
+    clear: left;
+    float: left;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+    margin-left: -6px;
+}
+
+p#contactBus:before {
+    content: "";
+    background-image: url('http://adcompanyhosting.com/fun4kids/images/footer_button.png');
+    background-repeat: no-repeat;
+    padding-left: 41px;
+    padding-bottom: 13px;
+    padding-top: 11px;
+}
+
+p#contactGarage {
+    clear: left;
+    float: left;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+}
+
+p#contactGarage:before {
+    content: "";
+    background-image: url('http://adcompanyhosting.com/fun4kids/images/footer_button.png');
+    background-repeat: no-repeat;
+    padding-left: 41px;
+    padding-bottom: 13px;
+    padding-top: 11px;
+    margin-left: -21px;
+}
+
+p#contactTech {
+    clear: left;
+    float: left;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    width: 100%;
+}
+
+p#contactImg2 {
+    clear: left;
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+p#contactPony {
+    clear: left;
+    float: left;
+    margin-left: 280px;
+    margin-top: 20px;
+    font-family: "alwaysheretoo";
+    font-size: 1.5em;
+}
+
+p#contactAddy {
+    clear: left;
+    float: left;
+    margin-left: 294px;
+    margin-top: 20px;
+    font-family: "aos-bold" !important;
+    font-size: 1.1em;
+}
+
+p#contactImg3 {
+    float: right;
+    margin-top: -140px;
+}

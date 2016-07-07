@@ -1,0 +1,22 @@
+.parents-quick-links-pane {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  text-align: center;
+}
+
+.parents-quick-links-pane h2.pane-title {
+	font-family: "alwaysheretoo", Georgia, Serif;
+	margin: 1.5rem 0;
+}
+
+.parents-quick-links-pane > ul {
+	margin: 1.5em 0;
+}
+
+.parents-quick-links-pane > ul > li {
+	list-style-type: none;
+}
+
+.parents-quick-links-pane > .connect-with-us--links {
+	margin-bottom: 1.5em;
+}

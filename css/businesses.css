@@ -1,0 +1,556 @@
+/**
+	This CSS file contains styles for business pages (category listings / business listing pages)
+**/
+
+/* Business listing pages layout for smaller screens */
+@media all and (max-width: 940px) {
+	.pane-mini-business-listings-top {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	.pane-business-listings-side-ads {
+		order: 999;
+	}
+	.business-listings---left-item {
+		width: 100% !important;
+	}
+
+	.view-business-listings-2.view-display-id-subcategory_paid {
+		width: auto !important;
+	}
+
+	.business-listings-mid-ads {
+		width: 100% !important;
+	}
+	.view-business-listings-2.view-display-id-subcategory_free {
+		width: 65% !important;
+	}
+}
+
+.wrapper.tagclouds {
+	border-top: solid 5px #23B0CA;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+.wrapper.tagclouds {
+	border-top: solid 5px #23B0CA;
+	padding-top: 15px;
+}
+.wrapper.tagclouds span {
+	font-size: 14px;
+	background-color: #E8DB80;
+	padding: 3px;
+	border-radius: 7px;
+	border: solid 2px #DEAC39;
+	white-space: nowrap;
+}
+.wrapper.tagclouds span a {
+	padding: 3px;
+	color: Black;
+	display: inline-block;
+	margin-bottom: -1px;
+}
+.bTags {
+	border-top: solid 5px #23B0CA;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+.bTags {
+	border-top: solid 5px #23B0CA;
+	padding-top: 15px;
+	clear: both;
+}
+.bTags span {
+	font-size: 14px;
+	background-color: #E8DB80;
+	padding: 3px;
+	border-radius: 7px;
+	border: solid 2px #DEAC39;
+	white-space: nowrap;
+}
+.bTags span a {
+	padding: 3px;
+	color: Black;
+	display: inline-block;
+	margin-bottom: -1px;
+}
+.pane-mini-business-listings-top > div:not(.pane-business-listings-side-ads) {
+	width: 600px;
+	float: left;
+}
+.business-listings--left-item {
+	width: 600px;
+	float: left;
+}
+.taxonomy-term-description p {
+	font-family: antique_olive_roman;
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 1.125em;
+}
+ @media all and (max-width: 940px) {
+.pane-mini-business-listings-top { /* pane containing the Paid listings */
+	width: 100%;
+}
+}
+/*                                                                                                  *
+ * list of subcategories (e.g. Ice Skating) if viewing a category with subcategories (e.g. Winter)  *
+ *                                                                                                  */
+.business-listings--subcategories-menu {
+	font-family: antique_olive_roman;
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 1.125em; /* 18px / 16px = 1.125em */
+}
+.business-listings--subcategories-menu li {
+	display: inline-block;
+}
+.business-listings--subcategories-menu li:before {
+	content: "\25CF";
+	color: #682160;
+	padding: 0 8px 0 8px;
+}
+/* ************************************************************************************************** */
+
+
+
+/*                                          *
+ *  CSS for the paid business listings view *
+ *                                          */
+.view-business-listings-2.view-display-id-subcategory_paid .view-content {
+	background-color: #f5f5f5;
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
+	margin: 1em 0 2em 0;
+	padding: 3em;
+}
+ @media all and (max-width: 940px) {
+.view-business-listings-2.view-display-id-subcategory_paid .view-content {
+	padding: 3em 2.5%;
+	/* content 940px - 10px padding each side = 920px */
+	margin: 1em calc(17.5% - 51px) 2em calc(17.5% - 51px); /* 920px -> 110px & 320px -> 5px */
+
+	display: table;
+}
+}
+
+
+/* CSS for individual listing entries (from view) */
+@media all and (min-width: 641px) {
+/* using flex-box to align listing info & "Add To Toybox" link side-by-side & centered */
+.view-business-listings-2 .views-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.business-listing--additional-links {
+	flex: 0 0 auto; /* don't let "Add To Toybox" size collapse as screen/space shrinks */
+}
+}
+ @media all and (max-width: 940px) {
+/* "Add To Toybox" link below and aligned with listing info */
+.business-listing--additional-links {
+	margin-left: 3em;
+}
+}
+.view-business-listings-2 h2.heading--business-subcateogry a {
+	font-family: antique_olive_bold;
+	color: #682160;
+	margin: 0;
+}
+.view-business-listings-2 .views-row {
+	margin: 3em 0; /* vertical gap between entries */
+}
+.view-business-listings-2 .views-row-first {
+	margin-top: 1.5em; /* instead of 3em */
+}
+/* shorten margin of very last entry (:last-child so not just last entry of specific subcategory) */
+.view-business-listings-2 .view-content .views-row-last:last-child {
+	margin-bottom: 1.5em; /* instead of 3em */
+}
+ @media all and (max-width: 940px) {
+.mini-panel-mini_business_listing_left {
+	margin-right: 1em;
+}
+.pane-business-listings-2-subcategory-free,  .pane-business-listings-subcategory-free {
+	font-size: .875em; /* smaller font-size on smaller screens for free ads */
+	margin-right: .5em; /* ensure small gap between links & adjacent ads */
+}
+}
+/* square color-coded to show the age-group(s) the business listing belongs to */
+.business-listing--age-marker {
+	height: 32px;
+	width: 32px;
+	position: absolute; /* take out of the normal flow */
+}
+.business-listing--age-marker > img {
+	width: 100%;
+}
+.business-listing--title {
+	margin: 0 0 0 3em; /* 2em to account for placement of the age-marker, and an extra 1em */
+}
+.business-listing--title > a {
+	font-size: 1.25em;
+}
+/* container of listing-logo & address divs */
+.business-listing--info {
+	margin-left: 3em; /* 2em to account for placement of the age-marker, and an extra 1em */
+	display: flex; /* use to facilitate aligning listing logo & listing info */
+	flex-flow: row nowrap;
+	align-items: flex-start; /* top-aligns logo & address info */
+}
+.business-listing-field--listing-logo > img {
+	height: 64px;
+	width: 64px;
+	margin-right: .5em;
+}
+.business-listing--address {
+	font-family: antique_olive_bold;
+	font-size: 1.125em;
+	line-height: 1.125em;
+}
+.pane-node-field-ages {
+	margin: 1em 0;
+}
+/*                                  *
+ *  CSS for business listing pages  *
+ *                                  */
+.business-category-list-region {
+	position: relative;
+}
+.pane-mini-fun-by-category-right {
+	position: absolute;
+	height: 100%;
+	right: 0;
+}
+
+
+/* adjustments to allow for ads on the right to be fixed while scrolling */
+
+
+/* adjust font-size for small tablet / phone sizes */
+@media all and (max-width: 640px) {
+.pane-fun-by-category .pane-title, h2.business-listings--category-title {
+	font-size: 2em; /* 80% of 2.5 em */
+	line-height: 1em;
+}
+.business-page-free-region .business-page--name {
+	font-size: 2.142857em; /* so is 75% of original size after factoring in 87.5% for everything in region first */
+}
+}
+.business-page--additional-info {
+	margin: 1em 0;
+	font-family: antique_olive_roman;
+	font-size: 1.25em;
+	margin: 0;
+	text-align: center;
+}
+.business-page--about {
+	margin: 1em 0;
+	font-family: antique_olive_roman;
+	font-size: 1em;
+	line-height: 1.25em;
+	text-align: center;
+}
+.business-page--about > h2 {
+	font-family: antique_olive_compact;
+	color: #F3BB3E;
+	text-shadow: 0px 1px 0 black,  -1px -1px 0 black,  1px -1px 0 black,  -1px 1px 0 black,  0px 1px 0 black,  1px 0px 0 black,  0px -1px 0 black,  -1px 0px 0 black;
+	letter-spacing: 1px;
+}
+.business-page--address {
+	font-family: antique_olive_roman;
+	font-size: 1.25em;
+	text-align: center;
+}
+.business-page--address--phone, .business-page--address--email, .business-page--address--website {
+	margin-top: 1.5em;
+}
+ @media all and (max-width: 640px) {
+.business-page--address--phone, .business-page--address--email, .business-page--address--website {
+	margin-top: 1em;
+}
+}
+.business-page--upgrade {
+	display: flex;
+	flex-flow: column nowrap;
+}
+.business-page--upgrade h3, .list--major-categories > li > .views-field-name a {  /* .has-sublist is for category listing pages, rest of its styles below */
+	font-family: alwaysheretoo;
+	font-size: 1.5em;
+	text-align: center;
+}
+.business-page-region .bTags h2 {
+	display: block;
+	margin-bottom: 10px;
+}
+.business-page-region .bTags {
+	display: block;
+	clear: both;
+	border-top: 5px solid #23B0CA;
+}
+.business-page-region .bfcRAd {
+	float: right;
+	clear: right;
+	max-width: 300px;
+	position: relative;
+	display: block;
+	margin-bottom: 1em;
+}
+.business-page-region .pane-left--width-65percent-no-max {
+	width: 65%;
+	display: block;
+	float: left;
+	margin-bottom: 2em;
+}
+.view-fun-by-category {
+	margin-top: 1em;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-column-count: 2;
+}
+/* don't want column break to occur within the middle of a list */
+.list--major-categories > li {
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside: avoid;
+	-o-column-break-inside: avoid;
+	-ms-column-break-inside: avoid;
+	column-break-inside: avoid;
+}
+.list--major-categories > li > .views-field-name a {
+	font-family: alwaysheretoo;
+	color: black;
+}
+.list--sub-major-categories > li > .views-field-name a {
+	color: #23B0CA;
+	font-family: alwaysheretoo;
+	font-size: 1.3875em;
+}
+.list--categories a {
+	color: #23B0CA;
+	font-family: antique_olive_roman;
+	font-size: 1.125em; /* 18px / 16px = 1.125 */
+}
+.list--major-categories {
+	text-align: center;
+}
+.list--major-categories li {
+	list-style-type: none;
+}
+.list--sub-major-categories {
+	font-family: alwaysheretoo;
+}
+.list--categories {
+	font-family: antique_olive_roman;
+}
+.list--major-categories > li { /* padding between groups of major category lists */
+	padding: .75em 0; /* using padding instead of margin, because when put into columns, aligns better */
+}
+.list--sub-major-categories > li { /* padding between groups of subcategories lists (i.e. Summer); */
+	padding: .5em 0; /* using padding instead of margin, because when put into columns, aligns better */
+}
+.list--sub-major-categories > li.last {
+	padding-bottom: 0;
+}
+.list--categories { /* padding between main category & list of subcategories */
+	padding-top: .125em;
+}
+.list--sub-major-categories .list--categories { /* padding between major subcategory & its list of subcategories */
+	padding-top: 0;
+}
+
+/* settings for smaller screen sizes */
+@media all and (max-width: 799px) {
+/* place listing of categories into two categories */
+.view-fun-by-category {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-column-count: 1;
+}
+.has-sublist > li {
+	padding: .5em 0; /* use smaller gap (padding) between major groups on smaller screen sizes */
+}
+}
+/* Upgrade notice & link on Free listing pages */
+.business-page--upgrade p {
+	font-family: antique_olive_roman;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.25em;
+	margin-top: .25em;
+}
+.business-page--upgrade img {
+	width: 100%; /* fit to size of panel */
+	max-width: 579px;
+	margin-top: 1em;
+}
+.business-page--info {
+	text-align: center;
+}
+.view-business-hours-view > .view-header-and-content-wrapper {
+	background: rgb(245, 241, 241);
+	width: 75%;
+	margin: -11% auto 0 auto;
+	padding: 11% 0 1em 0;
+	text-align: center;
+}
+span.oh-display {
+	white-space: normal; /* allow business hours to wrap onto multiple lines (usually only for when using "extra" information for hours) */
+}
+.business-hours--top-image {
+	max-width: 521px; /* the actual size of the image */
+	width: 100%; /* if column this is in is > max-width, shrink to width */
+}
+/* the header for the Business Hours view (i.e. "HOURS OF OPERATION" ) */
+.view-business-hours-view h4 {
+	font-family: antique_olive_compact;
+	font-size: 1.25em;
+	text-transform: uppercase;
+	margin: 0;
+}
+/* 'oh-*' classes created by the field formatted by Office Hours module */
+
+/* styles for the main part of the view (i.e. the listing of the days/hours) */
+.oh-wrapper {
+	font-family: antique_olive_light;
+	margin: .5em auto 0 auto; /* .5em is to add slight space between hour listings & label */
+	display: table;
+}
+.oh-display {
+	display: table-row;
+}
+.oh-display-label {
+	text-align: left;
+	display: table-cell;
+}
+.oh-display-label {
+	text-align: right;
+	display: table-cell;
+	padding-right: 1em;
+}
+.oh-display-times {
+	text-align: left;
+	display: table-cell;
+}
+.business-page--logo, .business-page--business-image, .business-page--address, .pane-business-hours-view, .pane-mini-business-page-enh-bottom, .pane-node-flag-bookmarks-link, .pane-node-field-rate {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.pane-mini-business-page-enh-bottom {
+	flex-flow: column nowrap;
+}
+.business-page--address {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+.business-page--address, .pane-business-hours-view {
+	margin: 2.5% 0;
+}
+.business-page--logo {
+	margin-bottom: 2.5%;
+}
+.business-page-free-region .business-page--address {
+	padding-top: 1em;
+}
+.pane-node-flag-bookmarks-link {
+	margin: 1.5em 0;
+}
+.business-page-free-region .pane-node-flag-bookmarks-link {
+	margin: 4em 0;
+}
+ @media all and (max-width: 640px) {
+.business-page--address {
+	margin: 1.25% 0;
+}
+.business-page-free-region .pane-node-flag-bookmarks-link {
+	margin: 10% 0;
+}
+.business-page-enhanced-premium-region .pane-node-flag-bookmarks-link {
+	width: 100%;
+}
+}
+/* CSS to allow for a blue line separating a rating module from the rest of the content */
+.mini-panel-mini_business_page_enh_bottom {
+	width: 100%;
+}
+.pane-node-field-rate {
+	border-top: 4px solid #23B0CA;
+	padding-top: 2em;
+}
+.business-page-free-region .pane-node-field-rate {
+	border: none;
+}
+.mini-panel-mini_business_page_enh_bottom .pane-node-field-rate, .business-page-enhanced-premium-region .pane-node-field-rate {
+	width: 100%;
+}
+/*                                                    *
+ *  CSS for enchanced premium business listing pages  *
+ *                                            	      */
+
+
+.business-page-enhanced-premium-region {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.business-page-enhanced-premium-region .pane-additional-business-listing-images img {
+	display: block; /* so links' dimensions match their image; so extra space based on 'line-height' doesn't occur for img */
+	max-width: 100%; /* ensure the (ad) image scales down to the size its container if its width shrinks */
+	margin: auto; /* center within space */
+}
+.business-page-enhanced-premium-region .pane-additional-business-listing-images {
+	padding: 1.25%;
+	box-sizing: border-box;
+}
+ @media all and (max-width: 640px) {
+.business-page-enhanced-premium-region .pane-additional-business-listing-images {
+	width: 50%; /* once larger than the image size (e.g. 200px), extra space will go around image; */
+}
+.business-page-enhanced-premium-region .pane-additional-business-listing-images .field-content {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+}
+.business-page--additional-info, .business-page--about {
+	margin: 2.5% 0;
+}
+ @media all and (min-width: 641px) {
+.business-page-enhanced-premium-region .business-page--additional-info {
+	width: 50%;
+	box-sizing: border-box;
+}
+.business-page-enhanced-premium-region .pane-additional-business-listing-images {
+	width: 25%;
+	margin: 1.25% 0;
+	box-sizing: border-box;
+}
+.business-page-enhanced-premium-region .business-page--about {
+	width: 50%;
+	box-sizing: border-box;
+	margin: 0;
+}
+.business-page-enhanced-premium-region .business-page--address {
+	order: 96; /* ensure placed after business hours */
+	width: 44.5%;
+	align-self: center;
+}
+.business-page-enhanced-premium-region .pane-business-hours-view {
+	width: 55.5%;
+}
+.business-page-enhanced-premium-region .pane-node-field-ages {
+	order: 97;
+	width: 55.5%;
+}
+.business-page-enhanced-premium-region .pane-node-flag-bookmarks-link {
+	order: 98;
+	width: 44.5%;
+	align-self: center;
+}
+.business-page-enhanced-premium-region .pane-node-field-rate {
+	order: 99;
+}
+}

@@ -1,0 +1,165 @@
+/* Parents Corner Landing Page */
+
+.page-parents-corner .three-grid {
+	display: flex;
+}
+.page-parents-corner .three-grid .view-content > div {
+	display: inline-flex;
+}
+#parents-corner-title {
+	text-align: center;
+	color: #682160;
+}
+.parents-quick-links-pane ul {
+	color: white;
+	padding: 20px 20px 0px 40px;
+	font-size: 18px;
+}
+/*                         *
+ * Pane for Parents Corner *
+ *                         */
+.home-parents-corner-pane {
+	position: relative; /* ONLY put this here to facilitate absolute-positioning the corner triangles */
+	width: 600px;
+	height: 425px;
+	background-image: url('/images/home_parents_corner.png');
+	background-repeat: no-repeat;
+	background-position: center 170px;
+	background-color: #A4B43A;
+	box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.6);
+	margin-top: 16px; /* basically 16px margin between outermost edges of triangles */
+	margin-bottom: 16px;
+}
+.home-parents-corner-pane .pane-title {
+	margin-top: 0px;
+}
+
+/* Styles specific for small browser windows */
+@media all and (max-width: 640px) {
+.home-parents-corner-pane {
+	max-width: 600px;
+	width: calc(100% - 10px); /* is there a CSS way to make width 100% minus margins without using calc? */
+	margin-left: calc(5px); /* if calc isn't supported, then forget about the margins */
+	margin-right: calc(5px);
+	height: auto;
+	/* need more fallbacks for non-calc supported browsers here? */
+	padding-bottom: calc(29% + 73px); /* 160px when 300px wide; 247px when 600px wide */
+	background-size: calc(39.3333% + 122px); /* 240px when 300px wide; 358px (the default image size) at 600px wide; */
+	background-position: center bottom calc(2.6666% + 4px); /* 12px when 300px wide; 20px when 600px wide; */
+}
+}
+
+/* Styles specific for medium browser windows */
+@media all and (min-width: 641px) and (max-width: 940px) {
+.home-parents-corner-pane {
+	width: 100%;
+	height: auto;
+	/* need more fallbacks for non-calc supported browsers here? */
+	padding-bottom: calc(29% + 73px); /* 160px when 300px wide; 247px when 600px wide */
+	background-size: calc(39.3333% + 122px); /* 240px when 300px wide; 358px (the default image size) at 600px wide; */
+	background-position: center bottom calc(2.6666% + 4px); /* 12px when 300px wide; 20px when 600px wide; */
+}
+}
+
+
+/* Simulate trianagles for the corners of the Parents Corner box */
+@media all and (min-width: 841px) {
+.home-parents-corner-pane:before {
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 59px 63px 0 0;
+	border-color: #682160 transparent transparent transparent;
+}
+.home-parents-corner-pane:after {
+	position: absolute;
+	left: calc(100% - 63px + 5px); /* container width - 63px (triangle width) + 5px(offset) */
+	top: calc(100% - 59px + 5px);  /* conatiner height - 59px (triangle height) + 5px (offset) */
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 59px 63px;
+	border-color: transparent transparent #682160 transparent;
+}
+}
+ @media all and (max-width: 840px) {
+.home-parents-corner-pane:before {
+	position: absolute;
+	left: -4px;
+	top: -4px;
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 47px 50px 0 0;
+	border-color: #682160 transparent transparent transparent;
+}
+.home-parents-corner-pane:after {
+	position: absolute;
+	left: calc(100% - 50px + 4px); /* container width - 63px (triangle width) + 5px(offset) */
+	top: calc(100% - 47px + 4px);  /* conatiner height - 59px (triangle height) + 5px (offset) */
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 47px 50px;
+	border-color: transparent transparent #682160 transparent;
+}
+}
+/*Sets up the title for Parents Corner*/
+.home-parents-corner-pane .pane-title {
+	padding-top: 1em;
+	font-family: "alwaysheretoo", Georgia, Serif;
+}
+ @media all and (max-width: 940px) {
+.home-parents-corner-pane .pane-title {
+/* font-size: 2em; */
+}
+}
+/* Set color of links to black */
+.home-parents-corner-pane a {
+	color: black;
+}
+.ParentsCornerLinksGroup a:hover {
+	color: white;
+	text-decoration: none;
+}
+/*sets the div for the hyperlinks on the home page*/
+.ParentsCornerLinksGroup {
+	margin-top: 0.5em;
+}
+.ParentsCornerLinksGroup ul {
+	list-style: none;
+}
+.ParentsCornerLinksGroup li {
+	box-sizing: border-box;
+	padding-left: calc(14.666% - 28px); /* 16px when 300px wide; 60px when 600px wide; */
+	margin-top: .75em;
+	margin-bottom: .75em;
+	width: 50%;
+	float: left;
+}
+ @media all and (max-width: 940px) {
+.ParentsCornerLinksGroup li {
+/* margin-top:.55em;
+    margin-bottom:.55em; */
+}
+}
+ @media all and (max-width: 640px) {
+.ParentsCornerLinksGroup li {
+}
+}
+.ParentsCornerLinksGroup a {
+	font-family: "antique_olive_roman";
+	font-size: 1.25em;
+}
+ @media all and (max-width: 940px) {
+.ParentsCornerLinksGroup a {
+/* font-size: 1.11em; */
+}
+}
