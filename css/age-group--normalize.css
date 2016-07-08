@@ -5,39 +5,31 @@
 	float: none;
 	padding: none;
 }
-
 /* whole family */
 .age-group--display-as-ul > li._all, .age-key--all, .views-widget-filter-field_ages_tid #edit-field-ages-tid-all {
 	background-color: #E8DB80;
-  	width: 6em;
+	width: 6em;
 }
-
 /* 0-1 */
 .age-group--display-as-ul > li._0-1, .age-key--0-1, .views-widget-filter-field_ages_tid #edit-field-ages-tid-435 {
 	background-color: #91ADAA;
 }
-
 /* 2-4 */
 .age-group--display-as-ul > li._2-4, .age-key--2-4, .views-widget-filter-field_ages_tid #edit-field-ages-tid-436 {
 	background-color: #DEAC39;
 }
-
 /* 5-7 */
 .age-group--display-as-ul > li._5-7, .age-key--5-7, .views-widget-filter-field_ages_tid #edit-field-ages-tid-437 {
 	background-color: #B84165;
 }
-
 /* 8-12 */
 .age-group--display-as-ul > li._8-12, .age-key--8-12, .views-widget-filter-field_ages_tid #edit-field-ages-tid-438 {
 	background-color: #A4B445;
 }
-
 /* 13-17 */
 .age-group--display-as-ul > li._13-17, .age-key--13-17, .views-widget-filter-field_ages_tid #edit-field-ages-tid-439 {
 	background-color: #816389;
 }
-
-
 .age-group-list, .views-widget-filter-field_ages_tid .bef-select-as-links > div {
 	display: flex;
 	flex-flow: row wrap;
@@ -45,13 +37,11 @@
 	line-height: 0;
 	text-align: center;
 }
-
 /* Global filter specific styles */
 
 .age-group--display-as-ul, .views-widget-filter-field_ages_tid .bef-select-as-links > div {
 	justify-content: center;
 }
-
 /* Styles for the age-group global filter, along with the
    age-group field display on business pages */
 .ages--exposed-form > h4, .pane-node-field-ages > h4 {
@@ -59,51 +49,37 @@
 	font-size: 1.3875em;
 	margin: 0;
 }
-
-
-.age-group--display-as-ul > li._all,
-.views-widget-filter-field_ages_tid #edit-field-ages-tid-all {
+.age-group--display-as-ul > li._all, .views-widget-filter-field_ages_tid #edit-field-ages-tid-all {
 	width: 8em !important;
 	order: 99; /* put the all ('Whole Family') option at the end */
 }
-
 /*shared*/
-.age-group--display-as-ul > li,
-.views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
-	box-shadow: 5px 5px 5px #C7BBBB; 
-	-webkit-box-shadow: 5px 5px 5px #C7BBBB; 
+.age-group--display-as-ul > li, .views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
+	box-shadow: 5px 5px 5px #C7BBBB;
+	-webkit-box-shadow: 5px 5px 5px #C7BBBB;
 	-moz-box-shadow: 5px 5px 5px #C7BBBB;
-	margin: .375em .75em  !important; /* don't let global_filter.css default margin be used! */;
+	margin: .375em .75em !important; /* don't let global_filter.css default margin be used! */
+	;
 	width: 3em;
 }
-
-@media all and (max-width: 640px) {
-	.age-group--display-as-ul > li,
-	.views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
-		margin: .375em; /* change left/right margins to .375em (same as top/bottom margins) when screen size is smaller */
-	}
+ @media all and (max-width: 640px) {
+.age-group--display-as-ul > li,  .views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
+	margin: .375em; /* change left/right margins to .375em (same as top/bottom margins) when screen size is smaller */
 }
-
-
-.age-group--display-as-ul > li > a, .age-group--display-as-ul > li,
-.views-widget-filter-field_ages_tid .bef-select-as-links > div > div > a, .views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
+}
+.age-group--display-as-ul > li > a, .age-group--display-as-ul > li, .views-widget-filter-field_ages_tid .bef-select-as-links > div > div > a, .views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
 	line-height: 2em;
 	font-size: 1.125em;
 }
-
 /* links */
-.age-group-list > li > a, .age-group-list > li,
-.global-filter-2-field-ages > li > a, .global-filter-2-field-ages > li,
-.views-widget-filter-field_ages_tid .bef-select-as-links > div > div > a, .views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
+.age-group-list > li > a, .age-group-list > li, .global-filter-2-field-ages > li > a, .global-filter-2-field-ages > li, .views-widget-filter-field_ages_tid .bef-select-as-links > div > div > a, .views-widget-filter-field_ages_tid .bef-select-as-links > div > div {
 	color: black;
 	font-family: antique_olive_condensed;
 	text-decoration: none;
 }
-
 .views-widget-filter-field_ages_tid .bef-select-as-links > div > div > a.active {
 	text-decoration: underline;
 }
-
 .views-widget-filter-field_ages_tid .bef-select-as-links > div > div > a {
 	display: block;
 	width: 100%; /* make clickable link area cover the entire colored li element */

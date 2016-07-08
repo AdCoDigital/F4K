@@ -1,171 +1,140 @@
 .view-event-details {
-  padding-top: 1em;
-  margin-top: 2.5%;
+	padding-top: 1em;
+	margin-top: 2.5%;
 }
-
 .event-page-featured-fun-region .view-event-details {
-  padding-top: 0; /* no padding on top if is featured fun (in which case there should be an image */
+	padding-top: 0; /* no padding on top if is featured fun (in which case there should be an image */
 }
-
 .view-event-details .views-row {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
 }
-
 .view-event-details .event--featured-fun-image {
-  margin-bottom: 3em;
+	margin-bottom: 3em;
 }
-
 .view-event-details dl { /* description list for all the details of the event (time, ages, details, etc) */
-  font-size: 1.125em;
-  display: flex;
-  flex-flow: row wrap;
+	font-size: 1.125em;
+	display: flex;
+	flex-flow: row wrap;
 }
-
-.view-event-details dt:nth-child(1),
-.view-event-details dt:nth-child(1) + dd  {
-  margin-top: 0;
+.view-event-details dt:nth-child(1), .view-event-details dt:nth-child(1) + dd {
+	margin-top: 0;
 }
-
 .view-event-details dt {
-  font-family: antique_olive_compact;
-  text-transform: uppercase;
-  width: 8em;
+	font-family: antique_olive_compact;
+	text-transform: uppercase;
+	width: 8em;
 }
-
 .view-event-details dt, .view-event-details dt + dd, .event--website {
-  margin-top: 1em;
+	margin-top: 1em;
 }
-
 .view-event-details dt, .view-event-details dd {
-  min-height: 1em; /* so if data missing (e.g. age), layout doesn't get messed up */
-  line-height: 1.25em;
+	min-height: 1em; /* so if data missing (e.g. age), layout doesn't get messed up */
+	line-height: 1.25em;
 }
-
 .view-event-details dd {
-  font-family: antique_olive_roman;
-  width: calc(100% - 8em);
-  margin-left: 0;
+	font-family: antique_olive_roman;
+	width: calc(100% - 8em);
+	margin-left: 0;
 }
-
 .view-event-details dd + dd {
-  margin-left: 8em;
+	margin-left: 8em;
 }
-
 .view-event-details .flag-wrapper {
-  margin-top: 3em;
+	margin-top: 3em;
 }
-
 .view-event-details .view-footer {
-    margin-top: 2em;
-    width: 100%;
+	margin-top: 2em;
+	width: 100%;
 }
-
 .view-footer img {
-    margin-right: auto;
-    margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
-
 .eDetails h2 {
-    margin-top: 1em;
-    margin-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
-
 .view-event-details h2.pane-title {
-  font-family: antique_olive_compact;
-  text-transform: uppercase;
-  margin-top: 1em;
+	font-family: antique_olive_compact;
+	text-transform: uppercase;
+	margin-top: 1em;
 }
-
 .view-event-details dl, .view-event-details .flag-wrapper {
-  padding-left: 5%;
+	padding-left: 5%;
 }
-
 #FeaturedFunListing .event--featured-fun-image {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin-bottom: 15px;
-    /* margin-top: -20px; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-bottom: 15px;/* margin-top: -20px; */
 }
 /*fix for feautured fun img margin*/
 #FeaturedFunListing .img-container {
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
 }
-
 /* ensure that the start and end times are displayed on the same line */
 .event--time .field-content {
-  display: inline;
+	display: inline;
 }
-
 /**                                       **
  **   Styles specific for the "Age Key"   **
  **                                       **/
 
 .event-page-featured-fun-region dl {
-  padding-left: 0;
-  width: 65%;
-  min-width: 320px;
+	padding-left: 0;
+	width: 65%;
+	min-width: 320px;
 }
-
 .event--label-ages {
-  margin-top: 1.5em; /* add extra .5em since the age group labels are 2.5em line-height instead of 1.5em ((3em - 2em) / 2 = .5em) */
+	margin-top: 1.5em; /* add extra .5em since the age group labels are 2.5em line-height instead of 1.5em ((3em - 2em) / 2 = .5em) */
 }
-
 .event--ages ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start !important;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start !important;
 }
-
 .event--ages li {
-  height: 2.5em !important;
-  width: 2.5em !important;
-  border-radius: 50%; /* Simulates a circle (or just oval, depending on width / height) */
-  font-family: antique_olive_condensed;
-  text-align: center;
-  line-height: 2.5em !important; /* make sure line height is same as height, so text will be vertically centered within this element */
-  margin: .25em .5em !important;
+	height: 2.5em !important;
+	width: 2.5em !important;
+	border-radius: 50%; /* Simulates a circle (or just oval, depending on width / height) */
+	font-family: antique_olive_condensed;
+	text-align: center;
+	line-height: 2.5em !important; /* make sure line height is same as height, so text will be vertically centered within this element */
+	margin: .25em .5em !important;
 }
 
 
 
 /* adjust font-size for small tablet / phone sizes */
 @media all and (max-width: 800px) {
-  .pane-event-details-event-view {
-    font-size: .875em; /* 87.5% */
-  }
-
-  .view-event-details h2.pane-title {
-    margin-bottom: 1em;
-  }
+.pane-event-details-event-view {
+	font-size: .875em; /* 87.5% */
 }
-
-@media all and (max-width: 640px) {
-  .view-event-details {
-    font-size: 1em; /* reset the elemt's font-size to previous, before setting font on ancestor */ 
-  }
-
-  .event-page-region {
-    font-size: .875em;
-  }
-
-  .view-event-details dt {
-    float: none;
-  }
-
-  .view-event-details dd {
-    margin-left: 0;
-  }
-
-  .event--label-ages {
-    margin-top: .5em;
-  }
-
-  .event--ages {
-    margin-bottom: 1.5em;
-  }
+.view-event-details h2.pane-title {
+	margin-bottom: 1em;
+}
+}
+ @media all and (max-width: 640px) {
+.view-event-details {
+	font-size: 1em; /* reset the elemt's font-size to previous, before setting font on ancestor */
+}
+.event-page-region {
+	font-size: .875em;
+}
+.view-event-details dt {
+	float: none;
+}
+.view-event-details dd {
+	margin-left: 0;
+}
+.event--label-ages {
+	margin-top: .5em;
+}
+.event--ages {
+	margin-bottom: 1.5em;
+}
 }

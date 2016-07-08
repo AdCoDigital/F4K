@@ -5,15 +5,14 @@
 	text-align: center;
 	margin: .5em 0;
 }
-
-@media all and (min-width: 958px) {
-  .rainy-day-pane::before { /* is there a better way to do this without having to use a pseduo-element? */
-    content: "";
-    background-image: url('/fun4kids/images/home_family_rain.png');
-    background-repeat: no-repeat;
-    width: 148px;
-    height: 177px;
-    position: absolute;
-    left: -24px;
-  }
+ @media all and (min-width: 958px) {
+.rainy-day-pane::before { /* is there a better way to do this without having to use a pseduo-element? */
+	content: "";
+	background-image: url('http://www.fun4kidsmn.com/images/home_family_rain.png');
+	background-repeat: no-repeat;
+	width: 148px;
+	height: 177px;
+	position: absolute;
+	left: -24px;
+}
 }

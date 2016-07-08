@@ -1,501 +1,404 @@
-.pane-mini-home-left,
-.pane-mini-parent-corner-left {
-  max-width: 600px;
+.pane-mini-home-left, .pane-mini-parent-corner-left {
+	max-width: 600px;
 }
-
 /* CSS for seasonal links view */
-.seasonal-grid .views-view-grid{
+.seasonal-grid .views-view-grid {
 	width: 100%;
 }
-
-.seasonal-grid img{
-  width: 190px;
-  height: auto;
+.seasonal-grid img {
+	width: 190px;
+	height: auto;
 }
-
-.seasonal-grid td{
-  padding: 0;
-  text-align: center;
+.seasonal-grid td {
+	padding: 0;
+	text-align: center;
 }
-
-.seasonal-grid .col-first{
-  text-align: left;
+.seasonal-grid .col-first {
+	text-align: left;
 }
-
-.seasonal-grid .col-last{
-  text-align: right;
+.seasonal-grid .col-last {
+	text-align: right;
 }
-
 /* Main view */
 
 .home-main-view-pane {
-  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
-  font-family: 'antique_olive_roman';
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
+	font-family: 'antique_olive_roman';
 }
-
-@media all and (min-width: 641px) {
-  .home-main-view-pane {
-    width: 300px;
-  }
+ @media all and (min-width: 641px) {
+.home-main-view-pane {
+	width: 300px;
 }
-
+}
 .home-main-view-pane h2.pane-title {
-  box-sizing: border-box;
-  position: relative;
-  width:292px;
-  top: 12px;
-  left: -8px;
-  padding-left: 16px;
-  line-height:1.6em;
-  font-family: antique_olive_bold;
-  font-size: 2em;
-  color: white;
-  text-align: left;
-  text-decoration: none;
-  text-shadow: 3px 3px 1px rgba(0, 0, 0, .6);
-  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
-  margin: 0px; /* eliminate the default margins */
-  
-  text-transform: uppercase;
+	box-sizing: border-box;
+	position: relative;
+	width: 292px;
+	top: 12px;
+	left: -8px;
+	padding-left: 16px;
+	line-height: 1.6em;
+	font-family: antique_olive_bold;
+	font-size: 2em;
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: 3px 3px 1px rgba(0, 0, 0, .6);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
+	margin: 0px; /* eliminate the default margins */
+	text-transform: uppercase;
 }
-
-
-@media all and (max-width: 640px) {
-  .home-main-view-pane h2.pane-title {
-    left:-1%;
-    width: 99%;
-    padding:0px;
-    top:8px;
-    text-align:center;
-  }
+ @media all and (max-width: 640px) {
+.home-main-view-pane h2.pane-title {
+	left: -1%;
+	width: 99%;
+	padding: 0px;
+	top: 8px;
+	text-align: center;
 }
-
+}
 /*                           *
  * Pane for "Today's Events" *
  *                           */
 
 .todays-events-pane {
-  background-color: #A4B445;
-  padding-bottom:.75em;
+	background-color: #A4B445;
+	padding-bottom: .75em;
 }
-
 .todays-events-pane h2.pane-title {
-  background-color: #BD3137; /* background color for the title of this pane */
+	background-color: #BD3137; /* background color for the title of this pane */
 }
-
 .todays-events-pane .view {
-  margin-top: 28px; /* 12 px to accomodate for the positioning of the h2 down 12px, plus 16px we want between the h2 & this */
-  margin-left: 36px;
+	margin-top: 28px; /* 12 px to accomodate for the positioning of the h2 down 12px, plus 16px we want between the h2 & this */
+	margin-left: 36px;
 }
-
 .todays-events-pane .view-header {
-  font-size: 1.125em; /* (17 / 16) = 1.125 */
-  margin-bottom: 1em;
+	font-size: 1.125em; /* (17 / 16) = 1.125 */
+	margin-bottom: 1em;
 }
-
 .todays-events-pane ul {
-  list-style-type: none;
+	list-style-type: none;
 }
-
 .todays-events-pane li {
-  margin: .75em 0;
+	margin: .75em 0;
 }
-
 .todays-events-pane .view-footer {
-  margin-top: 1em;
+	margin-top: 1em;
 }
-
 /*Sets up the hyperlinks in the Todays Events block*/
 .todays-events-pane a {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
-
 .todays-events-pane a:hover {
-  color: white;
+	color: white;
 }
-
-@media all and (max-width: 940px) {
-  .todays-events-pane {
-    margin-top: 0px;
-  }
+ @media all and (max-width: 940px) {
+.todays-events-pane {
+	margin-top: 0px;
 }
-
-@media all and (min-width: 941px) {
-  .todays-events-pane {
-    /* margin-top: 12px; */
-  }
 }
-
-
-@media all and (min-width: 641px) {
-  .todays-events-pane {
-    margin-bottom: .75em;
-    color: black;
-    text-decoration: none;
-    /* text-shadow: 1px 1px 1px rgba(0, 0, 0, .6); decide if i should use this later */
-  }
+ @media all and (min-width: 941px) {
+.todays-events-pane {
+/* margin-top: 12px; */
 }
-
-
-@media all and (min-width: 481px) and (max-width: 640px) {
-  /* simulate rows */
-  .todays-events-pane .view-content ul>li {
-    box-sizing: border-box;
-    display:inline-block;
-    width:49.5%; /* Not 50% because of that annoying space character between inline-block items!!! */
-    vertical-align: top;
-  }
-
-  .todays-events-pane .view {
-    margin-left: 0;
-  }
-
-  .todays-events-pane li:nth-child(odd) {
-    padding-left: 1.5em;
-    padding-right: .75em;
-  }
-
-  .todays-events-pane li:nth-child(even) {
-    padding-left: .75em;
-    padding-right: 1.5em;
-  }
-
-  .todays-events-pane .view-header, .todays-events-pane .view-footer {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .todays-events-pane .view-header {
-    margin-bottom: .5em; /* instead of 1em */
-  }
-
-  .todays-events-pane .view-footer {
-    margin-top: .5em; /* instead of 1em */
-  }
 }
-
-@media all and (max-width: 640px) {
-  .todays-events-pane {
-    width: 100%;
-    background-color: #A4B445;
-    color: black;
-    text-decoration: none;
-    margin-top: 0 !important;
-  }
+ @media all and (min-width: 641px) {
+.todays-events-pane {
+	margin-bottom: .75em;
+	color: black;
+	text-decoration: none;/* text-shadow: 1px 1px 1px rgba(0, 0, 0, .6); decide if i should use this later */
 }
-
-
-
+}
+ @media all and (min-width: 481px) and (max-width: 640px) {
+/* simulate rows */
+.todays-events-pane .view-content ul>li {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 49.5%; /* Not 50% because of that annoying space character between inline-block items!!! */
+	vertical-align: top;
+}
+.todays-events-pane .view {
+	margin-left: 0;
+}
+.todays-events-pane li:nth-child(odd) {
+	padding-left: 1.5em;
+	padding-right: .75em;
+}
+.todays-events-pane li:nth-child(even) {
+	padding-left: .75em;
+	padding-right: 1.5em;
+}
+.todays-events-pane .view-header, .todays-events-pane .view-footer {
+	margin-left: 0;
+	text-align: center;
+}
+.todays-events-pane .view-header {
+	margin-bottom: .5em; /* instead of 1em */
+}
+.todays-events-pane .view-footer {
+	margin-top: .5em; /* instead of 1em */
+}
+}
+ @media all and (max-width: 640px) {
+.todays-events-pane {
+	width: 100%;
+	background-color: #A4B445;
+	color: black;
+	text-decoration: none;
+	margin-top: 0 !important;
+}
+}
 /*                         *
  * Pane for "Featured Fun" *
  *                         */
 
 .featured-fun-pane {
-  background-color: #23B0CA;
+	background-color: #23B0CA;
 }
-
 /*Styling the title for the Featured Fun*/
 .featured-fun-pane h2.pane-title {
-  background-color: #816389;
+	background-color: #816389;
 }
-
 .featured-fun-pane a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
-
 .featured-fun-pane a:hover {
-  color: white;
+	color: white;
 }
-
 .featured-fun-pane .view-featured-fun {
-  margin-top: 28px; /* 12 px to accomodate for the positioning of the h2 down 12px, plus 16px we want between the h2 & this */
+	margin-top: 28px; /* 12 px to accomodate for the positioning of the h2 down 12px, plus 16px we want between the h2 & this */
 }
-
 .featured-fun-pane .view-content {
-  padding-left: 12px;
+	padding-left: 12px;
 }
-
 .featured-fun-pane .views-row {
-  margin-top: 12px;
-  margin-bottom: 12px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
-
 .featured-fun-pane .views-field-field-featured-fun-image-thumb {
-  width: 75px; /* fixed-width for the image for each "Featured Fun" entry */
-  float: left;
-  padding: 0px; /* OVERRIDES SETTINGS THAT WERE PREVIOUSLY SET BY TAYLOR FOR 'div.views-field.views-field-field-image' */
+	width: 75px; /* fixed-width for the image for each "Featured Fun" entry */
+	float: left;
+	padding: 0px; /* OVERRIDES SETTINGS THAT WERE PREVIOUSLY SET BY TAYLOR FOR 'div.views-field.views-field-field-image' */
 }
-
 .featured-fun-pane .views-field:not(.views-field-field-featured-fun-image-thumb) {
-  margin-left: 83px; /* 75px to fit space reserved for image, plus extra 8px between */
-                     /* CHANGE IF THERE'S BETTER WAY TO ALIGN FIELDS */
+	margin-left: 83px; /* 75px to fit space reserved for image, plus extra 8px between *//* CHANGE IF THERE'S BETTER WAY TO ALIGN FIELDS */
 }
-
 .featured-fun-pane .item-list {
-  text-align: center; /* this will center the contents (i.e. the [displayed as inline-block] pager) */
+	text-align: center; /* this will center the contents (i.e. the [displayed as inline-block] pager) */
 }
-
 .featured-fun-pane .view-content ul {
-  list-style: none;
+	list-style: none;
 }
-
 .featured-fun-pane ul.pager {
-  list-style-type: none;
-  display: inline-block;
-  text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
 }
 .featured-fun-pane li.pager-previous.first {
-  float: left;
+	float: left;
 }
 .featured-fun-pane li.pager-current {
-  float: left;
+	float: left;
 }
 .featured-fun-pane li.pager-next.last {
-  float: left;
+	float: left;
 }
-
-@media all and (min-width: 641px) {
-  .featured-fun-pane {
-      margin-top: 16px;
-      margin-bottom: 16px;
-  }
+ @media all and (min-width: 641px) {
+.featured-fun-pane {
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
-
-@media all and (max-width: 640px) {
-  .featured-fun-pane {
-    width: 98%;
-    margin-left:auto;
-    margin-right:auto;
-    background-color: #23B0CA;
-    text-decoration: none;
-    margin-top: 2.5%;    /* 16/640 */
-    margin-bottom: 2.5%; /* 16/640 */
-  }
 }
-
-@media all and (min-width: 481px) and (max-width: 640px) {
-  /* simulate rows */
-  .featured-fun-pane .view-content ul>li {
-    box-sizing: border-box;
-    display:inline-block;
-    width:49.5%; /* Not 50% because of that annoying space character between inline-block items!!! */
-    vertical-align: top;
-  }
+ @media all and (max-width: 640px) {
+.featured-fun-pane {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #23B0CA;
+	text-decoration: none;
+	margin-top: 2.5%;    /* 16/640 */
+	margin-bottom: 2.5%; /* 16/640 */
 }
-
-
+}
+ @media all and (min-width: 481px) and (max-width: 640px) {
+/* simulate rows */
+.featured-fun-pane .view-content ul>li {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 49.5%; /* Not 50% because of that annoying space character between inline-block items!!! */
+	vertical-align: top;
+}
+}
 /*                      *
  * Pane for "More Fun"  *
  *                      */
 
 
 .more-fun-pane {
-  background-color: #816389;
+	background-color: #816389;
 }
-
 /*Styling the title for the More Fun*/
-.more-fun-pane h2.pane-title a{
-  text-decoration: none;
-  color: white;
-  }
-
-.more-fun-pane h2.pane-title {
-  background-color: orange; /* background color for the title of this pane */
+.more-fun-pane h2.pane-title a {
+	text-decoration: none;
+	color: white;
 }
-
-
+.more-fun-pane h2.pane-title {
+	background-color: orange; /* background color for the title of this pane */
+}
 /*There was a body label and i removed it*/
 .more-fun-pane div.field-label {
-  display: none;
+	display: none;
 }
-
 .more-fun-pane {
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
-  margin-bottom: 16px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	margin-bottom: 16px;
 }
-
 .more-fun--links-wrapper {
-  margin-top: 28px; /* 12 px to accomodate for the positioning of the h2 down 12px, plus 16px we want between the h2 & this */
+	margin-top: 28px; /* 12 px to accomodate for the positioning of the h2 down 12px, plus 16px we want between the h2 & this */
 }
-
 .more-fun--links-list, .connect-with-us h4, .more-fun--search-wrapper {
-  margin-left: 24px;
+	margin-left: 24px;
 }
-
 .more-fun--text {
-  font-family: antique_olive_roman;
-  font-size: 1.125em;
-  font-weight:normal;
-  color: white;
-  line-height: 2.5em;
-  list-style-position: inside;
+	font-family: antique_olive_roman;
+	font-size: 1.125em;
+	font-weight: normal;
+	color: white;
+	line-height: 2.5em;
+	list-style-position: inside;
 }
-
 /*Taking away the underline and the link look to the links*/
 .more-fun--links-list a {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 .more-fun--links-list a:hover {
-  color:#FEDA5C;
+	color: #FEDA5C;
 }
-
-
 .connect-with-us > h4 {
-  display: list-item;
-  margin: 0 0 0 24px;
+	display: list-item;
+	margin: 0 0 0 24px;
 }
-
-
 /*Setting the margins and border of the pinterest, facebook, and twitter buttons*/
 .connect-with-us--links {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  margin: 0 16px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	margin: 0 16px;
 }
-
 .connect-with-us--links a {
-  width: 20%;
-  max-width: 64px;
+	width: 20%;
+	max-width: 64px;
 }
-
 .more-fun--search-wrapper {
-  margin-right: 24px;
-  padding: 32px 0;
+	margin-right: 24px;
+	padding: 32px 0;
 }
-
-
 /* Styling the label for the search form */
 .more-fun--search-wrapper label {
-  font-weight: normal;
-  font-size: 1em;
-  color: white;
+	font-weight: normal;
+	font-size: 1em;
+	color: white;
 }
-
-
 /* Styling the text-box */
 .more-fun--search-wrapper .form-text {
-  background-color: #E8DB80;
-  width: 100.0000%;
-  box-sizing: border-box;
+	background-color: #E8DB80;
+	width: 100.0000%;
+	box-sizing: border-box;
 }
-
 .more-fun--search-wrapper .form-submit {
-  width: 72px;
-  padding:4px;
-  background-color: #A4B445;
-  border: 1px solid #f5f5f5;
-  background: #A4B445;
-  box-shadow: 0 0 3px gray;
-  border-radius: 20%;
-  font-size:1em;
-  float: right;
-  margin-top: 8px;
-  margin-bottom: 8px;
+	width: 72px;
+	padding: 4px;
+	background-color: #A4B445;
+	border: 1px solid #f5f5f5;
+	background: #A4B445;
+	box-shadow: 0 0 3px gray;
+	border-radius: 20%;
+	font-size: 1em;
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
-
-
-@media all and (min-width: 481px) and (max-width: 640px) {
-  /* for medium sized (480px - 640px) screens
+ @media all and (min-width: 481px) and (max-width: 640px) {
+/* for medium sized (480px - 640px) screens
      put 'connect with us' links in a separate colum, to make better use of space */
-  .more-fun--links-wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 12px; /* instead of 28px */
-  }
-
-  .more-fun--links-list, .connect-with-us {
-    width: 50%;
-  }
-
-  .more-fun--search-wrapper {
-    width: 50%;
-    margin: 0 auto;
-    padding: 24px 0; /* instead of 32px when single column */
-  }
+.more-fun--links-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 12px; /* instead of 28px */
 }
-
-
+.more-fun--links-list, .connect-with-us {
+	width: 50%;
+}
+.more-fun--search-wrapper {
+	width: 50%;
+	margin: 0 auto;
+	padding: 24px 0; /* instead of 32px when single column */
+}
+}
 .rainy-day-pane--home {
-  margin: 1.5em 0;
-  border-top: 5px solid #23B0CA;
-  border-bottom: 5px solid #23B0CA;
-  max-width: 600px;
+	margin: 1.5em 0;
+	border-top: 5px solid #23B0CA;
+	border-bottom: 5px solid #23B0CA;
+	max-width: 600px;
 }
-
 .rainy-day-pane--home h2.pane-title {
-  font-size: 2em;
-  margin-top: .5em;
+	font-size: 2em;
+	margin-top: .5em;
 }
-
 .rainy-day-pane--home .view-header p {
-  font-size: 1.125em;  /* 18px / 16px = 1.125em */
-  font-family: "alwaysheretoo", Georgia, Serif;
-  line-height: 1.6875em;
-  text-align:center;
+	font-size: 1.125em;  /* 18px / 16px = 1.125em */
+	font-family: "alwaysheretoo", Georgia, Serif;
+	line-height: 1.6875em;
+	text-align: center;
 }
-
-@media all and (max-width: 640px) {
-  .more-fun-and-search-pane {
-    width: 100%;
-    background-color: #816389;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
-    margin-top: 2.5%;    /* 16/640 */
-    margin-bottom: 2.5%; /* 16/640 */
-  }
+ @media all and (max-width: 640px) {
+.more-fun-and-search-pane {
+	width: 100%;
+	background-color: #816389;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	margin-top: 2.5%;    /* 16/640 */
+	margin-bottom: 2.5%; /* 16/640 */
+}
 }
 
 
 /* css for Must See Blog */
 @media all and (min-width: 958px) {
-  .rainy-day-pane--home .pane-title::before {
-      content: url("../~images/home_family_rain.png");
-      position: relative;
-      float: left;
-      clear: left;
-      margin-top: -17px;
-  }
+.rainy-day-pane--home .pane-title::before {
+	content: url("../~images/home_family_rain.png");
+	position: relative;
+	float: left;
+	clear: left;
+	margin-top: -17px;
+}
 }
 
 
 /* set margins for each pane/piece of content/element that stacks on top of each other at various sizes */
 
 @media all and (max-width: 640px) {
-  .page--top-pane > div,
-  .page--left-pane > div,
-  .page--right-pane > div,
-  .page--bottom-pane > div {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-  }
-
-  .pane-mini-home-bottom > div:last-child {
-    margin-bottom: 0;
-  }
+.page--top-pane > div,  .page--left-pane > div,  .page--right-pane > div,  .page--bottom-pane > div {
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
 }
-
-@media all and (min-width: 641px) {
-  .page--top-pane > div,
-  .page--left-pane > div,
-  .page--right-pane > div,
-  .page--bottom-pane > div {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-
-  .pane-mini-home-top > div:first-child,
-  .pane-mini-home-left > div:first-child, 
-  .pane-mini-home-right > div:first-child,
-  .pane-mini-home-bottom > div:first-child {
-    margin-top: 0;
-  }
-
-  .pane-mini-home-bottom > div:last-child {
-    margin-bottom: 0;
-  }
+.pane-mini-home-bottom > div:last-child {
+	margin-bottom: 0;
+}
+}
+ @media all and (min-width: 641px) {
+.page--top-pane > div,  .page--left-pane > div,  .page--right-pane > div,  .page--bottom-pane > div {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.pane-mini-home-top > div:first-child,  .pane-mini-home-left > div:first-child,  .pane-mini-home-right > div:first-child,  .pane-mini-home-bottom > div:first-child {
+	margin-top: 0;
+}
+.pane-mini-home-bottom > div:last-child {
+	margin-bottom: 0;
+}
 }

@@ -15,20 +15,42 @@
 	margin: .25em 0 1em 0;
 }
 .rainy-day-recommended-ages {
-	text-align:center !important;
+	text-align: center !important;
 	font-family: "alwaysheretoo";
 	font-size: 1.3875em;
 	/*margin: 0;*/
-	line-height:1.7em;
+	line-height: 1.7em;
 }
 .rainy-day-pane .view-header p {
 	font-size: 1.25em;
 	font-family: "alwaysheretoo", Georgia, Serif;
 	line-height: 1.875em;
 	text-align: center;
+	float: left;
+}
+#rainy-day-opening-text {
+	font-size: 1em;
+	font-family: "antique_olive_light", Georgia, Serif !important;
+	line-height: 1.1em;
+	text-align: center;
+}
+#rainy-day-opening-text h2 {
+	font-size: 2.5em;
+	font-family: "antique_olive_compact";
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 100%;
+	font-size: 2.25em;
+	margin: 0;
+}
+#rainy-day-links {
+	font-size: 1.25em;
+	font-family: "alwaysheretoo", Georgia, Serif;
+	line-height: 1.875em;
+	text-align: center;
 }
 .rainy-day-pane .views-row {
-	margin: .5em 0;
+	margin: 2em 0;
 }
 .rainy-day-pane--home .views-row {
 	margin: .5em 0 .5em 96px;
@@ -40,8 +62,7 @@
 	text-align: center;
 	float: left;
 	padding: 0px;
-	margin-right: 5.3333%; /* margin between the images and the text-based fields for each view result */
-	border: 2px solid lightgray;
+	margin-right: 5.3333%; /* margin between the images and the text-based fields for each view result *//*border: 2px solid lightgray;*/
 }
 .rainy-day-pane .views-field-title, .rainy-day-pane .views-field-field-description, .rainy-day-pane .views-field-field-ages, .rainy-day-pane .views-field-ops {
 	margin-left: calc(5.3333% + 100px); /* So these fields line up, right of image's space, even if runs below image */
@@ -59,8 +80,8 @@
 }
 .rainy-day-pane .views-field-field-description {
 	font-family: 'antique_olive_light';
-	font-size: .875em;
-	line-height: 1em; /* don't want large space if description encompasses multiple lines */
+	font-size: 1em;
+	line-height: 1.1em; /* don't want large space if description encompasses multiple lines */
 	margin-bottom: .5em;
 }
 /* the "READ MORE" link & "ADD TO TOYBOX" links */
@@ -92,7 +113,6 @@
 .rainy-day-pane .read-more-link-wrapper {
 	margin-right: 15%;
 }
-
 /* styles for the pager */
 .rainy-day-pane .view-blog-listings > .view-content {
 	margin-bottom: 4em; /* space between the entries & the pager */
@@ -139,6 +159,9 @@
 	display: inline-block;
 	margin-bottom: -1px;
 }
+.global-filter--age-group--blogs {
+	margin-bottom: 2em; /*Divider to separate blocks*/
+}
 .global-filter--age-group--blogs ul {
 	flex-flow: column nowrap;
 }
@@ -160,6 +183,84 @@
 	font-size: 2.25em;
 	font-family: alwaysheretoo;
 }
+/*
+ *Styling for all view blocks in mini panels
+ */
+#content > div.contextual-links-region > div.contextual-links-region.panel-pane.pane-panels-mini.pane-coloring-pages-side-ads.pane-right--width-35percent-300px-max-with-padding > div.panel-pane.pane-views.pane-archives-coloring-pages-by-date .panel-pane.pane-views {
+}
+.pane-mini-blogs-listings-right > div {
+	max-width: 300px;
+}
+.pane-mini-blogs-listings-right > div + div {
+	margin-top: 2em;
+}
+.blogs-recent-articles-block, .archives-view-block {
+	text-align: center;
+	background-color: #DADECD;
+	padding: 1.5em 0;
+	margin-bottom: 2em;/*Divider to separate blocks*/
+}
+.blogs-recent-articles-block h2, .archives-view-block h4 {
+	font-size: 2.25em;
+	font-family: alwaysheretoo;
+}
+.blogs-recent-articles-block a, .archives-view-block a {
+	font-size: 1.125em;
+	font-family: antique_olive_compact;
+	line-height: normal;
+	margin: 1em 0 0 0;
+}
+.blogs-recent-articles-block ul, .archives-view-block ul {
+	list-style-type: none;
+	line-height: normal;
+}
+.blogs-recent-articles-block a, .archives-view-block a {
+	color: black;
+}
+/* ads displayed within blog listings results */
+.rainy-day-pane .page-horz-ads-pane {
+	border-top: 4px solid #23B0CA;
+	border-bottom: 4px solid #23B0CA;
+	padding: 1em 0;
+	margin: 2em 0;
+}
+
+
+
+
+
+/* styles for smaller screens */
+
+@media all and (max-width: 800px) {
+.global-filter--age-group h4 {
+	font-size: 1.75em;
+}
+.archives-view-block, .blogs-recent-articles-block {
+	font-size: .75em;
+}
+}
+ @media all and (max-width: 640px) {
+.pane-mini-blogs-listings-right {
+	/* override styles set by .pane-right--width-35percent-300px-max-with-padding */
+	float: none;
+	max-width: none;
+	width: 100%;
+	padding: 0;
+}
+.pane-mini-blogs-listings-right > div {
+	max-width: none;
+}
+.blog-listings-page-logo-block {
+	display: none;
+}
+.blogs-recent-articles-block, .archives-view-block {
+	margin-top: 1.5em;
+	padding: 1em 0;
+}
+.blogs-recent-articles-block > label, .archives-view-block > label {
+	font-size: .875em;
+}
+}
 .pane-mini-blogs-listings-right > div {
 	max-width: 300px;
 }
@@ -170,6 +271,16 @@
 	text-align: center;
 	background-color: #DADECD;
 	padding: 1.5em 0;
+}
+.blogs-recent-articles-block, .archives-view-block {
+	text-align: center;
+	background-color: #DADECD;
+	padding: 1.5em 0;
+	margin-bottom: 2em;/*Divider to separate blocks*/
+}
+.blogs-recent-articles-block h2, .archives-view-block h4 {
+	font-size: 2.25em;
+	font-family: alwaysheretoo;
 }
 /* style year heading (inside the label) */
 .blogs-archive-block h6 {

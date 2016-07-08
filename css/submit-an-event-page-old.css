@@ -5,527 +5,355 @@
 /* Styles for Error Message */
 
 .messages--error.messages.error {
-    margin-left: 12%;
-    margin-right: auto;
-    width: 40%;
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-radius: 10px;
-    border-color: #F00;
-    color: #F00;
-    padding-left: 6%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-right: 1%;
-    display: block;
+	margin-left: 12%;
+	margin-right: auto;
+	width: 40%;
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-radius: 10px;
+	border-color: #F00;
+	color: #F00;
+	padding-left: 6%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	display: block;
 }
-
 /* Styles for Submit and Event Form .submit-event-form  */
 .submit-event-form {
-    font-family: antique_olive_roman;
+	font-family: antique_olive_roman;
 }
-
 /* Style for form title  .submit-event-form */
 .submit-event-form h2#Submit {
-    color: #682160;
-    text-align: center;
-    font-family: antique_olive_condensed;
-    font-size: 3em;
-    line-height: 1.5em;
-    margin: 0;
+	color: #682160;
+	text-align: center;
+	font-family: antique_olive_condensed;
+	font-size: 3em;
+	line-height: 1.5em;
+	margin: 0;
 }
-
 .submit-event-form form {
-    margin-top: .75em;
+	margin-top: .75em;
 }
-
 .submit-event-form label {
-    display: block;
-    float: left;
-    margin-right: 1.5em;
+	display: block;
+	float: left;
+	margin-right: 1.5em;
 }
-
 /* Styles for form fields in .submit-event-form  */
 .submit-event-form #fun-4-kids-event-node-form {
-    margin-right: 16.666%;
+	margin-right: 16.666%;
 }
-
-.submit-event-form #edit-field-event-email, .submit-event-form .form-item.form-type-textfield.form-item-title,
-.submit-event-form #edit-field-address, .submit-event-form #edit-field-city-list, .submit-event-form #edit-field-location,
-.submit-event-form #edit-field-website-link, .submit-event-form #edit-field-contact, .submit-event-form #edit-field-cost,
-.submit-event-form #edit-field-region--2, .submit-event-form #edit-field-state, .submit-event-form #edit-field-start-time-event,
-.submit-event-form #edit-field-end-time, .submit-event-form #edit-field-ages-und, .submit-event-form #edit-field-ages--2,
-.submit-event-form #edit-field-date, .submit-event-form #edit-field-featured-fun-event, .submit-event-form #edit-field-featured-fun-image,
-.submit-event-form #edit-field-featured-fun-image-thumb, .submit-event-form #edit-field-description-event, .submit-event-form .vertical-tabs.clearfix,
-.submit-event-form #edit-actions, .submit-event-form #edit-field-city-brain, .submit-event-form #edit-field-city-fargo,
-.submit-event-form #edit-field-city-mpls-st-paul, .submit-event-form #edit-field-city-ne-metro, .submit-event-form #edit-field-city-northeast,
-.submit-event-form #edit-field-city-nw-metro, .submit-event-form #edit-field-city-nw-sub, .submit-event-form #edit-field-city-se-metro,
-.submit-event-form #edit-field-city-sw-metro, .submit-event-form #edit-field-city-south, .submit-event-form #edit-field-city-st-cloud,
-.submit-event-form #edit-field-city-st-paul, .submit-event-form .ageFieldHelpText, .submit-event-form #edit-field-city,
-.submit-event-form .form-field-name-field-region {
-
+.submit-event-form #edit-field-event-email, .submit-event-form .form-item.form-type-textfield.form-item-title, .submit-event-form #edit-field-address, .submit-event-form #edit-field-city-list, .submit-event-form #edit-field-location, .submit-event-form #edit-field-website-link, .submit-event-form #edit-field-contact, .submit-event-form #edit-field-cost, .submit-event-form #edit-field-region--2, .submit-event-form #edit-field-state, .submit-event-form #edit-field-start-time-event, .submit-event-form #edit-field-end-time, .submit-event-form #edit-field-ages-und, .submit-event-form #edit-field-ages--2, .submit-event-form #edit-field-date, .submit-event-form #edit-field-featured-fun-event, .submit-event-form #edit-field-featured-fun-image, .submit-event-form #edit-field-featured-fun-image-thumb, .submit-event-form #edit-field-description-event, .submit-event-form .vertical-tabs.clearfix, .submit-event-form #edit-actions, .submit-event-form #edit-field-city-brain, .submit-event-form #edit-field-city-fargo, .submit-event-form #edit-field-city-mpls-st-paul, .submit-event-form #edit-field-city-ne-metro, .submit-event-form #edit-field-city-northeast, .submit-event-form #edit-field-city-nw-metro, .submit-event-form #edit-field-city-nw-sub, .submit-event-form #edit-field-city-se-metro, .submit-event-form #edit-field-city-sw-metro, .submit-event-form #edit-field-city-south, .submit-event-form #edit-field-city-st-cloud, .submit-event-form #edit-field-city-st-paul, .submit-event-form .ageFieldHelpText, .submit-event-form #edit-field-city, .submit-event-form .form-field-name-field-region {
 }
-
-.submit-event-form #edit-field-event-email input, .submit-event-form .form-item.form-type-textfield.form-item-title input,
-.submit-event-form #edit-field-location input, .submit-event-form #edit-field-address input, .submit-event-form #edit-field-website-link input,
-.submit-event-form #edit-field-contact input, .submit-event-form #edit-field-cost input, .submit-event-form #edit-field-website-link input,
-.submit-event-form #edit-field-city input 
-{
-
+.submit-event-form #edit-field-event-email input, .submit-event-form .form-item.form-type-textfield.form-item-title input, .submit-event-form #edit-field-location input, .submit-event-form #edit-field-address input, .submit-event-form #edit-field-website-link input, .submit-event-form #edit-field-contact input, .submit-event-form #edit-field-cost input, .submit-event-form #edit-field-website-link input, .submit-event-form #edit-field-city input {
 }
-
-.submit-event-form #edit-field-event-email .description 
-{
-    font-size: 12px;
-    color: #682160;
+.submit-event-form #edit-field-event-email .description {
+	font-size: 12px;
+	color: #682160;
 }
-
-.submit-event-form #edit-field-region--2 label
-{
-    margin-right: 14%;
+.submit-event-form #edit-field-region--2 label {
+	margin-right: 14%;
 }
-
-.submit-event-form #edit-field-region--2 > div > label
-{
+.submit-event-form #edit-field-region--2 > div > label {
 }
-
-.submit-event-form option:hover 
-{
-    background-color: #682160;
-    color: white;
+.submit-event-form option:hover {
+	background-color: #682160;
+	color: white;
 }
-
-.submit-event-form #edit-field-region-und 
-{
+.submit-event-form #edit-field-region-und {
 }
-
-.submit-event-form #edit-field-region-und div 
-{
-    padding: 3px;
-    border-radius: 10px;
-    margin-top: 3px;
-    margin-right: 2px;
-    display: block;
-    float: left;
+.submit-event-form #edit-field-region-und div {
+	padding: 3px;
+	border-radius: 10px;
+	margin-top: 3px;
+	margin-right: 2px;
+	display: block;
+	float: left;
 }
-
-.submit-event-form #edit-field-region-und label 
-{
-    margin: 1px;
-    font-size: 12px;
-    display: block;
-    float: left;
+.submit-event-form #edit-field-region-und label {
+	margin: 1px;
+	font-size: 12px;
+	display: block;
+	float: left;
 }
-
-.submit-event-form .form-field-name-field-region .description 
-{
-    display: block;
-    float: right;
-    clear: both;
-    font-size: 12px;
-    color: #682160;
+.submit-event-form .form-field-name-field-region .description {
+	display: block;
+	float: right;
+	clear: both;
+	font-size: 12px;
+	color: #682160;
 }
-
-.submit-event-form .form-item-field-region-und-All 
-{
-    background-color: #E8DB80;
+.submit-event-form .form-item-field-region-und-All {
+	background-color: #E8DB80;
 }
-
-.submit-event-form .form-item-field-region-und-Brainerd-Lakes-Area 
-{
-    background-color: #A4B445;
+.submit-event-form .form-item-field-region-und-Brainerd-Lakes-Area {
+	background-color: #A4B445;
 }
-
-.submit-event-form .form-item-field-region-und-Fargo-\/-Moorehead 
-{
-    background-color: #DEAC39;
+.submit-event-form .form-item-field-region-und-Fargo-\/-Moorehead {
+	background-color: #DEAC39;
 }
-
-.submit-event-form .form-item-field-region-und-Minneapolis 
-{
-    background-color: #91ADAA;
+.submit-event-form .form-item-field-region-und-Minneapolis {
+	background-color: #91ADAA;
 }
-
-.submit-event-form .form-item-field-region-und-NE-Metro 
-{
-    background-color: #B84165;
+.submit-event-form .form-item-field-region-und-NE-Metro {
+	background-color: #B84165;
 }
-
-.submit-event-form .form-item-field-region-und-Northeast-MN 
-{
-    background-color: #91ADAA;
+.submit-event-form .form-item-field-region-und-Northeast-MN {
+	background-color: #91ADAA;
 }
-
-.submit-event-form .form-item-field-region-und-NW-Metro 
-{
-    background-color: #A4B445;
+.submit-event-form .form-item-field-region-und-NW-Metro {
+	background-color: #A4B445;
 }
-
-.submit-event-form .form-item-field-region-und-NW-Suburban 
-{
-    background-color: #DEAC39;
+.submit-event-form .form-item-field-region-und-NW-Suburban {
+	background-color: #DEAC39;
 }
-
-.submit-event-form .form-item-field-region-und-SE-Metro 
-{
-    background-color: #91ADAA;
+.submit-event-form .form-item-field-region-und-SE-Metro {
+	background-color: #91ADAA;
 }
-
-.submit-event-form .form-item-field-region-und-Southern-MN 
-{
-    background-color: #B84165;
+.submit-event-form .form-item-field-region-und-Southern-MN {
+	background-color: #B84165;
 }
-
-.submit-event-form .form-item-field-region-und-St\.-Cloud-Area 
-{
-    background-color: #91ADAA;
+.submit-event-form .form-item-field-region-und-St\.-Cloud-Area {
+	background-color: #91ADAA;
 }
-
-.submit-event-form .form-item-field-region-und-St\.-Paul 
-{
-    background-color: #A4B445;
+.submit-event-form .form-item-field-region-und-St\.-Paul {
+	background-color: #A4B445;
 }
-
-.submit-event-form .form-item-field-region-und-SW-Metro 
-{
-    background-color: #DEAC39;
+.submit-event-form .form-item-field-region-und-SW-Metro {
+	background-color: #DEAC39;
 }
-
-.submit-event-form #edit-field-city-list label, .submit-event-form #edit-field-city-brain label, .submit-event-form #edit-field-city-fargo label, .submit-event-form #edit-field-city-mpls-st-paul label, .submit-event-form #edit-field-city-ne-metro label, .submit-event-form #edit-field-city-northeast label, .submit-event-form #edit-field-city-nw-metro label, .submit-event-form #edit-field-city-nw-sub label, .submit-event-form #edit-field-city-se-metro label, .submit-event-form #edit-field-city-sw-metro label, .submit-event-form #edit-field-city-south label, .submit-event-form #edit-field-city-st-cloud label, .submit-event-form #edit-field-city-st-paul label 
-{
+.submit-event-form #edit-field-city-list label, .submit-event-form #edit-field-city-brain label, .submit-event-form #edit-field-city-fargo label, .submit-event-form #edit-field-city-mpls-st-paul label, .submit-event-form #edit-field-city-ne-metro label, .submit-event-form #edit-field-city-northeast label, .submit-event-form #edit-field-city-nw-metro label, .submit-event-form #edit-field-city-nw-sub label, .submit-event-form #edit-field-city-se-metro label, .submit-event-form #edit-field-city-sw-metro label, .submit-event-form #edit-field-city-south label, .submit-event-form #edit-field-city-st-cloud label, .submit-event-form #edit-field-city-st-paul label {
 }
-
-.submit-event-form #edit-field-city-list, .submit-event-form #edit-field-city-brain, .submit-event-form #edit-field-city-fargo, .submit-event-form #edit-field-city-mpls-st-paul, .submit-event-form #edit-field-city-ne-metro, .submit-event-form #edit-field-city-northeast, .submit-event-form #edit-field-city-nw-metro, .submit-event-form #edit-field-city-nw-sub, .submit-event-form #edit-field-city-se-metro, .submit-event-form #edit-field-city-sw-metro, .submit-event-form #edit-field-city-south, .submit-event-form #edit-field-city-st-cloud, .submit-event-form #edit-field-city-st-paul 
-{
+.submit-event-form #edit-field-city-list, .submit-event-form #edit-field-city-brain, .submit-event-form #edit-field-city-fargo, .submit-event-form #edit-field-city-mpls-st-paul, .submit-event-form #edit-field-city-ne-metro, .submit-event-form #edit-field-city-northeast, .submit-event-form #edit-field-city-nw-metro, .submit-event-form #edit-field-city-nw-sub, .submit-event-form #edit-field-city-se-metro, .submit-event-form #edit-field-city-sw-metro, .submit-event-form #edit-field-city-south, .submit-event-form #edit-field-city-st-cloud, .submit-event-form #edit-field-city-st-paul {
 }
-
-.submit-event-form #edit-field-city-list-und, .submit-event-form #edit-field-city-brain-und, .submit-event-form #edit-field-city-fargo-und, .submit-event-form #edit-field-city-mpls-st-paul-und, .submit-event-form #edit-field-city-ne-metro-und, .submit-event-form #edit-field-city-northeast-und, .submit-event-form #edit-field-city-nw-metro-und, .submit-event-form #edit-field-city-nw-sub-und, .submit-event-form #edit-field-city-se-metro-und, .submit-event-form #edit-field-city-sw-metro-und, .submit-event-form #edit-field-city-south-und, .submit-event-form #edit-field-city-st-cloud-und, .submit-event-form #edit-field-city-st-paul-und 
-{
+.submit-event-form #edit-field-city-list-und, .submit-event-form #edit-field-city-brain-und, .submit-event-form #edit-field-city-fargo-und, .submit-event-form #edit-field-city-mpls-st-paul-und, .submit-event-form #edit-field-city-ne-metro-und, .submit-event-form #edit-field-city-northeast-und, .submit-event-form #edit-field-city-nw-metro-und, .submit-event-form #edit-field-city-nw-sub-und, .submit-event-form #edit-field-city-se-metro-und, .submit-event-form #edit-field-city-sw-metro-und, .submit-event-form #edit-field-city-south-und, .submit-event-form #edit-field-city-st-cloud-und, .submit-event-form #edit-field-city-st-paul-und {
 }
-
-#edit-field-state label 
-{
+#edit-field-state label {
 }
-
-.submit-event-form #edit-field-state 
-{
+.submit-event-form #edit-field-state {
 }
-
-.submit-event-form #edit-field-state-und 
-{
+.submit-event-form #edit-field-state-und {
 }
-
-.submit-event-form #edit-field-date 
-{
+.submit-event-form #edit-field-date {
 }
-
-.submit-event-form .field-label 
-{
-    display: none;
+.submit-event-form .field-label {
+	display: none;
 }
-
-.submit-event-form .fieldset-wrapper 
-{
+.submit-event-form .fieldset-wrapper {
 }
-
-.submit-event-form .form-wrapper.date-processed 
-{
+.submit-event-form .form-wrapper.date-processed {
 }
-
-.submit-event-form #field-date-values 
-{
+.submit-event-form #field-date-values {
 }
-
-.submit-event-form #edit-field-date-und-0-value, .submit-event-form #edit-field-date-und-0-value2, .submit-event-form #edit-field-date-und-1-value, .submit-event-form #edit-field-date-und-1-value2, .submit-event-form #edit-field-date-und-2-value, .submit-event-form #edit-field-date-und-2-value2, .submit-event-form #edit-field-date-und-3-value, .submit-event-form #edit-field-date-und-3-value2, .submit-event-form #edit-field-date-und-4-value, .submit-event-form #edit-field-date-und-4-value2, .submit-event-form #edit-field-date-und-5-value2 
-{
+.submit-event-form #edit-field-date-und-0-value, .submit-event-form #edit-field-date-und-0-value2, .submit-event-form #edit-field-date-und-1-value, .submit-event-form #edit-field-date-und-1-value2, .submit-event-form #edit-field-date-und-2-value, .submit-event-form #edit-field-date-und-2-value2, .submit-event-form #edit-field-date-und-3-value, .submit-event-form #edit-field-date-und-3-value2, .submit-event-form #edit-field-date-und-4-value, .submit-event-form #edit-field-date-und-4-value2, .submit-event-form #edit-field-date-und-5-value2 {
 }
-
-.submit-event-form #edit-field-date-und-add-more, .submit-event-form #edit-field-date-und-add-more--2, .submit-event-form #edit-field-date-und-add-more--3, .submit-event-form #edit-field-date-und-add-more--4, .submit-event-form #edit-field-date-und-add-more--5
-{
-
+.submit-event-form #edit-field-date-und-add-more, .submit-event-form #edit-field-date-und-add-more--2, .submit-event-form #edit-field-date-und-add-more--3, .submit-event-form #edit-field-date-und-add-more--4, .submit-event-form #edit-field-date-und-add-more--5 {
 }
-
-.submit-event-form .form-wrapper.date-processed .form-required 
-{
-    display: none;
+.submit-event-form .form-wrapper.date-processed .form-required {
+	display: none;
 }
-
-.submit-event-form .date-month 
-{
+.submit-event-form .date-month {
 }
-
-.submit-event-form .date-day 
-{
+.submit-event-form .date-day {
 }
-
-.submit-event-form .tabledrag-toggle-weight 
-{
-    display: none;
+.submit-event-form .tabledrag-toggle-weight {
+	display: none;
 }
-
-.submit-event-form .tabledrag-handle 
-{
-    display: none;
+.submit-event-form .tabledrag-handle {
+	display: none;
 }
-
-#edit-field-start-time-event label 
-{
+#edit-field-start-time-event label {
 }
-
 #edit-field-end-time label {
 }
-
-.submit-event-form #edit-field-start-time-event, .submit-event-form #edit-field-end-time 
-{
+.submit-event-form #edit-field-start-time-event, .submit-event-form #edit-field-end-time {
 }
-
-.submit-event-form .grippie 
-{
-    display: none;
+.submit-event-form .grippie {
+	display: none;
 }
-
-
-.submit-event-form #edit-field-description-event-und-0-value 
-{
-    font-size: 12px;
+.submit-event-form #edit-field-description-event-und-0-value {
+	font-size: 12px;
 }
-
-.submit-event-form .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea 
-{
+.submit-event-form .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea {
 }
-
-.submit-event-form .form-item.form-type-link-field.form-item-field-website-link-und-0 > label 
-{
+.submit-event-form .form-item.form-type-link-field.form-item-field-website-link-und-0 > label {
 }
-
-.submit-event-form #edit-field-website-link 
-{
-    width: 500px;
+.submit-event-form #edit-field-website-link {
+	width: 500px;
 }
-
-.submit-event-form #edit-field-website-link-und-0-url 
-{
+.submit-event-form #edit-field-website-link-und-0-url {
 }
-
-.submit-event-form #edit-field-ages--2 
-{
-    width: 500px;
+.submit-event-form #edit-field-ages--2 {
+	width: 500px;
 }
-
-.submit-event-form .form-item.form-type-checkboxes.form-item-field-ages-und > label 
-{
-    margin-top: 4%;
+.submit-event-form .form-item.form-type-checkboxes.form-item-field-ages-und > label {
+	margin-top: 4%;
 }
-
-.submit-event-form #edit-field-ages-und > div > label 
-{
-    margin: 1px;
+.submit-event-form #edit-field-ages-und > div > label {
+	margin: 1px;
 }
-
-.submit-event-form #edit-field-ages-und > div 
-{
-    display: block;
-    padding: 3px;
-    border-radius: 10px;
-    float: left;
-    margin-right: 2px;
-    margin-top:3px;
+.submit-event-form #edit-field-ages-und > div {
+	display: block;
+	padding: 3px;
+	border-radius: 10px;
+	float: left;
+	margin-right: 2px;
+	margin-top: 3px;
 }
-
-.submit-event-form #edit-field-ages-und 
-{
+.submit-event-form #edit-field-ages-und {
 }
-
-.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-435
-{
-    background-color: #91ADAA;
+.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-435 {
+	background-color: #91ADAA;
 }
-
-.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-436 
-{
-    background-color: #DEAC39;
+.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-436 {
+	background-color: #DEAC39;
 }
-
-.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-437
-{
-    background-color: #B84165;
+.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-437 {
+	background-color: #B84165;
 }
-
-.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-438 
-{
-    background-color: #A4B445;
+.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-438 {
+	background-color: #A4B445;
 }
-
-.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-439 
-{
-    background-color: #816389;
+.submit-event-form .form-item.form-type-checkbox.form-item-field-ages-und-439 {
+	background-color: #816389;
 }
-
-.submit-event-form #edit-field-ages--2 .description 
-{
-    font-size: 13px;
-    color: #682160;
+.submit-event-form #edit-field-ages--2 .description {
+	font-size: 13px;
+	color: #682160;
 }
-
-.submit-event-form #edit-field-featured-fun-image, .submit-event-form #edit-field-featured-fun-image-thumb 
-{
+.submit-event-form #edit-field-featured-fun-image, .submit-event-form #edit-field-featured-fun-image-thumb {
 }
-
-.submit-event-form #edit-actions 
-{
+.submit-event-form #edit-actions {
 }
-
-.submit-event-form #edit-actions input 
-{
+.submit-event-form #edit-actions input {
 }
-
-.submit-event-form #edit-submit--3:hover 
-{
-    background-color: white;
-    background-image: url("../~images/calendar-link-hover.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-    width: 220px;
-    height: 52px;
-    border: 0px none;
-    border-radius: 0px;
-    font-size: 17px;
-    text-align: right;
-    padding-right: 13px;
-    content: "Submit Information";
-    font-family: antique_olive_condensed;
-    text-transform: uppercase;
+.submit-event-form #edit-submit--3:hover {
+	background-color: white;
+	background-image: url("../~images/calendar-link-hover.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 17px;
+	text-align: right;
+	padding-right: 13px;
+	content: "Submit Information";
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
 }
-
-.submit-event-form #edit-submit--3 
-{
-    background-color: white;
-    background-image: url("../~images/calendar-link.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-    width: 220px;
-    height: 52px;
-    border: 0px none;
-    border-radius: 0px;
-    font-size: 17px;
-    text-align: right;
-    padding-right: 13px;
-    content: "Submit Information";
-    font-family: antique_olive_condensed;
-    text-transform: uppercase;
+.submit-event-form #edit-submit--3 {
+	background-color: white;
+	background-image: url("../~images/calendar-link.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 17px;
+	text-align: right;
+	padding-right: 13px;
+	content: "Submit Information";
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
 }
-
-.submit-event-form #edit-field-featured-fun-event, .submit-event-form #edit-field-featured-fun-image, .submit-event-form #edit-field-featured-fun-image-thumb
-{
-    visibility: hidden;
-    width: 0px;
-    height: 0px;
+.submit-event-form #edit-field-featured-fun-event, .submit-event-form #edit-field-featured-fun-image, .submit-event-form #edit-field-featured-fun-image-thumb {
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
 }
 
 /*-- Chrome browser css hacks for cross browser compatability --*/
 
-@supports (-webkit-appearance:none) 
-{
-    
-    .submit-event-form div#edit-actions input 
-    {
-    margin-right: 25%;
-    }
-    
-    .submit-event-form #edit-submit--3:hover 
-    {
-        background-color: white;
-        background-image: url("../~images/calendar-link-hover.png");
-        background-repeat: no-repeat;
-        background-position: left top;
-        width: 220px;
-        height: 52px;
-        border: 0px none;
-        border-radius: 0px;
-        font-size: 17px;
-        text-align: right;
-        padding-right: 13px;
-        content: "Submit Information";
-        display: block;
-        float: right;
-        clear: both;
-        font-family: antique_olive_condensed;
-        text-transform: uppercase;
-    }
-    
-    .submit-event-form #edit-submit--3 
-    {
-        background-color: white;
-        background-image: url("../~images/calendar-link.png");
-        background-repeat: no-repeat;
-        background-position: left top;
-        width: 220px;
-        height: 52px;
-        border: 0px none;
-        border-radius: 0px;
-        font-size: 17px;
-        text-align: right;
-        padding-right: 13px;
-        content: "Submit Information";
-        display: block;
-        float: right;
-        clear: both;
-        font-family: antique_olive_condensed;
-        text-transform: uppercase;
-    }
-    
+@supports (-webkit-appearance:none) {
+ .submit-event-form div#edit-actions input {
+ margin-right: 25%;
+}
+ .submit-event-form #edit-submit--3:hover {
+ background-color: white;
+ background-image: url("../~images/calendar-link-hover.png");
+ background-repeat: no-repeat;
+ background-position: left top;
+ width: 220px;
+ height: 52px;
+ border: 0px none;
+ border-radius: 0px;
+ font-size: 17px;
+ text-align: right;
+ padding-right: 13px;
+ content: "Submit Information";
+ display: block;
+ float: right;
+ clear: both;
+ font-family: antique_olive_condensed;
+ text-transform: uppercase;
+}
+ .submit-event-form #edit-submit--3 {
+ background-color: white;
+ background-image: url("../~images/calendar-link.png");
+ background-repeat: no-repeat;
+ background-position: left top;
+ width: 220px;
+ height: 52px;
+ border: 0px none;
+ border-radius: 0px;
+ font-size: 17px;
+ text-align: right;
+ padding-right: 13px;
+ content: "Submit Information";
+ display: block;
+ float: right;
+ clear: both;
+ font-family: antique_olive_condensed;
+ text-transform: uppercase;
+}
 }
 
 /*-- IE browser css hacks for cross browser compatability --*/
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
-{
-    .submit-event-form div#edit-actions input 
-    {
-    margin-right: 25%;
-    }
-    
-    .submit-event-form #edit-submit--3:hover 
-    {
-        background-color: white;
-        background-image: url("../~images/calendar-link-hover.png");
-        background-repeat: no-repeat;
-        background-position: left top;
-        width: 220px;
-        height: 52px;
-        border: 0px none;
-        border-radius: 0px;
-        font-size: 17px;
-        text-align: right;
-        padding-right: 13px;
-        content: "Submit Information";
-        display: block;
-        float: right;
-        clear: both;
-        font-family: antique_olive_condensed;
-        text-transform: uppercase;
-    }
-    
-    .submit-event-form #edit-submit--3 
-    {
-        background-color: white;
-        background-image: url("../~images/calendar-link.png");
-        background-repeat: no-repeat;
-        background-position: left top;
-        width: 220px;
-        height: 52px;
-        border: 0px none;
-        border-radius: 0px;
-        font-size: 17px;
-        text-align: right;
-        padding-right: 13px;
-        content: "Submit Information";
-        display: block;
-        float: right;
-        clear: both;
-        font-family: antique_olive_condensed;
-        text-transform: uppercase;
-    }
-    
-}   
-
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.submit-event-form div#edit-actions input {
+	margin-right: 25%;
+}
+.submit-event-form #edit-submit--3:hover {
+	background-color: white;
+	background-image: url("../~images/calendar-link-hover.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 17px;
+	text-align: right;
+	padding-right: 13px;
+	content: "Submit Information";
+	display: block;
+	float: right;
+	clear: both;
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
+}
+.submit-event-form #edit-submit--3 {
+	background-color: white;
+	background-image: url("../~images/calendar-link.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 17px;
+	text-align: right;
+	padding-right: 13px;
+	content: "Submit Information";
+	display: block;
+	float: right;
+	clear: both;
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
+}
+}

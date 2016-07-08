@@ -3,199 +3,167 @@
  *                              */
  
 #header {
-   /*  position:relative; added this to facilitate positioning elements within this div (i.e. the select form) */
-  padding-bottom: .5em;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between; /* logo anchored to left, region menu anchored to right, space allocated between the two */
-  align-items: center; /* vertically center the logo & region menu */
+	/*  position:relative; added this to facilitate positioning elements within this div (i.e. the select form) */
+	padding-bottom: .5em;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between; /* logo anchored to left, region menu anchored to right, space allocated between the two */
+	align-items: center; /* vertically center the logo & region menu */
 }
-
- /* Added by Dalton - create a space between the header dropbox box and its label. */
-#header .form-item label{
+/* Added by Dalton - create a space between the header dropbox box and its label. */
+#header .form-item label {
 	margin-bottom: 0.5em;
 }
-
 #header #global-filter-1 label {
-  width: calc(100% - 32px); /* 32px is size of image */
+	width: calc(100% - 32px); /* 32px is size of image */
 }
-
 #header #global-filter-1 .form-item-field-region {
-  display: flex;
-  flex-flow: row wrap;
+	display: flex;
+	flex-flow: row wrap;
 }
-
-
 #logo-wrapper {
-  position:relative; /* added this to facilitate positioning elements within this div (e.g. h1#site-name, div#site-slogan) */
-  flex: 0 0 auto;
-  margin-right:10px;
+	position: relative; /* added this to facilitate positioning elements within this div (e.g. h1#site-name, div#site-slogan) */
+	flex: 0 0 auto;
+	margin-right: 10px;
 }
-
 #logo /* the <a> with the logo */ {
-  float: none; /* override float set in misc.css for header__logo */
+	float: none; /* override float set in misc.css for header__logo */
 }
-
 /* Position/style the site name (i.e. the CITY/REGION name, not the actual site name [Fun4Kids]) */
 #site-name a {
-  font-family: 'alwaysheretoo';
+	font-family: 'alwaysheretoo';
 }
-
 .header__site-link > span {
-  white-space: nowrap; /* don't let longer, multi-word cities/regions wrap into multiple lines */
+	white-space: nowrap; /* don't let longer, multi-word cities/regions wrap into multiple lines */
 }
-
-@media all and (min-width: 641px) {
-  #site-name {
-    position: absolute;
-    left: 170px;
-    top: 10px;
-    font-size: 24px; /* using fixed size as needs to be set to fit alongside logo image, which (right now) is fixed in size */
-  }
-
-  /* Position/style the site name (i.e. 'Local family fun and resources in one place!') */
-  #site-slogan {
-    position: absolute;
-    left: 18px;
-    top: 110px;
-    font-family: 'alwaysheretoo';
-    font-size: .8em;
-  }
+ @media all and (min-width: 641px) {
+#site-name {
+	position: absolute;
+	left: 170px;
+	top: 10px;
+	font-size: 24px; /* using fixed size as needs to be set to fit alongside logo image, which (right now) is fixed in size */
 }
-
+/* Position/style the site name (i.e. 'Local family fun and resources in one place!') */
+#site-slogan {
+	position: absolute;
+	left: 18px;
+	top: 110px;
+	font-family: 'alwaysheretoo';
+	font-size: .8em;
+}
+}
 /* The div that contains the Drop-down menu to select Fun4Kids region (and its label) */
 .header__region {
-  flex: 0 1 250px;
-  padding-top: .5em;
+	flex: 0 1 250px;
+	padding-top: .5em;
 }
-
 /* label for the drop-down menu to select the Fun4Kids region to filter by */
 .form-item-field-region label {
-  display: block;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'antique_olive_compact';
-  font-size: 1em;
-  line-height: 1.125em;
-  color: #682160;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'antique_olive_compact';
+	font-size: 1em;
+	line-height: 1.125em;
+	color: #682160;
 }
-
 /* the drop-down menu to select the Fun4Kids region to filter by */
 #edit-field-region.global-filter-1-field-region /* the <select> */ {
-  width: 100%;
-  float: none;
-  margin-left: auto; /* center the menu in its containing div */
-  margin-right: auto;
-  background-color: #E8DB80;
-  height: 2.5em;
-  border: 0;
-  border-radius: 0;
-  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.6);
-  padding-left: .5em;
-  font-family: 'antique_olive_light';
-  font-size: .75em;
-  text-align: center;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+	width: 100%;
+	float: none;
+	margin-left: auto; /* center the menu in its containing div */
+	margin-right: auto;
+	background-color: #E8DB80;
+	height: 2.5em;
+	border: 0;
+	border-radius: 0;
+	box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.6);
+	padding-left: .5em;
+	font-family: 'antique_olive_light';
+	font-size: .75em;
+	text-align: center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 
 /* STYLE CHANGES FOR HEADER REGION (& ITS CONTENT) BASED ON BROWSER WIDTH */
 
 @media all and (max-width: 640px) {
-
-  #logo-wrapper {
-    display: inline-block;
-    text-align: center;
-  }
-
-  #logo {
-    display: block;
-    margin: 0 auto;
-    width: 155px; /* original image size is 310 x 127; want half both dimensions */;
-  }
-
-  #logo img {
-    width: 100%
-  }
-
-  #site-name {
-    font-size: 1em;
-    margin: 0 auto;
-    line-height: 0.25em; /* nudge site name up closer to logo */
-  }
-
-  #site-slogan {
-    display: none;
-  }
-
-  .form-item-field-region label {
-    font-size: .8em;
-    font-family: 'antique_olive_compact';
-    height: 2em;
-  }
-
-  #edit-field-region /* the <select> */ {
-    height: 2em;
-  }
+#logo-wrapper {
+	display: inline-block;
+	text-align: center;
 }
-
-
-
-
+#logo {
+	display: block;
+	margin: 0 auto;
+	width: 155px; /* original image size is 310 x 127; want half both dimensions */
+	;
+}
+#logo img {
+	width: 100%
+}
+#site-name {
+	font-size: 1em;
+	margin: 0 auto;
+	line-height: 0.25em; /* nudge site name up closer to logo */
+}
+#site-slogan {
+	display: none;
+}
+.form-item-field-region label {
+	font-size: .8em;
+	font-family: 'antique_olive_compact';
+	height: 2em;
+}
+#edit-field-region /* the <select> */ {
+	height: 2em;
+}
+}
 /* STYLE CHANGES FOR THE NEWSLETTER HEADER BLOCK */
 
 #header-newsletter {
-  text-align: center;
-
-  background-color: #23B0CA;
-  font-size: 1em;
-  line-height: 1em; /* unless another way to easily vertically align text with form elements, etc? */
-  padding: .5em 0;
+	text-align: center;
+	background-color: #23B0CA;
+	font-size: 1em;
+	line-height: 1em; /* unless another way to easily vertically align text with form elements, etc? */
+	padding: .5em 0;
 }
-
 #header-newsletter * {
-  vertical-align: middle; /* everything should be vertically aligned */
+	vertical-align: middle; /* everything should be vertically aligned */
 }
-
 #header-newsletter > p {
-  display: inline-block;
-  color: white;
-  margin: .25em .5em .25em .25em;
-  text-align: center;
+	display: inline-block;
+	color: white;
+	margin: .25em .5em .25em .25em;
+	text-align: center;
 }
-
 #header-newsletter > form {
-  display: inline-block;
-  margin: .25em .25em .25em .5em;
+	display: inline-block;
+	margin: .25em .25em .25em .5em;
 }
-
- /* not sure if need these lines or not */
+/* not sure if need these lines or not */
 #header-newsletter > form > div {
-  display: inline-block;
+	display: inline-block;
 }
-
 /* div containing the textfield & its label */
 #header-newsletter > form > div > .form-type-textfield {
-  display: inline-block;
+	display: inline-block;
 }
-
 /* the text-field label */
 #header-newsletter > form > div > .form-type-textfield > label {
-  color: white;
-  display:none; /* we don't need to show the "e-mail label" */
+	color: white;
+	display: none; /* we don't need to show the "e-mail label" */
 }
-
 /* the text-field */
 #header-newsletter > form > div > .form-type-textfield > input {
-  width: 175px;
-  height: 1.5em;
+	width: 175px;
+	height: 1.5em;
 }
-
 /* the submit button */
-#header-newsletter > form > div > input#edit-submit, #header-newsletter > form > div > input#edit-submit--2, #header-newsletter > form > div > input#edit-submit--3  {
-  border: 2px solid #682160;
-  border-radius: 25px;
-  background-color: #E8DB80;
-  width: 100px;
+#header-newsletter > form > div > input#edit-submit, #header-newsletter > form > div > input#edit-submit--2, #header-newsletter > form > div > input#edit-submit--3 {
+	border: 2px solid #682160;
+	border-radius: 25px;
+	background-color: #E8DB80;
+	width: 100px;
 }
