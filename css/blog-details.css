@@ -31,9 +31,9 @@
 }
 
 .blogDetails h2 {
-    visibility: hidden;
+    /*visibility: hidden;
     width: 0px;
-    height: 0px;
+    height: 0px;*/
 }
 
 .blogDetails {
@@ -54,6 +54,7 @@
     font-size: 1.5em;
     margin-bottom: 0.5em;
     margin-left: 20px;
+	display: none;
 }
 
 .blogDetails .views-field-field-ages {

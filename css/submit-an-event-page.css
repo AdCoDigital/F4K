@@ -1,7 +1,20 @@
 /**                                         **
  **   Styles for the Submit an Event Page   **
  **                                         **/
+/* Styles for Garage Sale Form */
+.submit-gSale-form #edit-field-children-s-items-for-sale-und li {
+    list-style: none;
+}
 
+.submit-gSale-form #field-dates-add-more-wrapper, .submit-event-form #field-date-values {
+    width: 60%;
+    display: flex;
+    margin-left: 25%;
+}
+
+.submit-gSale-form #edit-field-states-und, .submit-event-form #edit-field-state-und {
+    margin-left: 15.5%;
+}
 
 /* Styles for Error Message */
 
@@ -115,8 +128,51 @@
   box-sizing: border-box;
 }
 
+.submit-event-form .captcha {
+    display: flex;
+    margin-left: 25%;
+    width: 60%;
+}
+
+.submit-event-form .captcha img {
+    display: flex;
+    margin: 20px auto 20px auto;
+}
+
+.submit-event-form .captcha input {
+    height: 27px;
+}
+
+.submit-event-form .captcha label {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
 /* style changes for smaller screens (<=800 px) */
 @media all and (max-width: 800px) {
+	.submit-gSale-form #field-dates-add-more-wrapper, .submit-event-form #field-date-values {
+    width: 100%;
+    display: flex;
+    margin-left: 0%;
+	}
+
+	.submit-gSale-form #edit-field-states-und, .submit-event-form #edit-field-state-und {
+    margin-left: 0%;
+	}
+
+	.submit-gSale-form #field-dates-add-more-wrapper, .submit-event-form #field-date-values {
+    width: 100%;
+    display: flex;
+    margin-left: 0%;
+	}
+	
+	.submit-event-form .captcha {
+    display: flex;
+    margin-left: 0%;
+    width: 100%;
+	}
+	
   .submit-event-form .form-type-textfield input,
   .submit-event-form .form-textarea-wrapper,
   .submit-event-form .link-field-subrow {
@@ -157,8 +213,8 @@
 }
 
 /* line up the button with the Date fieldset */
-.submit-event-form #field-date-add-more-wrapper input {
-  margin-left: 4px;
+.submit-event-form .field-add-more-submit {
+    margin-left: 25%;
 }
 
 .submit-event-form option:hover {

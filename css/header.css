@@ -16,16 +16,6 @@
 	margin-bottom: 0.5em;
 }
 
-#header #global-filter-1 label {
-  width: calc(100% - 32px); /* 32px is size of image */
-}
-
-#header #global-filter-1 .form-item-field-region {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-
 #logo-wrapper {
   position:relative; /* added this to facilitate positioning elements within this div (e.g. h1#site-name, div#site-slogan) */
   flex: 0 0 auto;
@@ -45,7 +35,7 @@
   white-space: nowrap; /* don't let longer, multi-word cities/regions wrap into multiple lines */
 }
 
-@media all and (min-width: 641px) {
+@media all and (min-width: 658px) {
   #site-name {
     position: absolute;
     left: 170px;
@@ -102,7 +92,7 @@
 
 /* STYLE CHANGES FOR HEADER REGION (& ITS CONTENT) BASED ON BROWSER WIDTH */
 
-@media all and (max-width: 640px) {
+@media all and (max-width: 657px) {
 
   #logo-wrapper {
     display: inline-block;

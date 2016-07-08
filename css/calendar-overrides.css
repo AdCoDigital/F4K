@@ -158,13 +158,13 @@ a#main-content
 .page-calendar--main-region .age-key {
 	order: 2;
 	width: 100%;
-	margin-top: 1.5em;
+	margin: 1.5em 0;
 }
 
 .page-calendar--main-region .pane-calendar-week-middle-ads {
 	order: 3;
 	width: 100%;
-	margin: 1.5em 0;
+	margin-bottom: 1.5em;
 }
 
 
@@ -186,7 +186,7 @@ a#main-content
 
 .page-calendar--main-region .pane-event-listings--events-all {
 	order: 5;
-	width:  67.572%;
+	max-width:  67.572%;
 	margin-right: 1.5%;
 }
 

@@ -3,20 +3,6 @@
   margin-top: 2.5%;
 }
 
-.event-page-featured-fun-region .view-event-details {
-  padding-top: 0; /* no padding on top if is featured fun (in which case there should be an image */
-}
-
-.view-event-details .views-row {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-.view-event-details .event--featured-fun-image {
-  margin-bottom: 3em;
-}
-
 .view-event-details dl { /* description list for all the details of the event (time, ages, details, etc) */
   font-size: 1.125em;
   display: flex;
@@ -63,8 +49,10 @@
 }
 
 .view-footer img {
+    display: block;
     margin-right: auto;
     margin-left: auto;
+    max-width: 600px;
 }
 
 .eDetails h2 {
@@ -105,12 +93,6 @@
  **   Styles specific for the "Age Key"   **
  **                                       **/
 
-.event-page-featured-fun-region dl {
-  padding-left: 0;
-  width: 65%;
-  min-width: 320px;
-}
-
 .event--label-ages {
   margin-top: 1.5em; /* add extra .5em since the age group labels are 2.5em line-height instead of 1.5em ((3em - 2em) / 2 = .5em) */
 }
@@ -135,7 +117,7 @@
 
 /* adjust font-size for small tablet / phone sizes */
 @media all and (max-width: 800px) {
-  .pane-event-details-event-view {
+  .view-event-details {
     font-size: .875em; /* 87.5% */
   }
 
@@ -159,6 +141,10 @@
 
   .view-event-details dd {
     margin-left: 0;
+  }
+
+  .view-event-details dt + dd {
+    margin-top: 0;
   }
 
   .event--label-ages {

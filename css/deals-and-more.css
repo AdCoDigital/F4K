@@ -204,7 +204,9 @@ dd.garage-details--other-items {
     font-size: 3em;
     line-height: 1em;
     text-transform: uppercase;
-    color: #26B0CB;
+    color: #FFF;
+    background-color: #26B0CB;
+    padding: 3%;
     text-align: center;
 }
 
@@ -245,7 +247,9 @@ dd.garage-details--other-items {
     font-family: alwaysheretoo;
     font-size: 2em;
     width: 100%;
-    color: #682160;
+    color: #fff;
+    background-color: #682160;
+    padding: 2%;
     text-align: center;
 }
 
