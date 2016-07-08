@@ -34,7 +34,7 @@
 #navigation #block-search-form {
     display: flex;
     justify-content: center;
-    padding: 7px;
+    padding: 6px;
 }
 
 @media all and (max-width: 1120px) {

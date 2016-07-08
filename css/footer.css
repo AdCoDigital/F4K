@@ -38,7 +38,7 @@ CSS mini-panel configs for Footer Panel:
 
  #footer-frequent-links li{
 	background-repeat: no-repeat;
-	background-image: url('/fun4kids/images/footer_button.png');
+	background-image: url('http://www.fun4kidsmn.com/images/footer_button.png');
 	line-height: 40px;
  }
  
@@ -122,7 +122,7 @@ CSS mini-panel configs for Footer Panel:
 		min-height: 218px;
 	}
 	#footer-directory-links{
-		background-image: url('/fun4kids/images/footer_bg.png');
+		background-image: url('http://www.fun4kidsmn.com/images/footer_bg.png');
 		background-repeat: no-repeat;
 		padding-left: 320px;
 	}

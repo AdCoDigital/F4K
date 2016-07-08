@@ -1,53 +1,559 @@
-#Advertise {
-    background-color: #91ADAA;
+/*About us page CSS */
+.page-about-us .pane-1 {
+    display: flex;
+    flex-flow: column;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#Advertise a {
-    color: black;
-}
-
-#Advertise .advertA {
-    display: block;
-    float: left;
+.page-about-us .aboutUsStart p {
+    font-family: alwayshere;
     text-align: center;
+    text-indent: 27px;
 }
 
-#Advertise .advertB {
+.page-about-us img:first-child {
+    max-width: 110%;
+    margin-left: -2em;
+}
+
+.page-about-us p span {
+    font-weight: 900;
+}
+
+.page-about-us .aboutUsRoots p {
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.page-about-us .aboutUsRoots p:last-child {
+    margin-bottom: 50px;
+}
+
+.page-about-us .missionStatement {
+    background-image: url("../~images/about_us_mission_bg.png");
+    display: flex;
+    flex-flow: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	height: 900px;
+}
+
+.page-about-us .missionStatement p:first-child {
+    margin-top: 232px;
+    font-size: 1.75em;
+}
+
+.page-about-us .missionStatement p {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+	line-height: 1.2em;
+}
+
+
+/*Find your region CSS */
+
+#findYourRegion > h2 
+{
+    color: #682160;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5em;
+}
+
+#findYourRegion .MNRegions div 
+{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+#findYourRegion ul 
+{
+    list-style: none;
+}
+
+#findYourRegion li 
+{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+#findYourRegion .brainerd, #findYourRegion .neMetro, #findYourRegion .nwSuburb, #findYourRegion .southernMN, #findYourRegion .saintPaul, #findYourRegion .swMetro
+{
+    display:block;
+    float: left;
+    clear: left;
+}
+
+#findYourRegion .fargo, #findYourRegion .northeast, #findYourRegion .nwMetro, #findYourRegion .seMetro, #findYourRegion .saintCloud
+{
     display: block;
     float: right;
+    clear: right;
+}
+
+#findYourRegion .fargo 
+{
+    margin-top: -23px;
+}
+
+#findYourRegion .neMetro 
+{
+    margin-top: 25px;
+}
+
+#findYourRegion .northeast 
+{
+    margin-top: -25px;
+}
+
+#findYourRegion .nwMetro
+{
+    
+}
+#findYourRegion .nwSuburb 
+{
+    margin-top: -95px;
+}
+
+#findYourRegion .seMetro 
+{
+    margin-top: -20px;
+}
+
+#findYourRegion .southernMN 
+{
+    margin-top: -95px;
+}
+
+#findYourRegion .saintCloud 
+{
+    margin-top: -20px;
+}
+
+#findYourRegion .saintPaul 
+{
+    margin-top: -340px;
+}
+
+#findYourRegion .swMetro 
+{
+    margin-top: -295px;
+}
+
+/* Toybox styles Login*/
+.page-toybox-login .pane-1, .page-toybox-register .pane-1, .page-toybox .pane-1{
+    color: #682160;
+	text-transform: uppercase;
+	float: left;
+	clear: both;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+.page-toybox .pane-1 h1 {
+    font-size: 5em;
+    font-family: antique_olive_condensed;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 3px;
+    width: 64%;
+    line-height: .8em;
+}
+
+.page-toybox .toyboxOwner {
+    float: right;
+    margin-right: 20%;
+    display: block;
+    margin-top: -22px;
+    font-family: antique_olive_condensed;
+    color: #23B0CA;
+    font-size: 1.1em;
+}
+
+.page-toybox .toyboxManage {
+    float: left;
+	clear: left;
+}
+
+.page-toybox .toyboxLogout {
+    float: right;
+    clear: right;
+}
+
+div#toyEvents, div#toyCoupons, div#toyPlaces, div#toyGarage, div#toyFunArticles, div#toyProjects  {
+    width:95%;
+	margin-bottom: .5em;
+}
+
+div#toyEvents > h2, #toyCoupons > h2, #toyPlaces > h2, div#toyGarage > h2, div#toyFunArticles > h2, div#toyProjects > h2 {
+    text-align: left;
+    font-family: "alwaysheretoo";
+    color: #f57e20;
+    border-bottom: 3px solid;
+	margin-bottom: .5em;
+}
+
+#toyEvents .views-table, #toyCoupons .views-table, #toyPlaces .views-table, #toyGarage .views-table, #toyFunArticles .views-table, #toyProjects .views-table {
+    width: 100%;
+}
+
+#toyPlaces td:nth-child(4), #toyCoupons td:nth-child(4), #toyGarage td:nth-child(4), #toyProjects td:nth-child(4), #toyFunArticles td:nth-child(3) {
+    width: 20%;
+	padding-left: 2px;
+}
+
+#toyCoupons .views-view-grid td {
+    display: block;
+    float: left;
+    width: 49.5%;
+}
+
+#toyCoupons .views-view-grid .views-field-nothing {
+    width: 49.5%;
+    float: left;
     text-align: center;
-    margin-top: 3em;
 }
 
-#Advertise .advertC {
-    display: block;
-    float: none;
-    clear: both;
-    padding-top: 50px;
-}
-
-#Advertise .advertCA {
-    margin-left: 130px;
-    display: block;
+#toyCoupons .views-view-grid .views-field-nothing::before {
+    background-image: url("../~images/coupons_print.png");
+    background-size: 23px 23px;
+    width: 23px;
+    height: 23px;
+    content: "";
+    background-repeat: no-repeat;
+    display: flex;
     float: left;
+    margin-left: 40%;
 }
 
-#Advertise .advertCB {
-    display: block;
-    float: left;
-    margin-top: 170px;
-    margin-left: -33px;
+#toyProjects caption {
+    color: #23B0CA;
+    font-family: antique_olive_condensed;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: left;
 }
 
-#Advertise .advertD {
-    display: block;
-    float: left;
+#toyCoupons > h2 {
+    color: #682160;
+}
+
+#toyPlaces > h2 {
+    color: #A4b43a;
+}
+
+div#toyGarage > h2 {
+      color: #23B0CA;
+}
+
+div#toyFunArticles > h2 {
+      color: #e86370;
+}
+
+div#toyProjects > h2 {
+      color: #724a25;
+}
+
+.page-toybox-login .titleBox, .page-toybox .titleBox, .page-toybox-register .titleBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.page-toybox-register .inner-titleBox h1 {
+    margin: -16px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.page-toybox-register .inner-titleBox {
+    flex-flow: column;
     text-align: center;
-    margin-top: -75px;
+}
+
+.page-toybox-login .pane-user-login, .page-toybox-register .pane-formblock-user-register {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.page-toybox-login #user-login-form {
+    min-width: 45%;
+}
+
+.page-toybox-register #user-register-form {
+	min-width: 65%;	
+}
+
+.page-toybox-login #user-login-form span, .page-toybox-register #edit-account span, .page-toybox-login .item-list, .page-toybox-register .description {
+	display: none;
+}
+
+.page-toybox-login #user-login-form label::after, .page-toybox-register #edit-account label::after  {
+    content: ":";
+	padding-right: 10px;
+}
+
+.page-toybox-login #edit-name, .page-toybox-login #edit-pass, .page-toybox-register #edit-name, .page-toybox-register #edit-mail, .page-toybox-register #edit-conf-mail {
+    float: left;
+    width: 59%;
+    margin-top: 28px;
+    border: solid 2px black;
+    height: 22px;
+}
+
+.page-toybox-login #edit-submit--3 {
+    background-color: white;
+	background-image: url("../~images/calendar-link.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	margin: 0 auto;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 1.0625em;
+	padding-right: 64px;
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
+	text-align: end;
+	padding-top: 3px;
+}
+
+.page-toybox-login #edit-submit--3:hover, .page-toybox-register #edit-submit--3:hover {
+    background-image: url("../~images/calendar-link-hover.png");
+}
+
+.page-toybox-login #edit-actions {
+    display: flex;
+    width: 221px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.page-toybox-login #user-login-form label {
+    float: left;
+    width: 156px;
+    text-align: right;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+	clear: left;
+	margin-top: 30px;
+}
+
+.page-toybox-register #edit-account label {
+	float: left;
+	width: 216px;
+	margin-top: 30px;
+	text-align: right;
+}
+
+.page-toybox-login .pane-2 {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: alwayshere;
+    font-size: 20px;
+    font-weight: 600;
+    color: #EC8440;
+    margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.page-toybox-login .pane-2 p {
+    margin-top: 12px;
+}
+
+.page-toybox-login .pane-2 a {
+    font-family: alwayshere;
+}
+
+/* Toybox Register */
+.page-toybox-register #edit-account {
+    display: flex;
+    flex-flow: column;
+}
+
+.page-toybox-register #edit-simplenews {
+	max-width: 50%;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-toybox-register .captcha {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-toybox-register .captcha img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.page-toybox-register #edit-captcha-response {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.page-toybox-register #edit-submit--3 {
+    background-color: white;
+	background-image: url("../~images/calendar-link.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	margin: 0 auto;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 1.0625em;
+	padding-right: 12px;
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
+	text-align: end;
+	padding-top: 3px;
+}
+
+.page-toybox-register #edit-actions {
+    display: flex;
+    width: 221px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
+/* Advertise with Us */
+.page-advertise h1:first-child {
+    text-align: center;
+    font-size: 3em;
+    font-family: antique_olive_condensed;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
 
+.page-advertise .AdvertiseWithUsStart {
+    font-family: alwaysheretoo;
+    text-align: center;
+    line-height: 3em;
+    margin-top: -2em;
+}
 
+.page-advertise .AdvertiseWithUsStart p:first-child {
+    font-size: 24px;
+}
+
+.page-advertise .AdvertiseWithUsStart p::first-letter {
+    font-size: 125%;
+}
+
+.page-advertise .AdvertiseOppurtunities {
+    width: 47%;
+    float: right;
+    clear: right;
+    background-color: #FFFFCC;
+}
+
+.page-advertise .AdvertiseOppurtunities h2 {
+    text-align: center;
+}
+
+.page-advertise .AdvertiseOppurtunities ul {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-advertise .pane-formblock-advertise-with-us {
+    float: left;
+	width: 45%;
+	margin-top: 50px;
+	display: flex;
+	flex-flow: column;
+	background-color: #ccefff;
+	padding: 18px;
+}
+
+.page-advertise .pane-formblock-advertise-with-us h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #682160;
+    margin-bottom: 20px;
+}
+
+.page-advertise .pane-formblock-advertise-with-us .form-item-title input,  .page-advertise .pane-formblock-advertise-with-us #edit-field-advertise-company input, .page-advertise .pane-formblock-advertise-with-us #edit-field-advertise-email input, .page-advertise .pane-formblock-advertise-with-us #edit-field-advertise-phone input, .page-advertise .pane-formblock-advertise-with-us #edit-field-city input{
+    width: 60%;
+    float: right;
+    margin-right: 15%;
+	border: 2px solid black;
+	height: 17px;
+}
+
+#advertise-with-us-node-form .form-item-title, #advertise-with-us-node-form #edit-field-advertise-company, #advertise-with-us-node-form #edit-field-advertise-email, #advertise-with-us-node-form #edit-field-advertise-phone, #advertise-with-us-node-form #edit-field-city  {
+    margin-bottom: 10px;
+}
+
+.page-advertise #edit-submit--3 {
+    background-color: #ccefff;
+	background-image: url("../~images/calendar-link.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	width: 220px;
+	height: 52px;
+	margin: 0 auto;
+	border: 0px none;
+	border-radius: 0px;
+	font-size: 1.0625em;
+	padding-right: 44px;
+	font-family: antique_olive_condensed;
+	text-transform: uppercase;
+	text-align: end;
+	padding-top: 3px;
+	display: inherit;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-advertise #edit-submit--3:hover {
+    background-image: url("../~images/calendar-link-hover.png");
+}
+
+.page-advertise #edit-field-region-und {
+    width: 50%;
+    margin-left: 23%;
+}
+
+.page-advertise .captcha {
+    width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-advertise .captcha img {
+    display: flex;
+    margin: 10px auto 10px auto;
+}
+
+/* Terms of use */
 .privacy-policy-page-region .pane-title {
     text-align: left;
 }
@@ -109,6 +615,9 @@
     margin-bottom: 2em;
 }
 
+.page-confirmation-register .messages--status.messages.status {
+    display: none;
+}
 
 .confirm-page em {
     visibility: visible;
@@ -179,7 +688,7 @@
 
 .contact-us-list li {
     background-repeat: no-repeat;
-    background-image: url('/fun4kids/images/footer_button.png');
+    background-image: url('/images/footer_button.png');
     line-height: 40px;
     padding-left: 40px;
 }

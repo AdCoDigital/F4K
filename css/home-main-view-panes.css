@@ -1,5 +1,4 @@
-.pane-mini-home-left,
-.pane-mini-parent-corner-left {
+.pane-mini-home-left {
   max-width: 600px;
 }
 
@@ -320,7 +319,7 @@
   margin-top: 28px; /* 12 px to accomodate for the positioning of the h2 down 12px, plus 16px we want between the h2 & this */
 }
 
-.more-fun--links-list, .connect-with-us h4, .more-fun--search-wrapper {
+.more-fun--links-list, .connect-with-us, .more-fun--search-wrapper {
   margin-left: 24px;
 }
 
@@ -345,21 +344,20 @@
 
 .connect-with-us > h4 {
   display: list-item;
-  margin: 0 0 0 24px;
+  margin: 0;
 }
 
 
 /*Setting the margins and border of the pinterest, facebook, and twitter buttons*/
 .connect-with-us--links {
+  margin-left: 2em;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
-  margin: 0 16px;
 }
 
-.connect-with-us--links a {
-  width: 20%;
-  max-width: 64px;
+.connect-with-us--links img {
+  width: 4em;
+  margin: 0 .125em;
 }
 
 .more-fun--search-wrapper {
@@ -409,8 +407,8 @@
     margin-top: 12px; /* instead of 28px */
   }
 
-  .more-fun--links-list, .connect-with-us {
-    width: 50%;
+  .more-fun--links-list, .connect-with-us, .connect-with-us > .connect-with-us--links {
+    margin-left: 0;
   }
 
   .more-fun--search-wrapper {
